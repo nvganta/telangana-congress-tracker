@@ -1,0 +1,22 @@
+{
+  "id": "agriculture-farmer-distress",
+  "sector": "agriculture",
+  "title": "Agriculture & Farmer Distress",
+  "metrics": [
+    { "label": "Farmer Suicides (Dec 2023 – Nov 2025)", "value": "793", "context": "178 in BRS's final year (2022-23)" },
+    { "label": "Crop Loan Waiver Disbursed", "value": "Rs 20,617 crore to ~25 lakh farmers", "context": "25 lakh farmers still waiting; target was 50 lakh" },
+    { "label": "Rythu Bharosa Payment", "value": "Rs 12,000/acre", "context": "Promised Rs 15,000/acre (20% shortfall)" },
+    { "label": "Paddy Procurement", "value": "38% procured", "context": "Farmers selling at Rs 1,700 vs Rs 2,300 MSP" },
+    { "label": "Bonus Payments Unpaid", "value": "Rs 1,160 crore", "context": "Affecting 4+ lakh farmers" },
+    { "label": "Cotton Price vs MSP", "value": "Rs 5,500–6,000 received", "context": "MSP is Rs 7,121–7,521" },
+    { "label": "Kaleswaram Project Cost (CAG)", "value": "Rs 1,47,427 crore", "context": "80% cost overrun; benefit-cost ratio: 0.52" }
+  ],
+  "narrative": "The Congress government promised comprehensive farmer support through the Rythu Bharosa scheme (Rs 15,000/acre) and a complete crop loan waiver. As of March 2026, approximately half the targeted farmers have received loan waivers. The per-acre support falls 20% short of the promised amount. Farmer suicides have increased significantly compared to the BRS government's final year, with 793 recorded between December 2023 and November 2025. Paddy procurement covers only 38% of production, leaving farmers to sell at prices well below MSP.",
+  "sourceUrls": [
+    "https://telanganatoday.com/",
+    "https://openthemagazine.com/",
+    "https://dhanashreeagro.com/",
+    "https://the2states.com/"
+  ],
+  "lastUpdated": "2026-03-01"
+}

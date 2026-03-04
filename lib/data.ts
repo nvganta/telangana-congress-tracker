@@ -1,9 +1,13 @@
-import { GovernmentPromise, BudgetItem, DevelopmentProject, ComparisonMetric, Source } from "./types";
+import { GovernmentPromise, BudgetItem, DevelopmentProject, ComparisonMetric, Source, Controversy, SectorData, WelfareScheme } from "./types";
 import guaranteesData from "@/data/guarantees.json";
 import budgetData from "@/data/budget.json";
 import projectsData from "@/data/projects.json";
 import comparisonData from "@/data/comparison.json";
 import sourcesData from "@/data/sources.json";
+import controversiesData from "@/data/controversies.json";
+import agricultureData from "@/data/agriculture.json";
+import educationData from "@/data/education.json";
+import welfareScorecardData from "@/data/welfare-scorecard.json";
 import { GOVERNMENT_FORMATION_DATE } from "./constants";
 
 export function getGuarantees(): GovernmentPromise[] {
@@ -24,6 +28,27 @@ export function getComparison(): ComparisonMetric[] {
 
 export function getSources(): Source[] {
   return sourcesData as Source[];
+}
+
+export function getControversies(): Controversy[] {
+  return controversiesData as Controversy[];
+}
+
+export function getAgricultureData(): SectorData {
+  return agricultureData as SectorData;
+}
+
+export function getEducationData(): SectorData {
+  return educationData as SectorData;
+}
+
+export function getWelfareScorecard(): WelfareScheme[] {
+  return welfareScorecardData as WelfareScheme[];
+}
+
+export function getControversyCost(): number {
+  return (controversiesData as Controversy[])
+    .reduce((sum, c) => sum + (c.estimatedCost || 0), 0);
 }
 
 export function getDaysInPower(): number {

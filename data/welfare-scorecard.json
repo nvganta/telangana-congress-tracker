@@ -1,0 +1,98 @@
+[
+  {
+    "id": "free-bus-travel",
+    "name": "Free Bus Travel for Women",
+    "tier": "fully_implemented",
+    "description": "35 lakh women using TSRTC buses daily for free",
+    "keyMetric": "Rs 7,422 crore reimbursed to TSRTC",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "arogyasri-expansion",
+    "name": "Rajiv Arogyasri Expansion",
+    "tier": "fully_implemented",
+    "description": "Health coverage expanded to Rs 10 lakh per family",
+    "keyMetric": "90 lakh families covered",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "caste-census",
+    "name": "Caste Census",
+    "tier": "fully_implemented",
+    "description": "Comprehensive caste survey completed across Telangana",
+    "keyMetric": "3.54 crore individuals surveyed",
+    "sourceUrl": "https://thesouthfirst.com/"
+  },
+  {
+    "id": "gas-cylinder-subsidy",
+    "name": "Rs 500 Gas Cylinder Subsidy",
+    "tier": "fully_implemented",
+    "description": "LPG cylinders subsidized to Rs 500 from market price",
+    "keyMetric": "~40 lakh families receiving subsidy",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "gruha-jyothi",
+    "name": "Gruha Jyothi (Free Electricity)",
+    "tier": "partially_implemented",
+    "description": "200 units free electricity per household per month",
+    "keyMetric": "42.25 lakh households enrolled; 2.50 lakh eligible still receiving bills",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "crop-loan-waiver",
+    "name": "Crop Loan Waiver",
+    "tier": "partially_implemented",
+    "description": "Complete crop loan waiver up to Rs 2 lakh promised",
+    "keyMetric": "25 lakh of 50 lakh targeted farmers covered; Rs 20,617 crore disbursed",
+    "sourceUrl": "https://thesouthfirst.com/"
+  },
+  {
+    "id": "indiramma-indlu",
+    "name": "Indiramma Indlu (Housing)",
+    "tier": "partially_implemented",
+    "description": "Free house site + Rs 5 lakh construction assistance",
+    "keyMetric": "4.5 lakh sanctioned; first houses inaugurated Sept 3, 2025 — 21 months after taking office",
+    "sourceUrl": "https://thesouthfirst.com/"
+  },
+  {
+    "id": "cheyutha-pension",
+    "name": "Cheyutha (Pensions)",
+    "tier": "partially_implemented",
+    "description": "Rs 4,000/month pension for senior citizens, widows, disabled",
+    "keyMetric": "Pension amounts increased but conflicting reports on reaching full Rs 4,000 across all categories",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "mahalakshmi-cash",
+    "name": "Mahalakshmi Rs 2,500/month Cash Transfer",
+    "tier": "zero_implementation",
+    "description": "Rs 2,500 monthly cash transfer to every woman head of household",
+    "keyMetric": "Zero disbursements. No pilot programme. No registration portal. Estimated annual cost: ~Rs 50,000 crore",
+    "sourceUrl": "https://thesouthfirst.com/"
+  },
+  {
+    "id": "unemployment-allowance",
+    "name": "Rs 4,000 Unemployment Allowance",
+    "tier": "zero_implementation",
+    "description": "Monthly allowance for unemployed youth",
+    "keyMetric": "Zero implementation. Deputy CM publicly denied the promise was ever made — manifesto contradicts him",
+    "sourceUrl": "https://thesouthfirst.com/"
+  },
+  {
+    "id": "old-pension-scheme",
+    "name": "Old Pension Scheme Restoration",
+    "tier": "zero_implementation",
+    "description": "Restore the Old Pension Scheme for government employees",
+    "keyMetric": "Zero implementation",
+    "sourceUrl": "https://telanganatoday.com/"
+  },
+  {
+    "id": "vidya-bharosa",
+    "name": "Vidya Bharosa Cards",
+    "tier": "zero_implementation",
+    "description": "Education support cards for students",
+    "keyMetric": "Zero implementation",
+    "sourceUrl": "https://thesouthfirst.com/"
+  }
+]

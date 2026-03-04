@@ -1,0 +1,25 @@
+{
+  "id": "education-crisis",
+  "sector": "education",
+  "title": "Education Crisis",
+  "metrics": [
+    { "label": "Student Deaths from Food Poisoning (2024)", "value": "43+", "context": "NHRC sought report on 48 deaths and 886 food poisoning incidents" },
+    { "label": "Government School Enrollment Drop", "value": "30.78 lakh to 25.13 lakh", "context": "Loss of 5.65 lakh students" },
+    { "label": "Zero-Enrollment Schools", "value": "2,245", "context": "2nd highest in India" },
+    { "label": "Single-Teacher Schools", "value": "5,001" },
+    { "label": "Schools with Drinking Water", "value": "53.2%", "context": "46.8% of government schools lack drinking water" },
+    { "label": "Mega DSC Teachers Hired", "value": "10,006", "context": "19,000+ vacancies remain" },
+    { "label": "Vidya Bharosa Cards", "value": "Zero implementation", "context": "Promised in manifesto" },
+    { "label": "International Schools (YIIRS)", "value": "28 foundation stones laid", "context": "None operational; 'International schools in every mandal' quietly replaced" },
+    { "label": "Education Spending", "value": "9.0% of expenditure", "context": "National average: 15.0%" }
+  ],
+  "narrative": "The education sector shows significant gaps between promises and delivery. Government school enrollment has dropped by 5.65 lakh students. Over 2,200 schools have zero enrollment — the second highest count in India. Food safety in government schools became a crisis in 2024 with 43+ student deaths from food poisoning, prompting NHRC intervention. The promised Vidya Bharosa education cards have not been implemented. The 'international schools in every mandal' promise was quietly replaced by the YIIRS programme, of which 28 foundation stones have been laid but none are operational. Education spending as a percentage of total expenditure stands at 9.0%, compared to the 15.0% national average.",
+  "sourceUrls": [
+    "https://telanganatoday.com/",
+    "https://thesouthfirst.com/",
+    "https://www.downtoearth.org.in/",
+    "https://www.etvbharat.com/",
+    "https://www.sakshipost.com/"
+  ],
+  "lastUpdated": "2026-03-01"
+}

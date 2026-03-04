@@ -77,3 +77,37 @@ export interface Source {
   description: string;
   credibility: "official" | "established" | "independent" | "social";
 }
+
+export interface Controversy {
+  id: string;
+  title: string;
+  date: string;
+  estimatedCost?: number;
+  summary: string;
+  whatHappened: string;
+  governmentResponse: string;
+  whatDataShows: string;
+  sourceUrls: string[];
+  lastUpdated: string;
+}
+
+export interface SectorData {
+  id: string;
+  sector: "agriculture" | "education";
+  title: string;
+  metrics: { label: string; value: string; context?: string }[];
+  narrative: string;
+  sourceUrls: string[];
+  lastUpdated: string;
+}
+
+export type WelfareTier = "fully_implemented" | "partially_implemented" | "zero_implementation";
+
+export interface WelfareScheme {
+  id: string;
+  name: string;
+  tier: WelfareTier;
+  description: string;
+  keyMetric: string;
+  sourceUrl: string;
+}
