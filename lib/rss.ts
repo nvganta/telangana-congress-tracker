@@ -44,8 +44,12 @@ function isTelanganRelated(title: string): boolean {
   const keywords = [
     "telangana", "hyderabad", "revanth", "congress", "ts govt",
     "mahalakshmi", "rythu bharosa", "gruha jyothi", "indiramma",
-    "cheyutha", "yuva vikasam", "kcr", "brs",
-    "తెలంగాణ", "హైదరాబాద్", "కాంగ్రెస్",
+    "cheyutha", "yuva vikasam", "kcr", "brs", "bhatti vikramarka",
+    "tspsc", "tsrtc", "hydraa", "musi river", "kaleshwaram",
+    "secunderabad", "warangal", "karimnagar", "nizamabad", "khammam",
+    "nalgonda", "medak", "adilabad", "mahbubnagar", "sangareddy",
+    "siddipet", "mancherial", "bhongir", "suryapet", "gadwal",
+    "తెలంగాణ", "హైదరాబాద్", "కాంగ్రెస్", "రేవంత్",
   ];
   const lowerTitle = title.toLowerCase();
   return keywords.some((kw) => lowerTitle.includes(kw));
@@ -96,14 +100,8 @@ export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
     }
   }
 
-  // Filter for Telangana-related news from general feeds
-  const filtered = allItems.filter((item) => {
-    const source = item.source.toLowerCase();
-    // Always include items from Telangana-specific feeds
-    if (source.includes("telangana") || source.includes("google news")) return true;
-    // For general feeds, filter by relevance
-    return isTelanganRelated(item.title);
-  });
+  // Filter all items for Telangana relevance — even "Telangana Today" publishes general news
+  const filtered = allItems.filter((item) => isTelanganRelated(item.title));
 
   // Sort by date, newest first
   filtered.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
