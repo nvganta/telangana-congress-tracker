@@ -130,16 +130,18 @@ export default function FeedbackWidget() {
         </div>
       )}
 
-      {/* Floating button */}
-      <button
-        onClick={() => { setOpen(!open); setStatus("idle"); }}
-        className="w-12 h-12 rounded-full border border-accent-blue/40 bg-bg-card shadow-lg shadow-accent-blue/20 flex items-center justify-center hover:bg-accent-blue/10 transition-colors"
-        title="Send feedback"
-      >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-        </svg>
-      </button>
+      {/* Floating button — only visible when panel is closed */}
+      {!open && (
+        <button
+          onClick={() => { setOpen(true); setStatus("idle"); }}
+          className="w-12 h-12 rounded-full border border-accent-blue/40 bg-bg-card shadow-lg shadow-accent-blue/20 flex items-center justify-center hover:bg-accent-blue/10 transition-colors"
+          title="Send feedback"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        </button>
+      )}
     </div>
   );
 }
