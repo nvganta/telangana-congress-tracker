@@ -1,0 +1,140 @@
+[
+  {
+    "id": "mahalakshmi",
+    "name": "Mahalakshmi",
+    "nameTelugu": "మహాలక్ష్మి",
+    "category": "guarantee",
+    "subcategory": "women",
+    "description": "Monthly financial assistance of ₹2,500 to every woman, LPG cylinders at ₹500, and free travel for women in TSRTC buses",
+    "status": "partially_fulfilled",
+    "progress": 25,
+    "promised": "₹2,500/month to every woman head of household, LPG at ₹500, free bus travel for women",
+    "delivered": "Free bus travel for women implemented. LPG subsidy partially rolled out. ₹2,500 monthly cash transfer NOT started.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-12-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://www.business-standard.com/elections/telangana-elections/congress-launches-election-manifesto-in-telangana-promises-six-guarantees-123111700490_1.html"
+    ],
+    "keyMetrics": [
+      { "label": "Monthly Cash Transfer", "promised": "₹2,500/month", "actual": "Not Started" },
+      { "label": "LPG Cylinder Price", "promised": "₹500", "actual": "Partially Subsidized" },
+      { "label": "Free Bus Travel", "promised": "Free for all women", "actual": "Implemented" }
+    ]
+  },
+  {
+    "id": "rythu-bharosa",
+    "name": "Rythu Bharosa",
+    "nameTelugu": "రైతు భరోసా",
+    "category": "guarantee",
+    "subcategory": "farmers",
+    "description": "₹15,000/acre financial assistance to farmers, crop loan waiver up to ₹2 lakh, interest-free loans up to ₹3 lakh",
+    "status": "partially_fulfilled",
+    "progress": 45,
+    "promised": "₹15,000/acre to farmers, ₹12,000 to agri labour, crop loan waiver up to ₹2L, interest-free loans up to ₹3L",
+    "delivered": "Loan waiver disbursed ₹20,617 crore to ~25 lakh farmers in tranches. Delays and errors in beneficiary lists. ₹15,000/acre input support not fully implemented.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-12-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+    ],
+    "keyMetrics": [
+      { "label": "Loan Waiver Disbursed", "promised": "Full waiver up to ₹2L", "actual": "₹20,617 cr to 25L farmers" },
+      { "label": "Per Acre Support", "promised": "₹15,000/acre", "actual": "Partially Implemented" },
+      { "label": "Agri Labour Support", "promised": "₹12,000/year", "actual": "Not Started" }
+    ]
+  },
+  {
+    "id": "gruha-jyothi",
+    "name": "Gruha Jyothi",
+    "nameTelugu": "గృహ జ్యోతి",
+    "category": "guarantee",
+    "subcategory": "electricity",
+    "description": "Free electricity up to 200 units per household per month",
+    "status": "fulfilled",
+    "progress": 90,
+    "promised": "200 units of free electricity to every household",
+    "delivered": "Scheme rolled out in February 2024. Most eligible households receiving free electricity up to 200 units.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-12-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://theprint.in/opinion/what-telangana-congress-6-guarantees-mean-why-they-will-change-welfarism-in-india/1885346/"
+    ],
+    "keyMetrics": [
+      { "label": "Free Units", "promised": "200 units/month", "actual": "200 units/month" },
+      { "label": "Rollout Date", "promised": "Immediate", "actual": "February 2024" },
+      { "label": "Coverage", "promised": "All households", "actual": "Most eligible households" }
+    ]
+  },
+  {
+    "id": "indiramma-indlu",
+    "name": "Indiramma Indlu",
+    "nameTelugu": "ఇందిరమ్మ ఇండ్లు",
+    "category": "guarantee",
+    "subcategory": "housing",
+    "description": "House site for families without own house and ₹5 lakh financial assistance for construction",
+    "status": "not_started",
+    "progress": 5,
+    "promised": "Free house site + ₹5 lakh construction assistance to every homeless family",
+    "delivered": "Some beneficiaries identified but full-scale implementation has not begun. Land allocation stalled in most districts.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-12-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+    ],
+    "keyMetrics": [
+      { "label": "Houses Built", "promised": "All homeless families", "actual": "Barely Started" },
+      { "label": "Construction Assistance", "promised": "₹5 lakh/family", "actual": "Limited Disbursement" },
+      { "label": "Land Allocation", "promised": "Free house sites", "actual": "Stalled" }
+    ]
+  },
+  {
+    "id": "yuva-vikasam",
+    "name": "Yuva Vikasam",
+    "nameTelugu": "యువ వికాసం",
+    "category": "guarantee",
+    "subcategory": "jobs",
+    "description": "Fill 2 lakh government jobs in the first year, Vidya Bharosa cards for students, skill development",
+    "status": "partially_fulfilled",
+    "progress": 30,
+    "promised": "2,00,000 government jobs in first year, Vidya Bharosa education cards, free internet for students",
+    "delivered": "~57,946 posts filled by March 2025 (29% of target). Vidya Bharosa cards still pending. ₹11,000 crore budgetary allocation for schools made.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://www.business-standard.com/india-news/telangana-govt-allots-rs-53-196-cr-to-fulfill-poll-promise-of-6-guarantees-124021000939_1.html"
+    ],
+    "keyMetrics": [
+      { "label": "Government Jobs", "promised": "2,00,000 in Year 1", "actual": "57,946 (29%)" },
+      { "label": "Vidya Bharosa Cards", "promised": "For all students", "actual": "Not Started" },
+      { "label": "Education Budget", "promised": "Major increase", "actual": "₹11,000 cr allocated" }
+    ]
+  },
+  {
+    "id": "cheyutha",
+    "name": "Cheyutha",
+    "nameTelugu": "చేయూత",
+    "category": "guarantee",
+    "subcategory": "pension",
+    "description": "Monthly pension of ₹4,000 for senior citizens, widows, disabled, beedi workers, single women, and others",
+    "status": "partially_fulfilled",
+    "progress": 40,
+    "promised": "₹4,000/month pension to senior citizens, widows, disabled, beedi workers, single women, weavers, AIDS/Filaria patients, dialysis patients",
+    "delivered": "Pension amounts increased but not to full ₹4,000 for all categories. Coverage expanded but many eligible beneficiaries still excluded.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2025-12-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://telanganatoday.com/congress-announces-five-guarantees-for-maharashtra-telanganas-six-wait"
+    ],
+    "keyMetrics": [
+      { "label": "Pension Amount", "promised": "₹4,000/month", "actual": "Partially Increased" },
+      { "label": "Beneficiary Coverage", "promised": "All eligible categories", "actual": "Partial Coverage" },
+      { "label": "Regular Disbursement", "promised": "Monthly", "actual": "Irregular in some areas" }
+    ]
+  }
+]

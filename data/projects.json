@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hyderabad-metro-phase2",
+    "name": "Hyderabad Metro Rail Phase 2",
+    "district": "Hyderabad",
+    "category": "metro",
+    "status": "announced",
+    "estimatedCost": 24269,
+    "startDate": "2024-06-01",
+    "expectedCompletion": "2029-12-01",
+    "description": "76.4 km expansion covering Old City, Airport, and IT corridor routes",
+    "sourceUrls": ["https://telanganatoday.com/"],
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "regional-ring-road",
+    "name": "Regional Ring Road (RRR)",
+    "district": "Multiple",
+    "category": "road",
+    "status": "in_progress",
+    "estimatedCost": 16000,
+    "startDate": "2024-03-01",
+    "expectedCompletion": "2028-03-01",
+    "description": "340 km ring road around Hyderabad connecting major highways and satellite towns",
+    "sourceUrls": ["https://www.thehindu.com/news/national/telangana/"],
+    "lastUpdated": "2025-02-01"
+  },
+  {
+    "id": "palamuru-rangareddy-lift",
+    "name": "Palamuru-Rangareddy Lift Irrigation",
+    "district": "Mahabubnagar",
+    "category": "irrigation",
+    "status": "stalled",
+    "estimatedCost": 35000,
+    "startDate": "2019-01-01",
+    "expectedCompletion": "2025-12-01",
+    "description": "Major lift irrigation project to irrigate drought-prone areas of Mahabubnagar and Rangareddy",
+    "sourceUrls": ["https://telanganatoday.com/"],
+    "lastUpdated": "2025-01-01"
+  },
+  {
+    "id": "pharma-city",
+    "name": "Hyderabad Pharma City",
+    "district": "Rangareddy",
+    "category": "industrial",
+    "status": "in_progress",
+    "estimatedCost": 64000,
+    "startDate": "2020-01-01",
+    "expectedCompletion": "2027-12-01",
+    "description": "19,333 acres pharma manufacturing hub — world's largest integrated pharma cluster",
+    "sourceUrls": ["https://www.thehindu.com/news/national/telangana/"],
+    "lastUpdated": "2025-02-01"
+  },
+  {
+    "id": "musi-riverfront",
+    "name": "Musi Riverfront Development",
+    "district": "Hyderabad",
+    "category": "building",
+    "status": "announced",
+    "estimatedCost": 25000,
+    "startDate": "2024-09-01",
+    "expectedCompletion": "2028-12-01",
+    "description": "Comprehensive riverfront development, rejuvenation and beautification of the Musi river",
+    "sourceUrls": ["https://telanganatoday.com/"],
+    "lastUpdated": "2025-01-15"
+  },
+  {
+    "id": "future-city",
+    "name": "Fourth City / Future City",
+    "district": "Rangareddy",
+    "category": "building",
+    "status": "announced",
+    "estimatedCost": 50000,
+    "startDate": "2025-01-01",
+    "description": "New planned city development near Hyderabad for IT and industrial growth",
+    "sourceUrls": ["https://www.deccanchronicle.com/"],
+    "lastUpdated": "2025-01-01"
+  }
+]

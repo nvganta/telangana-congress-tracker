@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gdp-growth",
+    "metric": "State GDP Growth Rate",
+    "category": "Economy",
+    "brsValue": "11.1%",
+    "congressValue": "9.5%",
+    "unit": "annual %",
+    "betterIs": "higher",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "per-capita-income",
+    "metric": "Per Capita Income",
+    "category": "Economy",
+    "brsValue": "₹2,87,951",
+    "congressValue": "₹3,17,000",
+    "unit": "annual",
+    "betterIs": "higher",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "unemployment-rate",
+    "metric": "Unemployment Rate",
+    "category": "Employment",
+    "brsValue": "3.4%",
+    "congressValue": "4.1%",
+    "unit": "%",
+    "betterIs": "lower",
+    "sourceUrl": "https://thesouthfirst.com/telangana/"
+  },
+  {
+    "id": "govt-jobs-filled",
+    "metric": "Government Jobs Filled (per year)",
+    "category": "Employment",
+    "brsValue": "~30,000",
+    "congressValue": "~57,946",
+    "unit": "positions",
+    "betterIs": "higher",
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+  },
+  {
+    "id": "farmer-loan-waiver",
+    "metric": "Farm Loan Waiver Amount",
+    "category": "Agriculture",
+    "brsValue": "₹17,000 cr (2018)",
+    "congressValue": "₹20,617 cr (2024-25)",
+    "unit": "crores",
+    "betterIs": "higher",
+    "sourceUrl": "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+  },
+  {
+    "id": "welfare-spending",
+    "metric": "Welfare Scheme Allocation",
+    "category": "Budget",
+    "brsValue": "₹35,000 cr/year",
+    "congressValue": "₹53,196 cr/year",
+    "unit": "crores",
+    "betterIs": "higher",
+    "sourceUrl": "https://www.businesstoday.in/latest/policy/story/telangana-budget-revanth-reddy-led-govt-proposed-to-spend-rs-53196-cr-for-6-poll-guarantees-416997-2024-02-10"
+  },
+  {
+    "id": "state-debt",
+    "metric": "State Debt",
+    "category": "Budget",
+    "brsValue": "₹3.9 lakh cr",
+    "congressValue": "₹4.2 lakh cr",
+    "unit": "lakh crores",
+    "betterIs": "lower",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "electricity-free-units",
+    "metric": "Free Electricity (Units)",
+    "category": "Welfare",
+    "brsValue": "0 units",
+    "congressValue": "200 units/month",
+    "unit": "units/month",
+    "betterIs": "higher",
+    "sourceUrl": "https://theprint.in/opinion/what-telangana-congress-6-guarantees-mean-why-they-will-change-welfarism-in-india/1885346/"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ts-govt-portal",
+    "name": "Telangana State Government Portal",
+    "url": "https://www.telangana.gov.in/",
+    "category": "government",
+    "description": "Official state government website with scheme details and press releases",
+    "credibility": "official"
+  },
+  {
+    "id": "ts-open-data",
+    "name": "Telangana Open Data Portal",
+    "url": "https://data.telangana.gov.in/",
+    "category": "government",
+    "description": "658+ datasets covering budget, infrastructure, agriculture and more",
+    "credibility": "official"
+  },
+  {
+    "id": "ts-budget-docs",
+    "name": "Telangana Budget Documents",
+    "url": "https://www.telangana.gov.in/departments/finance",
+    "category": "budget",
+    "description": "Official budget allocations, expenditure reports, and fiscal data",
+    "credibility": "official"
+  },
+  {
+    "id": "congress-manifesto",
+    "name": "Congress Telangana Manifesto 2023",
+    "url": "https://www.scribd.com/document/685183153/Cong-Manifesto",
+    "category": "government",
+    "description": "42-page manifesto with 70 promises including the 6 key guarantees",
+    "credibility": "official"
+  },
+  {
+    "id": "telangana-today",
+    "name": "Telangana Today",
+    "url": "https://telanganatoday.com/",
+    "category": "news_english",
+    "description": "Leading English daily focused on Telangana news and politics",
+    "credibility": "established"
+  },
+  {
+    "id": "the-hindu-ts",
+    "name": "The Hindu - Telangana",
+    "url": "https://www.thehindu.com/news/national/telangana/",
+    "category": "news_english",
+    "description": "Respected national daily with dedicated Telangana coverage",
+    "credibility": "established"
+  },
+  {
+    "id": "deccan-chronicle",
+    "name": "Deccan Chronicle",
+    "url": "https://www.deccanchronicle.com/",
+    "category": "news_english",
+    "description": "Hyderabad-based English daily with extensive state coverage",
+    "credibility": "established"
+  },
+  {
+    "id": "south-first",
+    "name": "The South First",
+    "url": "https://thesouthfirst.com/telangana/",
+    "category": "news_english",
+    "description": "Digital news platform focused on South Indian states",
+    "credibility": "established"
+  },
+  {
+    "id": "ndtv",
+    "name": "NDTV",
+    "url": "https://www.ndtv.com/telangana",
+    "category": "news_english",
+    "description": "National news network with Telangana bureau",
+    "credibility": "established"
+  },
+  {
+    "id": "eenadu",
+    "name": "Eenadu",
+    "url": "https://www.eenadu.net/telangana",
+    "category": "news_telugu",
+    "description": "Largest circulated Telugu daily newspaper",
+    "credibility": "established"
+  },
+  {
+    "id": "sakshi",
+    "name": "Sakshi",
+    "url": "https://www.sakshi.com/telangana",
+    "category": "news_telugu",
+    "description": "Major Telugu daily with extensive Telangana political coverage",
+    "credibility": "established"
+  },
+  {
+    "id": "oneindia-telugu",
+    "name": "Oneindia Telugu",
+    "url": "https://telugu.oneindia.com/",
+    "category": "news_telugu",
+    "description": "Telugu digital news portal with real-time updates",
+    "credibility": "established"
+  },
+  {
+    "id": "business-standard",
+    "name": "Business Standard",
+    "url": "https://www.business-standard.com/",
+    "category": "news_english",
+    "description": "Financial daily with detailed policy and budget analysis",
+    "credibility": "established"
+  },
+  {
+    "id": "the-print",
+    "name": "ThePrint",
+    "url": "https://theprint.in/",
+    "category": "news_english",
+    "description": "Independent digital news platform with policy analysis",
+    "credibility": "independent"
+  },
+  {
+    "id": "cag-reports",
+    "name": "CAG Reports - Telangana",
+    "url": "https://cag.gov.in/en/audit-report?state=telangana",
+    "category": "reports",
+    "description": "Comptroller and Auditor General reports on state finances and schemes",
+    "credibility": "official"
+  }
+]
