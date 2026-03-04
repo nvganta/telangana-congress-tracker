@@ -49,8 +49,10 @@ export function getBudgetStats(budget: BudgetItem[]) {
   return { totalAllocated, totalSpent, utilization };
 }
 
-export function getOverallGrade(guarantees: GovernmentPromise[]): string {
-  const stats = getPromiseStats(guarantees);
+export function getOverallGrade(allPromises: GovernmentPromise[]): string {
+  // Grade based on the 6 key guarantees only
+  const sixGuarantees = allPromises.filter(g => g.category === "guarantee");
+  const stats = getPromiseStats(sixGuarantees);
   const score = stats.avgProgress;
   if (score >= 80) return "A";
   if (score >= 60) return "B";

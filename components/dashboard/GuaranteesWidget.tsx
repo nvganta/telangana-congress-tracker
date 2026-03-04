@@ -24,6 +24,10 @@ function StatusIcon({ status }: { status: GovernmentPromise["status"] }) {
 }
 
 export default function GuaranteesWidget({ guarantees }: GuaranteesWidgetProps) {
+  // Only show the 6 key guarantees in the widget
+  const sixGuarantees = guarantees.filter(g => g.category === "guarantee");
+  const totalTracked = guarantees.length;
+
   return (
     <div className="glow-card p-4 h-full">
       <div className="flex items-center justify-between mb-4">
@@ -34,7 +38,7 @@ export default function GuaranteesWidget({ guarantees }: GuaranteesWidgetProps) 
       </div>
 
       <div className="space-y-3">
-        {guarantees.map((g) => (
+        {sixGuarantees.map((g) => (
           <div key={g.id} className="group">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
@@ -43,7 +47,7 @@ export default function GuaranteesWidget({ guarantees }: GuaranteesWidgetProps) 
                   {g.name}
                 </span>
                 {g.nameTelugu && (
-                  <span className="text-[10px] text-text-muted">{g.nameTelugu}</span>
+                  <span className="text-[10px] text-text-muted hidden sm:inline">{g.nameTelugu}</span>
                 )}
               </div>
               <span
@@ -61,16 +65,10 @@ export default function GuaranteesWidget({ guarantees }: GuaranteesWidgetProps) 
             <div className="mt-1.5 h-1 bg-bg-primary rounded-full overflow-hidden">
               <div
                 className="h-full rounded-full progress-fill"
-                style={{
-                  width: `${g.progress}%`,
-                  backgroundColor: STATUS_COLORS[g.status],
-                }}
+                style={{ width: `${g.progress}%`, backgroundColor: STATUS_COLORS[g.status] }}
               />
             </div>
             <div className="flex justify-between mt-0.5">
-              <span className="text-[9px] text-text-muted truncate max-w-[70%]">
-                {g.delivered.slice(0, 60)}...
-              </span>
               <span className="text-[9px] text-text-muted">{g.progress}%</span>
             </div>
           </div>
@@ -81,7 +79,7 @@ export default function GuaranteesWidget({ guarantees }: GuaranteesWidgetProps) 
         href="/promises"
         className="block mt-4 text-[10px] tracking-wider text-accent-blue hover:underline text-center"
       >
-        VIEW ALL 70 PROMISES →
+        VIEW ALL {totalTracked} TRACKED PROMISES →
       </Link>
     </div>
   );

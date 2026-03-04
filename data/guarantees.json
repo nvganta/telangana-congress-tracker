@@ -9,17 +9,17 @@
     "status": "partially_fulfilled",
     "progress": 25,
     "promised": "₹2,500/month to every woman head of household, LPG at ₹500, free bus travel for women",
-    "delivered": "Free bus travel for women implemented. LPG subsidy partially rolled out. ₹2,500 monthly cash transfer NOT started.",
+    "delivered": "Free bus travel for women implemented (serving ~35 lakh women daily, ₹7,422 crore reimbursed to TSRTC). ₹500 gas cylinder subsidy launched Feb 27, 2024 for ~40 lakh white ration card families. ₹2,500/month cash transfer: zero disbursements as of March 2026. Application forms collected in Jan 2024 but no implementation steps initiated. Estimated annual cost: ~₹50,000 crore for ~90 lakh women.",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-12-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
       "https://www.business-standard.com/elections/telangana-elections/congress-launches-election-manifesto-in-telangana-promises-six-guarantees-123111700490_1.html"
     ],
     "keyMetrics": [
-      { "label": "Monthly Cash Transfer", "promised": "₹2,500/month", "actual": "Not Started" },
-      { "label": "LPG Cylinder Price", "promised": "₹500", "actual": "Partially Subsidized" },
-      { "label": "Free Bus Travel", "promised": "Free for all women", "actual": "Implemented" }
+      { "label": "₹2,500 Cash Transfer", "promised": "₹2,500/month to ~90L women", "actual": "Zero disbursements" },
+      { "label": "Free Bus Travel", "promised": "Free for all women", "actual": "35 lakh daily riders" },
+      { "label": "LPG at ₹500", "promised": "₹500/cylinder", "actual": "Launched for ~40L families" }
     ]
   },
   {
@@ -30,19 +30,19 @@
     "subcategory": "farmers",
     "description": "₹15,000/acre financial assistance to farmers, crop loan waiver up to ₹2 lakh, interest-free loans up to ₹3 lakh",
     "status": "partially_fulfilled",
-    "progress": 45,
-    "promised": "₹15,000/acre to farmers, ₹12,000 to agri labour, crop loan waiver up to ₹2L, interest-free loans up to ₹3L",
-    "delivered": "Loan waiver disbursed ₹20,617 crore to ~25 lakh farmers in tranches. Delays and errors in beneficiary lists. ₹15,000/acre input support not fully implemented.",
+    "progress": 40,
+    "promised": "₹15,000/acre/year to farmers and tenant farmers, ₹12,000/year to agri labour, crop loan waiver up to ₹2L, interest-free loans up to ₹3L",
+    "delivered": "Rythu Bharosa launched Jan 26, 2025 at ₹12,000/acre/year (20% below promised ₹15,000). Day-one: ₹569 crore to 4,41,911 farmers. Government claims ₹9,000 crore reached 70 lakh farmers in 9 days. Crop loan waiver: ~₹20,617 crore disbursed to ~25 lakh farmers; target was 50 lakh (₹31,000 crore). ₹12,000 to agri labour: not started. 793 farmer suicides recorded Dec 2023-Nov 2025 (vs 178 in BRS's final year 2022).",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-12-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
-      "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+      "https://telanganatoday.com/"
     ],
     "keyMetrics": [
-      { "label": "Loan Waiver Disbursed", "promised": "Full waiver up to ₹2L", "actual": "₹20,617 cr to 25L farmers" },
-      { "label": "Per Acre Support", "promised": "₹15,000/acre", "actual": "Partially Implemented" },
-      { "label": "Agri Labour Support", "promised": "₹12,000/year", "actual": "Not Started" }
+      { "label": "Per Acre Support", "promised": "₹15,000/acre/year", "actual": "₹12,000/acre (20% shortfall)" },
+      { "label": "Crop Loan Waiver", "promised": "₹31,000 cr to 50L farmers", "actual": "₹20,617 cr to 25L farmers" },
+      { "label": "Farmer Suicides (2 yrs)", "promised": "Distress to end", "actual": "793 (vs 178 in BRS final year)" }
     ]
   },
   {
@@ -53,19 +53,19 @@
     "subcategory": "electricity",
     "description": "Free electricity up to 200 units per household per month",
     "status": "fulfilled",
-    "progress": 90,
+    "progress": 85,
     "promised": "200 units of free electricity to every household",
-    "delivered": "Scheme rolled out in February 2024. Most eligible households receiving free electricity up to 200 units.",
+    "delivered": "Operational since February 2024. ~42.25 lakh households receiving zero bills. Issues: ~2.50 lakh eligible applicants in Hyderabad still receiving bills. Billing cycle inconsistencies push some households above the 200-unit threshold. Reports of declining beneficiary numbers suggest possible silent rollback.",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-12-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
       "https://theprint.in/opinion/what-telangana-congress-6-guarantees-mean-why-they-will-change-welfarism-in-india/1885346/"
     ],
     "keyMetrics": [
-      { "label": "Free Units", "promised": "200 units/month", "actual": "200 units/month" },
-      { "label": "Rollout Date", "promised": "Immediate", "actual": "February 2024" },
-      { "label": "Coverage", "promised": "All households", "actual": "Most eligible households" }
+      { "label": "Beneficiary Households", "promised": "All households", "actual": "~42.25 lakh" },
+      { "label": "Excluded Eligible", "promised": "None", "actual": "~2.50 lakh in Hyderabad" },
+      { "label": "Rollout Date", "promised": "Immediate", "actual": "February 2024" }
     ]
   },
   {
@@ -75,20 +75,20 @@
     "category": "guarantee",
     "subcategory": "housing",
     "description": "House site for families without own house and ₹5 lakh financial assistance for construction",
-    "status": "not_started",
-    "progress": 5,
+    "status": "partially_fulfilled",
+    "progress": 8,
     "promised": "Free house site + ₹5 lakh construction assistance to every homeless family",
-    "delivered": "Some beneficiaries identified but full-scale implementation has not begun. Land allocation stalled in most districts.",
+    "delivered": "4.5 lakh houses sanctioned with ₹5 lakh assistance each. First houses inaugurated on September 3, 2025 — 21 months after taking office. Full-scale construction has not begun in most districts. Budget allocation: ₹5,800 crore; ₹800 crore spent (14% utilization).",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-12-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
       "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
     ],
     "keyMetrics": [
-      { "label": "Houses Built", "promised": "All homeless families", "actual": "Barely Started" },
-      { "label": "Construction Assistance", "promised": "₹5 lakh/family", "actual": "Limited Disbursement" },
-      { "label": "Land Allocation", "promised": "Free house sites", "actual": "Stalled" }
+      { "label": "Houses Sanctioned", "promised": "All homeless families", "actual": "4.5 lakh sanctioned" },
+      { "label": "Houses Completed", "promised": "Immediate", "actual": "Very few (first on Sep 3, 2025)" },
+      { "label": "Budget Utilization", "promised": "₹5,800 crore", "actual": "₹800 crore spent (14%)" }
     ]
   },
   {
@@ -99,19 +99,19 @@
     "subcategory": "jobs",
     "description": "Fill 2 lakh government jobs in the first year, Vidya Bharosa cards for students, skill development",
     "status": "partially_fulfilled",
-    "progress": 30,
-    "promised": "2,00,000 government jobs in first year, Vidya Bharosa education cards, free internet for students",
-    "delivered": "~57,946 posts filled by March 2025 (29% of target). Vidya Bharosa cards still pending. ₹11,000 crore budgetary allocation for schools made.",
+    "progress": 29,
+    "promised": "2,00,000 government jobs in first year, Vidya Bharosa education cards (₹5 lakh/student), free internet for students, ₹4,000/month unemployment allowance",
+    "delivered": "~57,946 posts filled by March 2025 (29% of target). Key: Group 1 (562), Group 4 (8,084), Mega DSC (10,006 teachers). SC sub-categorization froze new recruitment Oct 2024-Apr 2025. Vidya Bharosa cards: zero implementation. ₹4,000 unemployment allowance: zero implementation — Deputy CM publicly denied in Dec 2024 that Congress had made this promise. Youth unemployment at 20.1% (vs 14.6% national average).",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-03-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
       "https://www.business-standard.com/india-news/telangana-govt-allots-rs-53-196-cr-to-fulfill-poll-promise-of-6-guarantees-124021000939_1.html"
     ],
     "keyMetrics": [
-      { "label": "Government Jobs", "promised": "2,00,000 in Year 1", "actual": "57,946 (29%)" },
-      { "label": "Vidya Bharosa Cards", "promised": "For all students", "actual": "Not Started" },
-      { "label": "Education Budget", "promised": "Major increase", "actual": "₹11,000 cr allocated" }
+      { "label": "Government Jobs", "promised": "2,00,000 in Year 1", "actual": "57,946 filled (29%)" },
+      { "label": "Youth Unemployment", "promised": "Jobs for youth", "actual": "20.1% (national: 14.6%)" },
+      { "label": "Unemployment Allowance", "promised": "₹4,000/month", "actual": "Zero implementation" }
     ]
   },
   {
@@ -124,17 +124,262 @@
     "status": "partially_fulfilled",
     "progress": 40,
     "promised": "₹4,000/month pension to senior citizens, widows, disabled, beedi workers, single women, weavers, AIDS/Filaria patients, dialysis patients",
-    "delivered": "Pension amounts increased but not to full ₹4,000 for all categories. Coverage expanded but many eligible beneficiaries still excluded.",
+    "delivered": "Pension amounts increased from BRS-era ₹2,016 but conflicting reports on whether full ₹4,000 achieved universally. A February 2026 report describes the hike as 'slated to increase' in the upcoming budget — suggesting the full amount has not been reached. Coverage expanded but many eligible beneficiaries still excluded.",
     "promisedDate": "2023-11-17",
-    "lastUpdated": "2025-12-01",
+    "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
-      "https://telanganatoday.com/congress-announces-five-guarantees-for-maharashtra-telanganas-six-wait"
+      "https://telanganatoday.com/"
     ],
     "keyMetrics": [
-      { "label": "Pension Amount", "promised": "₹4,000/month", "actual": "Partially Increased" },
-      { "label": "Beneficiary Coverage", "promised": "All eligible categories", "actual": "Partial Coverage" },
-      { "label": "Regular Disbursement", "promised": "Monthly", "actual": "Irregular in some areas" }
+      { "label": "Pension Amount", "promised": "₹4,000/month", "actual": "Increased from ₹2,016; full ₹4,000 unclear" },
+      { "label": "Beneficiary Coverage", "promised": "All eligible categories", "actual": "Expanded but gaps remain" },
+      { "label": "Disbursement", "promised": "Monthly, regular", "actual": "Irregular in some districts" }
+    ]
+  },
+  {
+    "id": "free-bus-travel",
+    "name": "Free Bus Travel for Women",
+    "category": "manifesto",
+    "subcategory": "women",
+    "description": "Free travel for all women on TSRTC buses statewide",
+    "status": "fulfilled",
+    "progress": 95,
+    "promised": "Free bus travel for all women on TSRTC services",
+    "delivered": "Launched December 9, 2023 (day 2 in office). Serves ~35 lakh women daily. 222.50 crore cumulative free journeys. ₹7,422 crore reimbursed to TSRTC. The government's most visible and successful scheme.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Daily Riders", "promised": "All women", "actual": "~35 lakh daily" },
+      { "label": "Total Journeys", "promised": "-", "actual": "222.50 crore cumulative" },
+      { "label": "Cost to State", "promised": "-", "actual": "₹7,422 crore reimbursed" }
+    ]
+  },
+  {
+    "id": "arogyasri-expansion",
+    "name": "Rajiv Arogyasri Expansion",
+    "category": "manifesto",
+    "subcategory": "health",
+    "description": "Expand Arogyasri health insurance coverage from ₹5 lakh to ₹10 lakh",
+    "status": "fulfilled",
+    "progress": 90,
+    "promised": "Expand Rajiv Arogyasri coverage to ₹10 lakh per family",
+    "delivered": "Coverage expanded to ₹10 lakh (from ₹5 lakh). 1,835 treatments covered across 1,410 empaneled hospitals. Benefiting ~90 lakh families.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Coverage Amount", "promised": "₹10 lakh/family", "actual": "₹10 lakh/family" },
+      { "label": "Treatments Covered", "promised": "Expanded", "actual": "1,835 treatments" },
+      { "label": "Families Covered", "promised": "All eligible", "actual": "~90 lakh families" }
+    ]
+  },
+  {
+    "id": "caste-census",
+    "name": "Caste Census",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Conduct comprehensive caste-based socio-economic survey",
+    "status": "fulfilled",
+    "progress": 100,
+    "promised": "Comprehensive caste census of all households in Telangana",
+    "delivered": "Completed November-December 2024. Covered 3.54 crore individuals across 1.12 crore households. Telangana became the first state to publish comprehensive caste data.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Individuals Surveyed", "promised": "All", "actual": "3.54 crore" },
+      { "label": "Households Covered", "promised": "All", "actual": "1.12 crore" },
+      { "label": "Publication", "promised": "Publish data", "actual": "First state to publish" }
+    ]
+  },
+  {
+    "id": "gas-cylinder-subsidy",
+    "name": "₹500 Gas Cylinder",
+    "category": "manifesto",
+    "subcategory": "women",
+    "description": "LPG gas cylinders at ₹500 for eligible families",
+    "status": "fulfilled",
+    "progress": 80,
+    "promised": "LPG gas cylinders at ₹500 for all eligible households",
+    "delivered": "Launched February 27, 2024. Targets ~40 lakh families with white ration cards.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Target Families", "promised": "All eligible", "actual": "~40 lakh (white ration cards)" },
+      { "label": "Price", "promised": "₹500/cylinder", "actual": "₹500/cylinder" }
+    ]
+  },
+  {
+    "id": "new-ration-cards",
+    "name": "New Ration Cards",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Issue new ration cards to eligible families excluded from PDS",
+    "status": "partially_fulfilled",
+    "progress": 60,
+    "promised": "Ration cards for all excluded eligible families",
+    "delivered": "~8 lakh new ration cards issued since January 2025.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Cards Issued", "promised": "All excluded families", "actual": "~8 lakh issued" }
+    ]
+  },
+  {
+    "id": "crop-loan-waiver",
+    "name": "Crop Loan Waiver",
+    "category": "manifesto",
+    "subcategory": "farmers",
+    "description": "Complete waiver of crop loans up to ₹2 lakh within 100 days",
+    "status": "partially_fulfilled",
+    "progress": 50,
+    "promised": "Waive crop loans up to ₹2 lakh for all farmer families within 100 days of taking office",
+    "delivered": "Disbursed ~₹20,617 crore to ~25 lakh farmers in four phases through November 2024. Target: ₹31,000 crore for ~50 lakh farmers — roughly 25 lakh farmers still waiting. Food security card requirement excluded many eligible farmers. Timeline: 100 days missed; took 11+ months.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/",
+      "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+    ],
+    "keyMetrics": [
+      { "label": "Amount Disbursed", "promised": "₹31,000 crore", "actual": "~₹20,617 crore (66%)" },
+      { "label": "Farmers Covered", "promised": "~50 lakh", "actual": "~25 lakh (50%)" },
+      { "label": "Timeline", "promised": "100 days", "actual": "11+ months (ongoing)" }
+    ]
+  },
+  {
+    "id": "govt-jobs-2-lakh",
+    "name": "2 Lakh Government Jobs",
+    "category": "manifesto",
+    "subcategory": "jobs",
+    "description": "Fill 2,00,000 government posts in the first year",
+    "status": "partially_fulfilled",
+    "progress": 29,
+    "promised": "2,00,000 government jobs to be filled in Year 1 (by December 2024)",
+    "delivered": "~57,946 posts filled by March 2025 (29%). Group 1: 562 posts. Group 4: 8,084. Mega DSC: 10,006 teachers. SC sub-categorization froze new recruitment Oct 2024-Apr 2025. Police (12,452 vacancies), Group 2, additional DSC, and forest beat officer recruitments remain pending.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Posts Filled", "promised": "2,00,000", "actual": "57,946 (29%)" },
+      { "label": "Timeline", "promised": "Year 1", "actual": "Ongoing after 2+ years" }
+    ]
+  },
+  {
+    "id": "unemployment-allowance",
+    "name": "₹4,000 Unemployment Allowance",
+    "category": "manifesto",
+    "subcategory": "jobs",
+    "description": "Monthly unemployment allowance of ₹4,000 to educated unemployed youth",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "₹4,000/month unemployment allowance to educated unemployed youth",
+    "delivered": "Zero implementation. Deputy CM Bhatti Vikramarka publicly denied in December 2024 that Congress had made this promise, contradicting recorded statements by Priyanka Gandhi during the election campaign.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Implementation", "promised": "₹4,000/month", "actual": "Zero" },
+      { "label": "Government Response", "promised": "-", "actual": "Deputy CM denied promise was made" }
+    ]
+  },
+  {
+    "id": "vidya-bharosa",
+    "name": "Vidya Bharosa Cards",
+    "category": "manifesto",
+    "subcategory": "education",
+    "description": "Education cards worth ₹5 lakh for students to cover educational expenses",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Vidya Bharosa cards worth ₹5 lakh per student for educational expenses",
+    "delivered": "Zero implementation. No application process established. No pilot programme. No distribution.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Cards Distributed", "promised": "For all students", "actual": "Zero" }
+    ]
+  },
+  {
+    "id": "old-pension-scheme",
+    "name": "Old Pension Scheme Restoration",
+    "category": "manifesto",
+    "subcategory": "pension",
+    "description": "Restore the Old Pension Scheme (OPS) for government employees",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Restore Old Pension Scheme for ~2.2 lakh CPS (Contributory Pension Scheme) employees",
+    "delivered": "No Government Order issued. No committee formed. No timeline provided. Affects ~2.2 lakh government employees currently under CPS.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "GO Issued", "promised": "Restore OPS", "actual": "No GO issued" },
+      { "label": "Affected Employees", "promised": "~2.2 lakh", "actual": "Still on CPS" }
+    ]
+  },
+  {
+    "id": "international-schools",
+    "name": "International Schools in Every Mandal",
+    "category": "manifesto",
+    "subcategory": "education",
+    "description": "Establish Telangana International Schools in all 612 mandals",
+    "status": "partially_fulfilled",
+    "progress": 5,
+    "promised": "International-standard schools in all 612 mandals",
+    "delivered": "Promise quietly replaced by 'Young India Integrated Residential Schools' (YIIRS) — one per Assembly constituency (119 total, not 612). Foundation stones laid for 28 schools in October 2024. None operational as of March 2026.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Schools Promised", "promised": "612 (one per mandal)", "actual": "28 foundation stones; 0 operational" },
+      { "label": "Scope Change", "promised": "International Schools", "actual": "Renamed to YIIRS, reduced to 119" }
+    ]
+  },
+  {
+    "id": "mega-dsc-teachers",
+    "name": "Teacher Recruitment (Mega DSC)",
+    "category": "manifesto",
+    "subcategory": "education",
+    "description": "Recruit 20,000 teachers through Mega DSC to fill school vacancies",
+    "status": "partially_fulfilled",
+    "progress": 50,
+    "promised": "20,000 teacher posts through Mega DSC",
+    "delivered": "11,062 posts notified (Feb 2024). ~10,006 teachers received appointment letters by October 2024. 19,000+ teacher posts remain vacant. Second DSC notification (scheduled Feb 2025) not issued as of March 2026.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://www.business-standard.com/",
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Posts Notified", "promised": "20,000", "actual": "11,062" },
+      { "label": "Appointed", "promised": "-", "actual": "~10,006" },
+      { "label": "Vacancies Remaining", "promised": "Zero", "actual": "19,000+" }
     ]
   }
 ]

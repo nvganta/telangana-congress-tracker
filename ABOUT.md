@@ -8,7 +8,7 @@
 
 This is a public accountability tracker that monitors the Indian National Congress government's performance in the state of Telangana. The Congress party came to power in Telangana on **December 7, 2023**, after winning the state assembly elections with a decisive mandate. Chief Minister **Revanth Reddy** leads the government.
 
-During the campaign, Congress made sweeping promises under a manifesto called **"Abhaya Hastham"** (a hand of assurance) — including 6 flagship guarantees and over 70 specific promises to the people of Telangana.
+During the campaign, Congress presented a manifesto called **"Abhaya Hastham"** (a hand of assurance) — including 6 flagship guarantees and over 70 specific commitments to the people of Telangana.
 
 This dashboard tracks whether those promises are being kept, how the budget is being spent, what development projects are happening (or not happening), and how the current government compares to its predecessor.
 
@@ -18,7 +18,7 @@ This dashboard tracks whether those promises are being kept, how the budget is b
 
 ## Why Does This Exist?
 
-Governments make promises during elections. Voters remember some of them for a while, then life moves on. By the time the next election comes around, the narrative is controlled by whoever shouts the loudest.
+Governments make commitments during elections. Voters track some of them for a period, then attention shifts. By the time the next election cycle begins, the factual record is often obscured by political messaging.
 
 This project exists to keep a permanent, factual, publicly accessible record. It answers one simple question: **"Did they do what they said they'd do?"**
 
@@ -41,7 +41,7 @@ These were the headline promises of the Congress campaign in the 2023 Telangana 
 **What actually happened:**
 - Free bus travel for women: **Implemented**. Women can ride TSRTC buses for free across the state.
 - LPG at ₹500: **Partially done**. Some subsidy has been rolled out but not to the full promised extent.
-- ₹2,500 monthly cash transfer: **Not started at all**. This was the biggest promise under this scheme and as of early 2026, it has not been initiated. Not even a pilot. Not even a registration portal.
+- ₹2,500 monthly cash transfer: **Not started**. This is the highest-value commitment under this scheme. As of March 2026, no implementation steps have been initiated — no pilot programme, no registration portal, no disbursements.
 
 **Current status: PARTIALLY FULFILLED (25%)**
 
@@ -75,7 +75,7 @@ These were the headline promises of the Congress campaign in the 2023 Telangana 
 - ₹5 lakh financial assistance for construction of the house
 
 **What actually happened:**
-- Some beneficiaries have been identified on paper, but **full-scale implementation has not begun**. Land allocation is stalled in most districts. The scheme that was meant to give a roof to every homeless family in Telangana remains largely on paper.
+- 4.5 lakh houses sanctioned with ₹5 lakh assistance each, but very few completed. First houses were inaugurated only on September 3, 2025 — nearly 2 years after taking office. Full-scale construction has not begun in most districts. Budget allocation: ₹5,800 crore; spent: ₹800 crore (14% utilization).
 
 **Current status: NOT STARTED (5%)**
 
@@ -87,7 +87,7 @@ These were the headline promises of the Congress campaign in the 2023 Telangana 
 - Major investment in skill development
 
 **What actually happened:**
-- Government jobs: Approximately **57,946 posts filled** by March 2025. That's 29% of the 2 lakh target — and this was supposed to be done in year one.
+- Government jobs: Approximately **57,946 posts filled** by March 2025 — 29% of the 2 lakh target. The manifesto committed to filling all positions within the first year.
 - Vidya Bharosa cards: **Not started**
 - ₹11,000 crore budgetary allocation for education has been made, which is a positive step.
 
@@ -108,7 +108,7 @@ These were the headline promises of the Congress campaign in the 2023 Telangana 
 
 ## The Budget Question
 
-The Telangana state government allocated **₹53,196 crore** specifically for the implementation of the 6 guarantees in the 2024-25 budget. This was a massive allocation — roughly one-third of the entire state budget going to welfare schemes.
+The Telangana state government allocated **₹53,196 crore** specifically for the implementation of the 6 guarantees in the 2024-25 budget. This represents roughly one-third of the entire state budget directed toward welfare schemes.
 
 The dashboard tracks how this money breaks down:
 
@@ -163,7 +163,7 @@ The previous government was led by the BRS party (Bharat Rashtra Samithi, former
 | State Debt | ₹3.9 lakh cr | ₹4.2 lakh cr | BRS |
 | Free Electricity | 0 units | 200 units/month | Congress |
 
-The comparison is nuanced. Congress is spending more on welfare and has fulfilled some promises the BRS never made (like free electricity). But BRS had better GDP growth and lower unemployment during their tenure. State debt has increased under Congress, partly to fund the guarantee schemes.
+The comparison is nuanced. Congress is spending more on welfare and has fulfilled some promises the BRS never made (like free electricity). But BRS had higher GDP growth (11.1% vs 9.5%) and lower unemployment (3.4% vs 4.1%) during their tenure. State debt has increased under Congress, partly to fund the guarantee schemes.
 
 **This is not about declaring a winner. It's about giving people the data to decide for themselves.**
 
@@ -204,7 +204,7 @@ The site's timeline section automatically pulls news from 7+ RSS feed sources in
 ## What Did We Focus On?
 
 ### 1. Factual Accuracy Over Opinion
-Every data point traces back to a verifiable source. We don't editorialize. We don't say "the government is bad" — we show you the numbers and let you decide. If Gruha Jyothi is working well, the dashboard shows it in green. If Mahalakshmi hasn't started, it shows in red. The data speaks.
+Every data point traces back to a verifiable source. We don't editorialize. We don't say "the government is bad" — we show you the numbers and let you decide. If Gruha Jyothi has high completion, the dashboard shows it in green. If Mahalakshmi hasn't started, it shows in red. The data speaks.
 
 ### 2. The Gap Between Promise and Reality
 The core insight this dashboard surfaces is the **promise-delivery gap**. Politicians promise in absolutes ("every woman", "all farmers", "2 lakh jobs in year one") but deliver in fractions. By showing promised vs. actual side by side, with specific numbers, the gap becomes undeniable and measurable.
@@ -216,7 +216,7 @@ Budget allocations tell a story that press conferences don't. When ₹7,492 cror
 It would be easy to make a one-sided "gotcha" dashboard. But this project includes a BRS vs Congress comparison because accountability requires context. Some things have genuinely improved. Some have not. Some promises were always unrealistic. The data lets you see all of it.
 
 ### 5. Accessibility Over Complexity
-The information on government performance is technically public, but it's scattered across budget PDFs, legislative assembly records, news archives, RTI responses, and government portals. Nobody has the time or expertise to piece it all together. This dashboard does that work and presents it in a format anyone can understand in 30 seconds.
+Information on government performance is technically public, but it is scattered across budget PDFs, legislative assembly records, news archives, RTI responses, and government portals in multiple languages. This dashboard aggregates those sources into a single, structured format accessible in under 30 seconds.
 
 ### 6. Automation Over Manual Maintenance
 The news timeline is fully automated — aggregated from 7+ sources, refreshed every 30 minutes. This ensures the dashboard stays current even when nobody is actively updating it. The structured data (promise statuses, budget numbers) only needs updating when something actually changes, which in Indian state politics means once every few weeks at most.
