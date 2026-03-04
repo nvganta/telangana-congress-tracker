@@ -3,10 +3,29 @@
 import { useEffect, useState } from "react";
 import { NewsItem } from "@/lib/types";
 
+const CATEGORY_COLORS: Record<string, string> = {
+  controversy: "#ff3333",
+  budget: "#ffcc00",
+  promise: "#00ff88",
+  development: "#0099ff",
+  policy: "#cc66ff",
+  general: "#666666",
+};
+
+const CATEGORY_LABELS: Record<string, string> = {
+  controversy: "CONTROVERSY",
+  budget: "BUDGET",
+  promise: "PROMISE",
+  development: "DEVELOPMENT",
+  policy: "POLICY",
+  general: "GENERAL",
+};
+
 export default function TimelinePage() {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [sourceFilter, setSourceFilter] = useState<string>("all");
+  const [categoryFilter, setCategoryFilter] = useState<string>("all");
 
   useEffect(() => {
     async function fetchNews() {
@@ -23,13 +42,21 @@ export default function TimelinePage() {
       }
     }
     fetchNews();
-    // Auto-refresh every 5 minutes
     const interval = setInterval(fetchNews, 5 * 60 * 1000);
     return () => clearInterval(interval);
   }, []);
 
   const sources = ["all", ...new Set(news.map((n) => n.source))];
-  const filtered = sourceFilter === "all" ? news : news.filter((n) => n.source === sourceFilter);
+  const categories = ["all", ...new Set(news.map((n) => n.category))];
+  const filtered = news
+    .filter((n) => sourceFilter === "all" || n.source === sourceFilter)
+    .filter((n) => categoryFilter === "all" || n.category === categoryFilter);
+
+  // Category counts
+  const categoryCounts: Record<string, number> = {};
+  for (const item of news) {
+    categoryCounts[item.category] = (categoryCounts[item.category] || 0) + 1;
+  }
 
   return (
     <div className="fade-in">
@@ -47,25 +74,58 @@ export default function TimelinePage() {
           </span>
         </div>
         <p className="text-[10px] text-text-muted tracking-wider mt-1">
-          AUTO-AGGREGATED FROM {sources.length - 1}+ NEWS SOURCES — REFRESHES EVERY 30 MINUTES
+          AUTO-AGGREGATED FROM {sources.length - 1}+ NEWS SOURCES — AUTO-TAGGED BY CATEGORY
         </p>
       </div>
 
+      {/* Category filters */}
+      <div className="mb-3">
+        <div className="text-[9px] tracking-wider text-text-muted mb-2">FILTER BY CATEGORY</div>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((cat) => {
+            const color = cat === "all" ? "#0099ff" : (CATEGORY_COLORS[cat] || "#666");
+            const count = cat === "all" ? news.length : (categoryCounts[cat] || 0);
+            return (
+              <button
+                key={cat}
+                onClick={() => setCategoryFilter(cat)}
+                className={`px-3 py-1 text-[10px] tracking-wider rounded transition-colors border ${
+                  categoryFilter === cat
+                    ? "border-opacity-40"
+                    : "border-border-default hover:border-border-glow"
+                }`}
+                style={{
+                  color: categoryFilter === cat ? color : undefined,
+                  backgroundColor: categoryFilter === cat ? `${color}15` : undefined,
+                  borderColor: categoryFilter === cat ? `${color}66` : undefined,
+                }}
+              >
+                {cat === "all" ? "ALL" : (CATEGORY_LABELS[cat] || cat.toUpperCase())}
+                {" "}({count})
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Source filters */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        {sources.map((source) => (
-          <button
-            key={source}
-            onClick={() => setSourceFilter(source)}
-            className={`px-3 py-1 text-[10px] tracking-wider rounded transition-colors ${
-              sourceFilter === source
-                ? "bg-accent-green/20 text-accent-green border border-accent-green/40"
-                : "bg-bg-card text-text-secondary border border-border-default hover:border-border-glow"
-            }`}
-          >
-            {source === "all" ? "ALL SOURCES" : source.toUpperCase()}
-          </button>
-        ))}
+      <div className="mb-6">
+        <div className="text-[9px] tracking-wider text-text-muted mb-2">FILTER BY SOURCE</div>
+        <div className="flex flex-wrap gap-2">
+          {sources.map((source) => (
+            <button
+              key={source}
+              onClick={() => setSourceFilter(source)}
+              className={`px-3 py-1 text-[10px] tracking-wider rounded transition-colors ${
+                sourceFilter === source
+                  ? "bg-accent-green/20 text-accent-green border border-accent-green/40"
+                  : "bg-bg-card text-text-secondary border border-border-default hover:border-border-glow"
+              }`}
+            >
+              {source === "all" ? "ALL SOURCES" : source.toUpperCase()}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Timeline */}
@@ -92,6 +152,8 @@ export default function TimelinePage() {
             {filtered.map((item, i) => {
               const date = new Date(item.publishedAt);
               const isToday = new Date().toDateString() === date.toDateString();
+              const catColor = CATEGORY_COLORS[item.category] || "#666";
+              const catLabel = CATEGORY_LABELS[item.category] || item.category.toUpperCase();
 
               return (
                 <a
@@ -101,12 +163,13 @@ export default function TimelinePage() {
                   rel="noopener noreferrer"
                   className="block ml-8 glow-card p-4 group hover:border-accent-blue/30 transition-all"
                 >
-                  {/* Timeline dot */}
+                  {/* Timeline dot - colored by category */}
                   <div
-                    className={`absolute left-[11px] w-2.5 h-2.5 rounded-full border-2 border-bg-primary ${
-                      isToday ? "bg-accent-green" : "bg-accent-blue"
-                    }`}
-                    style={{ marginTop: "6px" }}
+                    className="absolute left-[11px] w-2.5 h-2.5 rounded-full border-2 border-bg-primary"
+                    style={{
+                      marginTop: "6px",
+                      backgroundColor: isToday ? "#00ff88" : catColor,
+                    }}
                   ></div>
 
                   <div className="flex items-start justify-between gap-3">
@@ -114,7 +177,13 @@ export default function TimelinePage() {
                       <h3 className="text-xs text-text-primary group-hover:text-accent-blue transition-colors leading-relaxed">
                         {item.title}
                       </h3>
-                      <div className="flex items-center gap-3 mt-1.5">
+                      <div className="flex items-center gap-2 mt-1.5 flex-wrap">
+                        <span
+                          className="text-[8px] tracking-wider font-semibold px-1.5 py-0.5 rounded"
+                          style={{ color: catColor, backgroundColor: `${catColor}15` }}
+                        >
+                          {catLabel}
+                        </span>
                         <span className="text-[9px] text-accent-blue bg-accent-blue/10 px-1.5 py-0.5 rounded">
                           {item.source}
                         </span>

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "free-bus-travel",
+    "guarantee": "Free Bus Travel for Women",
+    "karnatakaName": "Shakti",
+    "telanganaName": "Mahalakshmi",
+    "karnatakaStatus": "Implemented",
+    "telanganaStatus": "Implemented",
+    "karnatakaDetail": "Free travel for all women on KSRTC buses. ~1.3 crore daily riders.",
+    "telanganaDetail": "Free travel for all women on TSRTC buses. ~35 lakh daily riders.",
+    "winner": "tie"
+  },
+  {
+    "id": "free-electricity",
+    "guarantee": "Free Electricity",
+    "karnatakaName": "Gruha Jyothi",
+    "telanganaName": "Gruha Jyothi",
+    "karnatakaStatus": "Implemented (200 units)",
+    "telanganaStatus": "Implemented (200 units)",
+    "karnatakaDetail": "200 units free per household. ~1.7 crore households covered.",
+    "telanganaDetail": "200 units free per household. 42.25 lakh households covered; 2.50 lakh eligible still billed.",
+    "winner": "karnataka"
+  },
+  {
+    "id": "rice-subsidy",
+    "guarantee": "Rice / Food Security",
+    "karnatakaName": "Anna Bhagya (10 kg free rice)",
+    "telanganaName": "Rice at Rs 1/kg",
+    "karnatakaStatus": "Implemented",
+    "telanganaStatus": "Implemented (pre-existing scheme)",
+    "karnatakaDetail": "10 kg free rice per BPL family per month.",
+    "telanganaDetail": "Rice at Rs 1/kg through PDS (carried forward from BRS era).",
+    "winner": "karnataka"
+  },
+  {
+    "id": "cash-transfer-women",
+    "guarantee": "Cash Transfer to Women",
+    "karnatakaName": "Gruha Lakshmi (Rs 2,000/month)",
+    "telanganaName": "Mahalakshmi (Rs 2,500/month)",
+    "karnatakaStatus": "Implemented — Rs 2,000/month to women heads of household",
+    "telanganaStatus": "Not started — zero disbursements",
+    "karnatakaDetail": "~1.2 crore women receiving Rs 2,000/month. Cost: ~Rs 28,800 crore/year.",
+    "telanganaDetail": "Promised Rs 2,500/month. No registration portal, no pilot, no disbursements. Estimated annual cost: ~Rs 50,000 crore.",
+    "winner": "karnataka"
+  },
+  {
+    "id": "unemployment-allowance",
+    "guarantee": "Youth / Unemployment Support",
+    "karnatakaName": "Yuva Nidhi (Rs 3,000-1,500/month)",
+    "telanganaName": "Rs 4,000 Unemployment Allowance",
+    "karnatakaStatus": "Implemented — Rs 3,000 (graduates) / Rs 1,500 (diploma) for 2 years",
+    "telanganaStatus": "Not started — Deputy CM denied promise exists",
+    "karnatakaDetail": "Monthly allowance for unemployed graduates. Active disbursement since launch.",
+    "telanganaDetail": "Promised Rs 4,000/month for unemployed youth. Zero implementation. Deputy CM publicly denied the promise was ever made.",
+    "winner": "karnataka"
+  },
+  {
+    "id": "farmer-support",
+    "guarantee": "Farmer Support",
+    "karnatakaName": "Annadata Sukha (loan waiver + input support)",
+    "telanganaName": "Rythu Bharosa (Rs 15,000/acre + loan waiver)",
+    "karnatakaStatus": "Partial — loan waiver partially delivered",
+    "telanganaStatus": "Partial — Rs 12,000 delivered (not Rs 15,000), waiver 50% done",
+    "karnatakaDetail": "Crop loan waiver up to Rs 3 lakh. Partial delivery with similar beneficiary identification issues.",
+    "telanganaDetail": "Rs 12,000/acre delivered vs Rs 15,000 promised (20% shortfall). Loan waiver: 25 lakh of 50 lakh target.",
+    "winner": "tie"
+  }
+]

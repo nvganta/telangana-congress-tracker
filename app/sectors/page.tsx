@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { SectorData, WelfareScheme } from "@/lib/types";
 import agricultureData from "@/data/agriculture.json";
 import educationData from "@/data/education.json";
@@ -242,6 +243,24 @@ export default function SectorsPage() {
           </div>
         </div>
       </div>
+
+      {/* Link to district breakdown */}
+      <Link
+        href="/districts"
+        className="block glow-card p-4 mb-6 hover:border-accent-yellow/30 transition-all group"
+      >
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-[11px] tracking-[0.2em] text-accent-yellow font-semibold">
+              DISTRICT-LEVEL BREAKDOWN
+            </div>
+            <p className="text-[10px] text-text-muted mt-1">
+              Farmer suicides by district, crop loan waiver coverage, education infrastructure
+            </p>
+          </div>
+          <span className="text-text-muted group-hover:text-accent-yellow transition-colors">→</span>
+        </div>
+      </Link>
 
       <WelfareScorecard />
       <SectorSection data={agriculture} />

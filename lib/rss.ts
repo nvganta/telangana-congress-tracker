@@ -51,6 +51,27 @@ function isTelanganRelated(title: string): boolean {
   return keywords.some((kw) => lowerTitle.includes(kw));
 }
 
+function categorizeNews(title: string): NewsItem["category"] {
+  const lower = title.toLowerCase();
+
+  const controversyKeywords = ["hydraa", "demolish", "demolition", "messi", "gandhi sarovar", "musi river", "scam", "arrest", "phone tap", "deepfake", "miss world", "formula e", "controversy", "allegation", "accused", "probe", "investigation"];
+  if (controversyKeywords.some(k => lower.includes(k))) return "controversy";
+
+  const budgetKeywords = ["budget", "allocation", "crore", "fiscal", "tax", "gst", "revenue", "expenditure", "spending", "debt", "borrowing"];
+  if (budgetKeywords.some(k => lower.includes(k))) return "budget";
+
+  const promiseKeywords = ["mahalakshmi", "rythu bharosa", "gruha jyothi", "indiramma", "cheyutha", "yuva vikasam", "guarantee", "promise", "scheme", "welfare", "pension", "loan waiver", "free electricity", "free bus"];
+  if (promiseKeywords.some(k => lower.includes(k))) return "promise";
+
+  const devKeywords = ["metro", "road", "highway", "pharma city", "infrastructure", "construction", "project", "irrigation", "ring road", "airport"];
+  if (devKeywords.some(k => lower.includes(k))) return "development";
+
+  const policyKeywords = ["policy", "bill", "assembly", "legislation", "order", "notification", "reform", "regulation"];
+  if (policyKeywords.some(k => lower.includes(k))) return "policy";
+
+  return "general";
+}
+
 export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
   const allItems: NewsItem[] = [];
 
@@ -64,7 +85,7 @@ export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
         source: feed.name,
         url: item.link!,
         publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
-        category: "general" as const,
+        category: categorizeNews(item.title!),
       }));
   });
 

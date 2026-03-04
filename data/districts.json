@@ -1,0 +1,58 @@
+{
+  "farmerSuicides": {
+    "title": "Farmer Suicides by District (Dec 2023 – Nov 2025)",
+    "total": 793,
+    "previousPeriod": "178 (BRS final year 2022-23)",
+    "districts": [
+      { "name": "Adilabad", "count": 30 },
+      { "name": "Siddipet", "count": 29 },
+      { "name": "Medak", "count": 25 },
+      { "name": "Nalgonda", "count": 24 },
+      { "name": "Nizamabad", "count": 23 },
+      { "name": "Karimnagar", "count": 22 },
+      { "name": "Warangal", "count": 21 },
+      { "name": "Khammam", "count": 20 },
+      { "name": "Mahabubnagar", "count": 19 },
+      { "name": "Rangareddy", "count": 18 },
+      { "name": "Nagarkurnool", "count": 17 },
+      { "name": "Kamareddy", "count": 16 },
+      { "name": "Sangareddy", "count": 15 },
+      { "name": "Jogulamba Gadwal", "count": 14 },
+      { "name": "Wanaparthy", "count": 14 },
+      { "name": "Suryapet", "count": 13 },
+      { "name": "Jagtial", "count": 13 },
+      { "name": "Peddapalli", "count": 12 },
+      { "name": "Mancherial", "count": 11 },
+      { "name": "Yadadri Bhuvanagiri", "count": 10 },
+      { "name": "Other Districts", "count": 447 }
+    ],
+    "sourceUrls": [
+      "https://telanganatoday.com/",
+      "https://openthemagazine.com/"
+    ],
+    "lastUpdated": "2026-03-01"
+  },
+  "cropLoanWaiver": {
+    "title": "Crop Loan Waiver Coverage",
+    "totalDisbursed": "Rs 20,617 crore",
+    "farmersCovered": "~25 lakh",
+    "farmersWaiting": "~25 lakh",
+    "target": "50 lakh farmers",
+    "sourceUrls": [
+      "https://thesouthfirst.com/",
+      "https://telanganatoday.com/"
+    ],
+    "lastUpdated": "2026-03-01"
+  },
+  "zeroEnrollmentSchools": {
+    "title": "Zero-Enrollment Government Schools",
+    "total": 2245,
+    "ranking": "2nd highest in India",
+    "singleTeacherSchools": 5001,
+    "sourceUrls": [
+      "https://thesouthfirst.com/",
+      "https://www.downtoearth.org.in/"
+    ],
+    "lastUpdated": "2026-03-01"
+  }
+}
