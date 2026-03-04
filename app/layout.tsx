@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import FeedbackWidget from "@/components/FeedbackWidget";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
@@ -29,6 +30,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <FeedbackWidget />
       </body>
     </html>
   );

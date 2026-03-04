@@ -1,9 +1,24 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { GovernmentPromise, PromiseStatus } from "@/lib/types";
 import { STATUS_COLORS, STATUS_LABELS } from "@/lib/constants";
 import guaranteesData from "@/data/guarantees.json";
+
+interface FeedbackEntry {
+  id: string;
+  name: string;
+  email?: string;
+  type: "feedback" | "feature" | "bug";
+  message: string;
+  createdAt: string;
+}
+
+const FEEDBACK_TYPE_COLORS: Record<string, string> = {
+  feedback: "#00d4ff",
+  feature: "#facc15",
+  bug: "#ff3333",
+};
 
 const initialGuarantees = guaranteesData as GovernmentPromise[];
 
@@ -14,6 +29,23 @@ export default function AdminPage() {
   const [guarantees, setGuarantees] = useState<GovernmentPromise[]>(initialGuarantees);
   const [saving, setSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState("");
+  const [feedbackItems, setFeedbackItems] = useState<FeedbackEntry[]>([]);
+
+  const loadFeedback = useCallback(async () => {
+    try {
+      const res = await fetch("/api/feedback");
+      if (res.ok) {
+        const data = await res.json();
+        setFeedbackItems(data.sort((a: FeedbackEntry, b: FeedbackEntry) =>
+          new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        ));
+      }
+    } catch { /* ignore */ }
+  }, []);
+
+  useEffect(() => {
+    if (isAuthenticated) loadFeedback();
+  }, [isAuthenticated, loadFeedback]);
 
   const handleLogin = () => {
     // Simple password check — in production, use env variable via API route
@@ -109,6 +141,52 @@ export default function AdminPage() {
             {saving ? "SAVING..." : "SAVE CHANGES"}
           </button>
         </div>
+      </div>
+
+      {/* Feedback Section */}
+      <div className="mb-8">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-sm font-bold tracking-[0.15em]">
+            USER <span className="neon-text-yellow">FEEDBACK</span>
+            <span className="text-[10px] text-text-muted font-normal ml-2">({feedbackItems.length})</span>
+          </h2>
+          <button
+            onClick={loadFeedback}
+            className="text-[10px] tracking-wider text-accent-blue hover:underline"
+          >
+            REFRESH
+          </button>
+        </div>
+
+        {feedbackItems.length === 0 ? (
+          <div className="glow-card p-4 text-center">
+            <p className="text-[10px] text-text-muted">No feedback submitted yet.</p>
+          </div>
+        ) : (
+          <div className="space-y-3">
+            {feedbackItems.map((fb) => (
+              <div key={fb.id} className="glow-card p-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span
+                    className="text-[9px] tracking-wider font-bold px-1.5 py-0.5 rounded"
+                    style={{
+                      color: FEEDBACK_TYPE_COLORS[fb.type],
+                      backgroundColor: FEEDBACK_TYPE_COLORS[fb.type] + "15",
+                    }}
+                  >
+                    {fb.type.toUpperCase()}
+                  </span>
+                  <span className="text-[10px] text-text-primary font-semibold">{fb.name}</span>
+                  {fb.email && <span className="text-[9px] text-text-muted">{fb.email}</span>}
+                  <span className="text-[9px] text-text-muted ml-auto">
+                    {new Date(fb.createdAt).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" })}
+                  </span>
+                </div>
+                <p className="text-[11px] text-text-secondary whitespace-pre-wrap">{fb.message}</p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Guarantee editors */}
