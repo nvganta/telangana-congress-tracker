@@ -12,6 +12,7 @@ const navItems = [
   { href: "/timeline", label: "TIMELINE" },
   { href: "/development", label: "DEVELOPMENT" },
   { href: "/compare", label: "COMPARE" },
+  { href: "/cm-profile", label: "CM PROFILE" },
 ];
 
 export default function Header() {

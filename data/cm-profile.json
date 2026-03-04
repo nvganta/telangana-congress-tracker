@@ -1,0 +1,37 @@
+{
+  "name": "Anumula Revanth Reddy",
+  "title": "Chief Minister of Telangana",
+  "inOfficeSince": "2023-12-07",
+  "politicalTrajectory": ["ABVP", "TRS", "TDP", "Congress"],
+  "facts": [
+    { "label": "Cash-for-Vote Case", "value": "Arrested May 31, 2015 with Rs 50 lakh. Case still pending." },
+    { "label": "Pending Criminal Cases", "value": "89 cases per 2023 election affidavit" },
+    { "label": "Asset Growth", "value": "Rs 3.6 crore (2009) to Rs 30.05 crore (2023) — 8x increase" },
+    { "label": "Delhi Visits", "value": "60+ visits in two years" }
+  ],
+  "contradictions": [
+    {
+      "then": "Called MEIL an 'East India Company' exploiting Telangana",
+      "now": "Gave MEIL a Rs 4,350 crore contract for Kodangal constituency"
+    },
+    {
+      "then": "Attacked BRS for state debt of Rs 3.14 lakh crore",
+      "now": "Borrowing at 2x the pace — Rs 1,52,918 crore in 15 months"
+    },
+    {
+      "then": "Filed ACB charges against KTR for Rs 55 crore Formula E spending",
+      "now": "Spent ~Rs 100 crore on Messi exhibition match"
+    },
+    {
+      "then": "Called Sonia Gandhi 'Bali Devatha' (sacrificial deity) during TDP tenure",
+      "now": "Now serves as CM under the Congress party she leads"
+    }
+  ],
+  "sourceUrls": [
+    "https://en.wikipedia.org/wiki/Revanth_Reddy",
+    "https://telanganatoday.com/",
+    "https://www.thenewsminute.com/",
+    "https://www.siasat.com/"
+  ],
+  "lastUpdated": "2026-03-01"
+}

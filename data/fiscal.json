@@ -1,0 +1,22 @@
+{
+  "id": "fiscal-health",
+  "sector": "fiscal",
+  "title": "Fiscal Health",
+  "metrics": [
+    { "label": "State Debt (Projected end 2025-26)", "value": "Rs 5,04,814 crore", "context": "Approaching Rs 5 lakh crore" },
+    { "label": "Congress Borrowing (15 months)", "value": "Rs 1,52,918 crore", "context": "BRS took a decade to borrow Rs 2.8 lakh crore" },
+    { "label": "Revenue Surplus", "value": "Rs 297 crore (2024-25 BE)", "context": "Down from Rs 5,944 crore (2022-23)" },
+    { "label": "GST Growth", "value": "~0-1%", "context": "National average: 9-10%" },
+    { "label": "Capital Expenditure", "value": "27% of COTE by Q2 FY26", "context": "Initially only 8.8% in early quarters" },
+    { "label": "6 Guarantees Annual Cost", "value": "Rs 56,000 crore (budgeted)" },
+    { "label": "Kaleswaram Debt Servicing", "value": "~Rs 10,000 crore per year" }
+  ],
+  "narrative": "State debt is projected to reach Rs 5,04,814 crore by end of 2025-26. The Congress government borrowed Rs 1,52,918 crore in its first 15 months — a pace that exceeds BRS's borrowing trajectory (Rs 2.8 lakh crore over a decade). Revenue surplus collapsed from Rs 5,944 crore in 2022-23 to Rs 297 crore in the 2024-25 budget estimate. GST growth is near-flat (0-1%) against a national average of 9-10%. The six guarantee schemes consume Rs 56,000 crore annually from the budget, while Kaleswaram project debt servicing costs approximately Rs 10,000 crore per year.",
+  "sourceUrls": [
+    "https://prsindia.org/",
+    "https://telanganatoday.com/",
+    "https://www.munsifdaily.com/",
+    "https://thesouthfirst.com/"
+  ],
+  "lastUpdated": "2026-03-01"
+}

@@ -93,7 +93,7 @@ export interface Controversy {
 
 export interface SectorData {
   id: string;
-  sector: "agriculture" | "education";
+  sector: "agriculture" | "education" | "realestate" | "fiscal" | "employment";
   title: string;
   metrics: { label: string; value: string; context?: string }[];
   narrative: string;

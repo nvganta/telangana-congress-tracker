@@ -8,6 +8,9 @@ import controversiesData from "@/data/controversies.json";
 import agricultureData from "@/data/agriculture.json";
 import educationData from "@/data/education.json";
 import welfareScorecardData from "@/data/welfare-scorecard.json";
+import realestateData from "@/data/realestate.json";
+import fiscalData from "@/data/fiscal.json";
+import employmentData from "@/data/employment.json";
 import { GOVERNMENT_FORMATION_DATE } from "./constants";
 
 export function getGuarantees(): GovernmentPromise[] {
@@ -44,6 +47,18 @@ export function getEducationData(): SectorData {
 
 export function getWelfareScorecard(): WelfareScheme[] {
   return welfareScorecardData as WelfareScheme[];
+}
+
+export function getRealEstateData(): SectorData {
+  return realestateData as SectorData;
+}
+
+export function getFiscalData(): SectorData {
+  return fiscalData as SectorData;
+}
+
+export function getEmploymentData(): SectorData {
+  return employmentData as SectorData;
 }
 
 export function getControversyCost(): number {

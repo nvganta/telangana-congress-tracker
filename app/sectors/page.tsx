@@ -4,10 +4,16 @@ import { useState } from "react";
 import { SectorData, WelfareScheme } from "@/lib/types";
 import agricultureData from "@/data/agriculture.json";
 import educationData from "@/data/education.json";
+import realestateData from "@/data/realestate.json";
+import fiscalData from "@/data/fiscal.json";
+import employmentData from "@/data/employment.json";
 import welfareScorecardData from "@/data/welfare-scorecard.json";
 
 const agriculture = agricultureData as SectorData;
 const education = educationData as SectorData;
+const realestate = realestateData as SectorData;
+const fiscal = fiscalData as SectorData;
+const employment = employmentData as SectorData;
 const welfareSchemes = welfareScorecardData as WelfareScheme[];
 
 const TIER_CONFIG = {
@@ -50,9 +56,16 @@ function MetricCard({
 
 function SectorSection({ data }: { data: SectorData }) {
   const [expanded, setExpanded] = useState(true);
-  const sectorColor =
-    data.sector === "agriculture" ? "neon-text-yellow" : "neon-text-blue";
-  const sectorIcon = data.sector === "agriculture" ? "🌾" : "📚";
+  const sectorConfig: Record<string, { color: string; icon: string }> = {
+    agriculture: { color: "neon-text-yellow", icon: "🌾" },
+    education: { color: "neon-text-blue", icon: "📚" },
+    realestate: { color: "neon-text-red", icon: "🏗️" },
+    fiscal: { color: "neon-text-yellow", icon: "💰" },
+    employment: { color: "neon-text-blue", icon: "💼" },
+  };
+  const cfg = sectorConfig[data.sector] || { color: "neon-text-blue", icon: "📊" };
+  const sectorColor = cfg.color;
+  const sectorIcon = cfg.icon;
 
   return (
     <div className="mb-8">
@@ -202,8 +215,7 @@ export default function SectorsPage() {
           SECTOR <span className="neon-text-blue">ANALYSIS</span>
         </h1>
         <p className="text-[10px] text-text-muted tracking-wider mt-1">
-          AGRICULTURE, EDUCATION & WELFARE — DATA FROM GOVERNMENT RECORDS AND
-          VERIFIED REPORTS
+          WELFARE, AGRICULTURE, EDUCATION, REAL ESTATE, FISCAL & EMPLOYMENT — ALL FROM PUBLIC RECORDS
         </p>
       </div>
 
@@ -234,6 +246,9 @@ export default function SectorsPage() {
       <WelfareScorecard />
       <SectorSection data={agriculture} />
       <SectorSection data={education} />
+      <SectorSection data={employment} />
+      <SectorSection data={realestate} />
+      <SectorSection data={fiscal} />
     </div>
   );
 }
