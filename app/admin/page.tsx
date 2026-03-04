@@ -47,13 +47,21 @@ export default function AdminPage() {
     if (isAuthenticated) loadFeedback();
   }, [isAuthenticated, loadFeedback]);
 
-  const handleLogin = () => {
-    // Simple password check — in production, use env variable via API route
-    if (password === "telangana2024") {
-      setIsAuthenticated(true);
-      setError("");
-    } else {
-      setError("Invalid password");
+  const handleLogin = async () => {
+    try {
+      const res = await fetch("/api/admin/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (res.ok) {
+        setIsAuthenticated(true);
+        setError("");
+      } else {
+        setError("Invalid password");
+      }
+    } catch {
+      setError("Connection error");
     }
   };
 
@@ -111,7 +119,7 @@ export default function AdminPage() {
             LOGIN
           </button>
           <p className="text-[9px] text-text-muted mt-4">
-            Default: telangana2024 — Change this in production via env variables
+            Authorized access only
           </p>
         </div>
       </div>
