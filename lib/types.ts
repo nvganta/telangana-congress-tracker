@@ -66,6 +66,7 @@ export interface ComparisonMetric {
   congressValue: string;
   unit?: string;
   betterIs: "higher" | "lower";
+  context?: string;
   sourceUrl: string;
 }
 

@@ -30,7 +30,7 @@ export default function StatsBar({ guarantees, budget }: StatsBarProps) {
     { label: "DAYS IN POWER", value: days.toString(), color: "text-text-primary" },
     { label: "FULFILLED", value: `${promiseStats.fulfilled}/${promiseStats.total}`, color: "neon-text-green" },
     { label: "PARTIAL", value: `${promiseStats.partial}/${promiseStats.total}`, color: "neon-text-yellow" },
-    { label: "NOT STARTED", value: `${promiseStats.notStarted}/${promiseStats.total}`, color: "neon-text-red" },
+    { label: "BROKEN", value: `${promiseStats.broken}/${promiseStats.total}`, color: "neon-text-red" },
     { label: "BUDGET USED", value: `${budgetStats.utilization}%`, color: "neon-text-blue" },
     { label: "GUARANTEE GRADE", value: grade, color: gradeColor },
   ];

@@ -6,10 +6,10 @@
     "category": "guarantee",
     "subcategory": "women",
     "description": "Monthly financial assistance of ₹2,500 to every woman, LPG cylinders at ₹500, and free travel for women in TSRTC buses",
-    "status": "partially_fulfilled",
+    "status": "broken",
     "progress": 25,
     "promised": "₹2,500/month to every woman head of household, LPG at ₹500, free bus travel for women",
-    "delivered": "Free bus travel for women implemented (serving ~35 lakh women daily, ₹7,422 crore reimbursed to TSRTC). ₹500 gas cylinder subsidy launched Feb 27, 2024 for ~40 lakh white ration card families. ₹2,500/month cash transfer: zero disbursements as of March 2026. Application forms collected in Jan 2024 but no implementation steps initiated. Estimated annual cost: ~₹50,000 crore for ~90 lakh women.",
+    "delivered": "Free bus travel for women implemented (serving ~35 lakh women daily, ₹7,422 crore reimbursed to TSRTC). ₹500 gas cylinder subsidy launched Feb 27, 2024 for ~40 lakh white ration card families. ₹2,500/month cash transfer: zero disbursements as of March 2026 (818+ days). Application forms collected in Jan 2024 but no implementation steps initiated. The cash transfer was the centrepiece of this guarantee.",
     "promisedDate": "2023-11-17",
     "lastUpdated": "2026-03-01",
     "sourceUrls": [
@@ -17,7 +17,7 @@
       "https://www.business-standard.com/elections/telangana-elections/congress-launches-election-manifesto-in-telangana-promises-six-guarantees-123111700490_1.html"
     ],
     "keyMetrics": [
-      { "label": "₹2,500 Cash Transfer", "promised": "₹2,500/month to ~90L women", "actual": "Zero disbursements" },
+      { "label": "₹2,500 Cash Transfer", "promised": "₹2,500/month to ~90L women", "actual": "Zero disbursements (818+ days)" },
       { "label": "Free Bus Travel", "promised": "Free for all women", "actual": "35 lakh daily riders" },
       { "label": "LPG at ₹500", "promised": "₹500/cylinder", "actual": "Launched for ~40L families" }
     ]
@@ -87,7 +87,7 @@
     ],
     "keyMetrics": [
       { "label": "Houses Sanctioned", "promised": "All homeless families", "actual": "4.5 lakh sanctioned" },
-      { "label": "Houses Completed", "promised": "Immediate", "actual": "Very few (first on Sep 3, 2025)" },
+      { "label": "Houses Completed", "promised": "Immediate", "actual": "First inauguration Sep 3, 2025" },
       { "label": "Budget Utilization", "promised": "₹5,800 crore", "actual": "₹800 crore spent (14%)" }
     ]
   },
@@ -287,17 +287,17 @@
     "category": "manifesto",
     "subcategory": "jobs",
     "description": "Monthly unemployment allowance of ₹4,000 to educated unemployed youth",
-    "status": "not_started",
+    "status": "broken",
     "progress": 0,
     "promised": "₹4,000/month unemployment allowance to educated unemployed youth",
-    "delivered": "Zero implementation. Deputy CM Bhatti Vikramarka publicly denied in December 2024 that Congress had made this promise, contradicting recorded statements by Priyanka Gandhi during the election campaign.",
+    "delivered": "Zero implementation in 818+ days. Deputy CM Bhatti Vikramarka publicly denied in December 2024 that Congress had made this promise, contradicting recorded statements by Priyanka Gandhi during the election campaign. No application process, no budget allocation, no pilot programme.",
     "promisedDate": "2023-11-17",
     "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
     ],
     "keyMetrics": [
-      { "label": "Implementation", "promised": "₹4,000/month", "actual": "Zero" },
+      { "label": "Implementation", "promised": "₹4,000/month", "actual": "Zero (818+ days)" },
       { "label": "Government Response", "promised": "-", "actual": "Deputy CM denied promise was made" }
     ]
   },
@@ -307,17 +307,17 @@
     "category": "manifesto",
     "subcategory": "education",
     "description": "Education cards worth ₹5 lakh for students to cover educational expenses",
-    "status": "not_started",
+    "status": "broken",
     "progress": 0,
     "promised": "Vidya Bharosa cards worth ₹5 lakh per student for educational expenses",
-    "delivered": "Zero implementation. No application process established. No pilot programme. No distribution.",
+    "delivered": "Zero implementation in 818+ days. No application process established. No pilot programme. No budget allocation. No distribution.",
     "promisedDate": "2023-11-17",
     "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
     ],
     "keyMetrics": [
-      { "label": "Cards Distributed", "promised": "For all students", "actual": "Zero" }
+      { "label": "Cards Distributed", "promised": "For all students", "actual": "Zero (818+ days)" }
     ]
   },
   {
@@ -326,17 +326,17 @@
     "category": "manifesto",
     "subcategory": "pension",
     "description": "Restore the Old Pension Scheme (OPS) for government employees",
-    "status": "not_started",
+    "status": "broken",
     "progress": 0,
     "promised": "Restore Old Pension Scheme for ~2.2 lakh CPS (Contributory Pension Scheme) employees",
-    "delivered": "No Government Order issued. No committee formed. No timeline provided. Affects ~2.2 lakh government employees currently under CPS.",
+    "delivered": "Zero implementation in 818+ days. No Government Order issued. No committee formed. No timeline provided. Affects ~2.2 lakh government employees currently under CPS.",
     "promisedDate": "2023-11-17",
     "lastUpdated": "2026-03-01",
     "sourceUrls": [
       "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
     ],
     "keyMetrics": [
-      { "label": "GO Issued", "promised": "Restore OPS", "actual": "No GO issued" },
+      { "label": "GO Issued", "promised": "Restore OPS", "actual": "No GO issued (818+ days)" },
       { "label": "Affected Employees", "promised": "~2.2 lakh", "actual": "Still on CPS" }
     ]
   },
@@ -380,6 +380,369 @@
       { "label": "Posts Notified", "promised": "20,000", "actual": "11,062" },
       { "label": "Appointed", "promised": "-", "actual": "~10,006" },
       { "label": "Vacancies Remaining", "promised": "Zero", "actual": "19,000+" }
+    ]
+  },
+  {
+    "id": "mahalakshmi-cash",
+    "name": "₹2,500 Monthly Cash Transfer to Women",
+    "category": "manifesto",
+    "subcategory": "women",
+    "description": "Monthly cash transfer of ₹2,500 to every woman head of household",
+    "status": "broken",
+    "progress": 0,
+    "promised": "₹2,500/month direct cash transfer to ~90 lakh women heads of household",
+    "delivered": "Zero disbursements in 818+ days. Application forms were collected in January 2024, but no processing, no pilot, and no implementation steps taken. Estimated annual cost ~₹50,000 crore makes this promise financially unsustainable at current revenue levels.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Disbursements", "promised": "₹2,500/month", "actual": "Zero (818+ days)" },
+      { "label": "Estimated Annual Cost", "promised": "-", "actual": "~₹50,000 crore" }
+    ]
+  },
+  {
+    "id": "free-internet-students",
+    "name": "Free Internet for Students",
+    "category": "manifesto",
+    "subcategory": "education",
+    "description": "Free internet connectivity for all students in Telangana",
+    "status": "broken",
+    "progress": 0,
+    "promised": "Free internet for all students across Telangana",
+    "delivered": "Zero implementation. No scheme launched, no pilot programme, no budget allocation.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Implementation", "promised": "Free internet for students", "actual": "Zero" }
+    ]
+  },
+  {
+    "id": "agri-labour-support",
+    "name": "₹12,000/Year for Agricultural Labour",
+    "category": "manifesto",
+    "subcategory": "farmers",
+    "description": "Annual financial support of ₹12,000 to agricultural labour families",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "₹12,000/year to every agricultural labour family",
+    "delivered": "Zero implementation. Part of the Rythu Bharosa guarantee but not addressed in the scheme's launch. No separate mechanism created for agricultural labourers.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Disbursements", "promised": "₹12,000/year", "actual": "Zero" }
+    ]
+  },
+  {
+    "id": "interest-free-loans",
+    "name": "Interest-Free Crop Loans up to ₹3 Lakh",
+    "category": "manifesto",
+    "subcategory": "farmers",
+    "description": "Interest-free crop loans up to ₹3 lakh for farmers",
+    "status": "partially_fulfilled",
+    "progress": 30,
+    "promised": "Interest-free crop loans up to ₹3 lakh for all farmers",
+    "delivered": "Government has been providing interest subvention on crop loans but the full ₹3 lakh threshold with zero interest has not been universally implemented. Coverage remains patchy across districts.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Loan Limit", "promised": "₹3 lakh at 0%", "actual": "Partial interest subvention" }
+    ]
+  },
+  {
+    "id": "minimum-support-price",
+    "name": "Bonus Over MSP for Crops",
+    "category": "manifesto",
+    "subcategory": "farmers",
+    "description": "Additional bonus above the central MSP for key crops",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Bonus over central MSP for paddy, cotton, and other key crops",
+    "delivered": "No state-level bonus announced. Central MSP applies. BRS had provided a ₹500-₹1,000/quintal bonus for fine rice varieties.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "State Bonus", "promised": "Bonus over MSP", "actual": "No bonus announced" }
+    ]
+  },
+  {
+    "id": "sc-st-sub-plan",
+    "name": "SC/ST Sub-Plan Full Implementation",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Full allocation and spending of SC/ST sub-plan funds proportional to population",
+    "status": "partially_fulfilled",
+    "progress": 45,
+    "promised": "Full allocation and spending of SC/ST sub-plan funds per population proportion",
+    "delivered": "Allocations increased in Budget 2024-25 but utilization remains below allocation. Dalit Bandhu scheme coverage expanded but at reduced amounts.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Allocation", "promised": "Per population ratio", "actual": "Increased but underutilized" }
+    ]
+  },
+  {
+    "id": "double-bedroom-houses",
+    "name": "Complete BRS-Era Double Bedroom Houses",
+    "category": "manifesto",
+    "subcategory": "housing",
+    "description": "Complete the unfinished double bedroom housing projects started under BRS",
+    "status": "partially_fulfilled",
+    "progress": 20,
+    "promised": "Complete all pending 2BHK double bedroom houses started by BRS government",
+    "delivered": "Of ~2.8 lakh incomplete 2BHK units inherited, a small fraction have been completed. Many projects remain stalled due to contractor disputes and land issues.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Inherited Pending", "promised": "Complete all", "actual": "~2.8 lakh units pending" }
+    ]
+  },
+  {
+    "id": "dharani-portal-reform",
+    "name": "Dharani Portal Reform",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Reform the Dharani land records portal to address grievances and enable transparent land transactions",
+    "status": "partially_fulfilled",
+    "progress": 35,
+    "promised": "Overhaul Dharani portal to fix land record errors, enable sub-registrar involvement, and process pending mutation requests",
+    "delivered": "Committee formed under Akunuri Murali to study reforms. Some fixes to mutation errors implemented. Sub-registrar offices restored for certain functions. But fundamental portal issues remain — farmers report ongoing inability to correct land records.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Reform Status", "promised": "Complete overhaul", "actual": "Committee formed, partial fixes" }
+    ]
+  },
+  {
+    "id": "rs-rice-1-per-kg",
+    "name": "₹1/kg Rice (continued)",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Continue providing rice at ₹1 per kg under PDS",
+    "status": "fulfilled",
+    "progress": 90,
+    "promised": "Continue ₹1/kg rice through PDS for all ration card holders",
+    "delivered": "Scheme continued. ~87 lakh ration card families continue to receive rice at ₹1/kg through the PDS network.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Families Covered", "promised": "All ration card holders", "actual": "~87 lakh families" }
+    ]
+  },
+  {
+    "id": "fee-reimbursement",
+    "name": "Fee Reimbursement for Students",
+    "category": "manifesto",
+    "subcategory": "education",
+    "description": "Continue and expand fee reimbursement scheme for students from economically weaker sections",
+    "status": "partially_fulfilled",
+    "progress": 55,
+    "promised": "Fee reimbursement for all eligible students; clear pending arrears from BRS era",
+    "delivered": "Scheme continued but pending arrears of ~₹5,000 crore from BRS era not fully cleared. Current disbursements ongoing but with delays. Private college operators report payment backlogs.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Pending Arrears", "promised": "Clear all arrears", "actual": "~₹5,000 crore still pending" }
+    ]
+  },
+  {
+    "id": "police-recruitment",
+    "name": "Police Recruitment (12,452 Posts)",
+    "category": "manifesto",
+    "subcategory": "jobs",
+    "description": "Fill 12,452 vacant police constable and SI posts",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Recruit 12,452 police constables and sub-inspectors to fill vacancies",
+    "delivered": "Notification not issued as of March 2026. SC sub-categorization court case delayed the process. Posts remain vacant.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Notification", "promised": "12,452 posts", "actual": "Not issued" }
+    ]
+  },
+  {
+    "id": "group2-recruitment",
+    "name": "Group 2 Recruitment",
+    "category": "manifesto",
+    "subcategory": "jobs",
+    "description": "Complete Group 2 recruitment for government positions",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Conduct Group 2 recruitment exams and fill posts",
+    "delivered": "Group 2 exam notification not issued. TSPSC reform committee was formed but recruitment process has not commenced.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+    ],
+    "keyMetrics": [
+      { "label": "Notification", "promised": "Group 2 posts", "actual": "Not issued" }
+    ]
+  },
+  {
+    "id": "fit-india-centres",
+    "name": "Fitness Centres in Every Constituency",
+    "category": "manifesto",
+    "subcategory": "infrastructure",
+    "description": "Establish Fit India centres with gym and sports facilities in every Assembly constituency",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Fitness centres in all 119 Assembly constituencies",
+    "delivered": "Zero implementation. No centres established or announced.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Centres Built", "promised": "119", "actual": "Zero" }
+    ]
+  },
+  {
+    "id": "minority-welfare",
+    "name": "Minority Welfare Enhancement",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Increase scholarships and establish minority residential schools",
+    "status": "partially_fulfilled",
+    "progress": 40,
+    "promised": "Enhanced minority scholarships, new minority residential schools, Shadi Mubarak enhanced to ₹1 lakh",
+    "delivered": "Shadi Mubarak enhanced from ₹1 lakh to ₹1.5 lakh for minority girls. Some scholarship increases announced. New minority residential schools: announced but none operational.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Shadi Mubarak", "promised": "₹1 lakh → enhanced", "actual": "₹1.5 lakh" }
+    ]
+  },
+  {
+    "id": "musi-riverfront",
+    "name": "Musi Riverfront Development",
+    "category": "manifesto",
+    "subcategory": "infrastructure",
+    "description": "Clean and develop Musi River with a world-class riverfront",
+    "status": "partially_fulfilled",
+    "progress": 5,
+    "promised": "Clean Musi River and develop a Thames-like riverfront in Hyderabad",
+    "delivered": "Musi Riverfront Development Corporation formed. Estimated cost: ₹1.5 lakh crore. Massive demolition drives along the river displaced thousands of families. Environmental clearances pending. Actual river cleaning: minimal progress. Project has become a major controversy.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Estimated Cost", "promised": "World-class riverfront", "actual": "₹1.5 lakh crore" },
+      { "label": "Families Displaced", "promised": "Rehabilitation", "actual": "Thousands displaced" }
+    ]
+  },
+  {
+    "id": "outer-ring-road-phase2",
+    "name": "Outer Ring Road Phase 2",
+    "category": "manifesto",
+    "subcategory": "infrastructure",
+    "description": "Build Phase 2 of Hyderabad Outer Ring Road",
+    "status": "not_started",
+    "progress": 0,
+    "promised": "Complete ORR Phase 2 connecting remaining areas around Hyderabad",
+    "delivered": "DPR (Detailed Project Report) under preparation. No construction started. Land acquisition not initiated.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Status", "promised": "Complete ORR Phase 2", "actual": "DPR stage only" }
+    ]
+  },
+  {
+    "id": "health-centres-upgrade",
+    "name": "PHC/CHC Upgradation",
+    "category": "manifesto",
+    "subcategory": "health",
+    "description": "Upgrade Primary and Community Health Centres across all districts",
+    "status": "partially_fulfilled",
+    "progress": 25,
+    "promised": "Upgrade PHCs and CHCs to provide 24/7 services with adequate staff and equipment",
+    "delivered": "Some upgrades initiated in select districts. Staff vacancies remain high — ~40% of specialist doctor posts vacant in rural CHCs. Equipment procurement in progress for ~200 centres.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "Doctor Vacancies", "promised": "Fully staffed", "actual": "~40% specialist posts vacant" }
+    ]
+  },
+  {
+    "id": "metro-expansion",
+    "name": "Hyderabad Metro Expansion",
+    "category": "manifesto",
+    "subcategory": "infrastructure",
+    "description": "Extend Hyderabad Metro to Old City and Airport",
+    "status": "partially_fulfilled",
+    "progress": 10,
+    "promised": "Extend metro to Old City (Falaknuma), Airport, and other areas",
+    "delivered": "DPR approved for Airport Express line (~31 km). Old City extension: DPR stage. No construction started on any new corridor. Airport line estimated at ₹6,250 crore.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "New Corridors Started", "promised": "Multiple extensions", "actual": "Zero construction started" }
+    ]
+  },
+  {
+    "id": "kaleshwaram-white-paper",
+    "name": "White Paper on Kaleshwaram",
+    "category": "manifesto",
+    "subcategory": "other",
+    "description": "Release white paper on Kaleshwaram project irregularities and fix structural issues",
+    "status": "partially_fulfilled",
+    "progress": 30,
+    "promised": "Publish white paper exposing Kaleshwaram cost overruns and structural failures",
+    "delivered": "Justice Ghose Commission report submitted but not made fully public. Partial findings released showing cost escalation from ₹38,000 cr to ₹1.47 lakh cr. Medigadda barrage repairs ongoing. No comprehensive white paper published.",
+    "promisedDate": "2023-11-17",
+    "lastUpdated": "2026-03-01",
+    "sourceUrls": [
+      "https://telanganatoday.com/"
+    ],
+    "keyMetrics": [
+      { "label": "White Paper", "promised": "Publish findings", "actual": "Commission report, no white paper" }
     ]
   }
 ]

@@ -10,14 +10,68 @@
     "sourceUrl": "https://www.business-standard.com/"
   },
   {
-    "id": "per-capita-income",
-    "metric": "Per Capita Income",
+    "id": "per-capita-growth",
+    "metric": "Per Capita Income Growth Rate",
     "category": "Economy",
-    "brsValue": "₹2,87,951",
-    "congressValue": "₹3,17,000",
-    "unit": "annual",
+    "brsValue": "~9% CAGR",
+    "congressValue": "~5% CAGR",
+    "unit": "compound annual growth",
     "betterIs": "higher",
+    "context": "Absolute per capita income always rises with inflation — growth rate is the meaningful comparison",
     "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "sotr-growth",
+    "metric": "State's Own Tax Revenue (SOTR) Growth",
+    "category": "Economy",
+    "brsValue": "18.3% avg",
+    "congressValue": "~1%",
+    "unit": "annual growth %",
+    "betterIs": "higher",
+    "context": "SOTR reflects the state's independent revenue-generating capacity",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "revenue-surplus",
+    "metric": "Revenue Surplus",
+    "category": "Budget",
+    "brsValue": "₹5,944 cr",
+    "congressValue": "₹297 cr",
+    "unit": "crores",
+    "betterIs": "higher",
+    "context": "Revenue surplus = revenue receipts minus revenue expenditure. Higher means fiscal headroom",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "annual-borrowing",
+    "metric": "Annual Borrowing Pace",
+    "category": "Budget",
+    "brsValue": "₹32,119 cr/yr",
+    "congressValue": "₹64,539 cr/yr",
+    "unit": "crores/year",
+    "betterIs": "lower",
+    "context": "Congress is borrowing at 2x the rate of BRS despite inheriting established revenue streams",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "state-debt",
+    "metric": "State Debt",
+    "category": "Budget",
+    "brsValue": "₹3.9 lakh cr",
+    "congressValue": "₹4.2 lakh cr",
+    "unit": "lakh crores",
+    "betterIs": "lower",
+    "sourceUrl": "https://www.business-standard.com/"
+  },
+  {
+    "id": "welfare-spending",
+    "metric": "Welfare Scheme Allocation",
+    "category": "Budget",
+    "brsValue": "₹35,000 cr/year",
+    "congressValue": "₹53,196 cr/year",
+    "unit": "crores",
+    "betterIs": "higher",
+    "sourceUrl": "https://www.businesstoday.in/latest/policy/story/telangana-budget-revanth-reddy-led-govt-proposed-to-spend-rs-53196-cr-for-6-poll-guarantees-416997-2024-02-10"
   },
   {
     "id": "unemployment-rate",
@@ -37,7 +91,19 @@
     "congressValue": "~57,946",
     "unit": "positions",
     "betterIs": "higher",
+    "context": "Congress promised 2 lakh jobs in Year 1 — 57,946 is 29% of that target",
     "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
+  },
+  {
+    "id": "farmer-suicides",
+    "metric": "Farmer Suicides (per year)",
+    "category": "Agriculture",
+    "brsValue": "~178/yr (2022)",
+    "congressValue": "~400/yr (2024-25)",
+    "unit": "deaths/year",
+    "betterIs": "lower",
+    "context": "793 farmer suicides recorded in first 2 years of Congress rule vs 178 in BRS's final year",
+    "sourceUrl": "https://telanganatoday.com/"
   },
   {
     "id": "farmer-loan-waiver",
@@ -47,27 +113,8 @@
     "congressValue": "₹20,617 cr (2024-25)",
     "unit": "crores",
     "betterIs": "higher",
+    "context": "Congress target was ₹31,000 cr for 50 lakh farmers — only 25 lakh covered (50%)",
     "sourceUrl": "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
-  },
-  {
-    "id": "welfare-spending",
-    "metric": "Welfare Scheme Allocation",
-    "category": "Budget",
-    "brsValue": "₹35,000 cr/year",
-    "congressValue": "₹53,196 cr/year",
-    "unit": "crores",
-    "betterIs": "higher",
-    "sourceUrl": "https://www.businesstoday.in/latest/policy/story/telangana-budget-revanth-reddy-led-govt-proposed-to-spend-rs-53196-cr-for-6-poll-guarantees-416997-2024-02-10"
-  },
-  {
-    "id": "state-debt",
-    "metric": "State Debt",
-    "category": "Budget",
-    "brsValue": "₹3.9 lakh cr",
-    "congressValue": "₹4.2 lakh cr",
-    "unit": "lakh crores",
-    "betterIs": "lower",
-    "sourceUrl": "https://www.business-standard.com/"
   },
   {
     "id": "electricity-free-units",

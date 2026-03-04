@@ -145,6 +145,11 @@ export default function ComparePage() {
                             )}
                           </div>
                         </div>
+                        {metric.context && (
+                          <p className="text-[9px] text-accent-yellow/80 mt-2 italic">
+                            {metric.context}
+                          </p>
+                        )}
                         <a
                           href={metric.sourceUrl}
                           target="_blank"
