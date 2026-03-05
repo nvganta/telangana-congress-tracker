@@ -15,29 +15,34 @@ export const RSS_FEEDS = [
     language: "te",
   },
   {
+    url: "https://news.google.com/rss/search?q=Telangana+government+policy+scheme+budget&hl=en-IN&gl=IN&ceid=IN:en",
+    name: "Google News (Governance)",
+    language: "en",
+  },
+  {
+    url: "https://news.google.com/rss/search?q=Revanth+Reddy+Telangana&hl=en-IN&gl=IN&ceid=IN:en",
+    name: "Google News (CM)",
+    language: "en",
+  },
+  {
     url: "https://telanganatoday.com/feed",
     name: "Telangana Today",
     language: "en",
   },
   {
     url: "https://www.thehindu.com/news/national/telangana/feeder/default.rss",
-    name: "The Hindu",
+    name: "The Hindu (Telangana)",
     language: "en",
   },
   {
-    url: "https://www.deccanchronicle.com/nation/in-other-news/rss",
-    name: "Deccan Chronicle",
+    url: "https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss",
+    name: "The Hindu (Hyderabad)",
     language: "en",
   },
   {
-    url: "https://feeds.ndtv.com/india-news/rss",
-    name: "NDTV",
+    url: "https://indianexpress.com/section/cities/hyderabad/feed/",
+    name: "Indian Express",
     language: "en",
-  },
-  {
-    url: "https://telugu.oneindia.com/rss/telugu-news-fb.xml",
-    name: "Oneindia Telugu",
-    language: "te",
   },
 ];
 

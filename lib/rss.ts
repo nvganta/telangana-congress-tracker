@@ -55,6 +55,58 @@ function isTelanganRelated(title: string): boolean {
   return keywords.some((kw) => lowerTitle.includes(kw));
 }
 
+function isGovernanceRelated(title: string): boolean {
+  const lower = title.toLowerCase();
+
+  // Block non-governance topics outright
+  const blockKeywords = [
+    "cricket", "ipl", "volleyball", "kabaddi", "badminton", "tennis", "sports",
+    "tollywood", "bollywood", "movie", "film", "actress", "actor", "box office",
+    "celebrity", "entertainment", "song", "trailer", "ott", "web series",
+    "drowning", "drowned", "road accident", "car crash", "bike accident",
+    "dies by suicide", "found dead", "body found", "murder case", "honour killing",
+    "drug bust", "mdma", "ganja seized", "narcotics", "drug peddl",
+    "weather forecast", "temperature", "rainfall warning", "heatwave",
+    "recipe", "food festival", "restaurant", "lifestyle",
+    "iit jee", "neet result", "exam result", "admit card",
+    "t20", "odi ", "test match", "world cup", "premier league",
+    "wedding", "engagement", "birthday", "funeral",
+  ];
+  if (blockKeywords.some((kw) => lower.includes(kw))) return false;
+
+  // Require at least one governance/political keyword
+  const governanceKeywords = [
+    // Political actors & parties
+    "government", "govt", "congress", "brs", "bjp", "trs", "minister",
+    "cm ", "chief minister", "revanth", "kcr", "bhatti", "rahul gandhi",
+    "mla", "mp ", "speaker", "governor", "collector",
+    // Government actions
+    "policy", "scheme", "budget", "bill", "legislation", "order", "notification",
+    "reform", "regulation", "ordinance", "cabinet", "assembly", "parliament",
+    "election", "vote", "poll", "campaign", "manifesto",
+    // Governance topics
+    "welfare", "subsidy", "pension", "loan waiver", "free electricity",
+    "free bus", "ration", "housing scheme", "land reform",
+    "guarantee", "promise", "inaugurat", "launch", "allocat",
+    "crore", "fiscal", "tax", "revenue", "expenditure", "debt",
+    // Specific schemes & programs
+    "mahalakshmi", "rythu bharosa", "gruha jyothi", "indiramma",
+    "cheyutha", "yuva vikasam", "abhaya hastham", "dharani",
+    "kaleshwaram", "musi river", "hydraa", "pharma city",
+    "metro", "outer ring road", "regional ring road",
+    // Government bodies
+    "tspsc", "tsrtc", "ghmc", "hmda", "tsgenco", "tsspdcl",
+    "high court", "supreme court", "tribunal",
+    // Accountability
+    "scam", "corruption", "probe", "investigation", "arrest",
+    "controversy", "allegation", "accused", "chargesheet",
+    "audit", "cag report", "white paper", "opposition",
+    // Telugu governance terms
+    "ప్రభుత్వ", "పథకం", "బడ్జెట్", "సంక్షేమ", "హామీ",
+  ];
+  return governanceKeywords.some((kw) => lower.includes(kw));
+}
+
 function categorizeNews(title: string): NewsItem["category"] {
   const lower = title.toLowerCase();
 
@@ -100,8 +152,12 @@ export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
     }
   }
 
-  // Filter all items for Telangana relevance — even "Telangana Today" publishes general news
-  const filtered = allItems.filter((item) => isTelanganRelated(item.title));
+  // Two-pass filter:
+  // 1. Must be Telangana-related (location/people keywords)
+  // 2. Must be governance-related (political/policy content, not sports/entertainment/accidents)
+  const filtered = allItems.filter(
+    (item) => isTelanganRelated(item.title) && isGovernanceRelated(item.title)
+  );
 
   // Sort by date, newest first
   filtered.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
