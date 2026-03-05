@@ -1,7 +1,7 @@
 
 # How This Thing Works
 
-So you built this Telangana Congress accountability tracker and you want to remember how everything fits together. Cool. Here's the full breakdown, like I'm sitting next to you explaining it over chai.
+So Telangana Congress is an accountability tracker and you want to remember how everything fits together. Cool. Here's the full breakdown, like I'm sitting next to you explaining it over chai.
 
 
 ## The Big Picture
@@ -69,7 +69,7 @@ These functions are called from the pages, which are server components, so all t
 
 ## How the News Feed Works
 
-This is probably the most complex part. The site aggregates news from 8 different RSS feeds to show a live "Latest Developments" section.
+This is probably the most complex part. The site aggregates news from 8 different RSS feeds to show a live "Latest News" section.
 
 The feeds are defined in lib/constants.ts:
 

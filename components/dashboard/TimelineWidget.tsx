@@ -29,7 +29,7 @@ export default function TimelineWidget() {
     <div className="glow-card p-4 h-full">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-[11px] tracking-[0.3em] text-text-secondary font-semibold">
-          LATEST DEVELOPMENTS
+          LATEST NEWS
         </h2>
         <div className="flex items-center gap-1.5">
           <span className="relative flex h-1.5 w-1.5">
