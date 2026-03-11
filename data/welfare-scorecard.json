@@ -5,7 +5,7 @@
     "tier": "fully_implemented",
     "description": "35 lakh women using TSRTC buses daily for free",
     "keyMetric": "Rs 7,422 crore reimbursed to TSRTC",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://www.etvbharat.com/en/!state/mahalakshmi-scheme-crosses-200-crore-mark-in-free-bus-travel-enn25072302415"
   },
   {
     "id": "arogyasri-expansion",
@@ -13,7 +13,7 @@
     "tier": "fully_implemented",
     "description": "Health coverage expanded to Rs 10 lakh per family",
     "keyMetric": "90 lakh families covered",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
   },
   {
     "id": "caste-census",
@@ -21,7 +21,7 @@
     "tier": "fully_implemented",
     "description": "Comprehensive caste survey completed across Telangana",
     "keyMetric": "3.54 crore individuals surveyed",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://www.thenewsminute.com/telangana/telangana-caste-survey-bcs-comprise-56-of-the-states-population"
   },
   {
     "id": "gas-cylinder-subsidy",
@@ -29,7 +29,7 @@
     "tier": "fully_implemented",
     "description": "LPG cylinders subsidized to Rs 500 from market price",
     "keyMetric": "~40 lakh families receiving subsidy",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
   },
   {
     "id": "gruha-jyothi",
@@ -37,7 +37,7 @@
     "tier": "partially_implemented",
     "description": "200 units free electricity per household per month",
     "keyMetric": "42.25 lakh households enrolled; 2.50 lakh eligible still receiving bills",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://telanganatoday.com/gruha-jyothi-lakhs-of-eligible-consumers-deprived-of-state-governments-free-power-scheme"
   },
   {
     "id": "crop-loan-waiver",
@@ -45,7 +45,7 @@
     "tier": "partially_implemented",
     "description": "Complete crop loan waiver up to Rs 2 lakh promised",
     "keyMetric": "25 lakh of 50 lakh targeted farmers covered; Rs 20,617 crore disbursed",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://clw.telangana.gov.in/About.aspx"
   },
   {
     "id": "indiramma-indlu",
@@ -53,7 +53,7 @@
     "tier": "partially_implemented",
     "description": "Free house site + Rs 5 lakh construction assistance",
     "keyMetric": "4.5 lakh sanctioned; first houses inaugurated Sept 3, 2025 — 21 months after taking office",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://indirammaindlu.telangana.gov.in/"
   },
   {
     "id": "cheyutha-pension",
@@ -61,7 +61,7 @@
     "tier": "partially_implemented",
     "description": "Rs 4,000/month pension for senior citizens, widows, disabled",
     "keyMetric": "Pension amounts increased but conflicting reports on reaching full Rs 4,000 across all categories",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-budget-2025-26-congress-government-allocates-over-one-third-for-welfare-schemes/"
   },
   {
     "id": "mahalakshmi-cash",
@@ -69,7 +69,7 @@
     "tier": "zero_implementation",
     "description": "Rs 2,500 monthly cash transfer to every woman head of household",
     "keyMetric": "Zero disbursements. No pilot programme. No registration portal. Estimated annual cost: ~Rs 50,000 crore",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/congress-claims-90-lakh-women-receive-rs-2500-in-telangana-heres-the-reality/"
   },
   {
     "id": "unemployment-allowance",
@@ -77,7 +77,7 @@
     "tier": "zero_implementation",
     "description": "Monthly allowance for unemployed youth",
     "keyMetric": "Zero implementation. Deputy CM publicly denied the promise was ever made — manifesto contradicts him",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/vikramarka-denies-making-unemployment-allowance-promise-manifesto-disagrees/"
   },
   {
     "id": "old-pension-scheme",
@@ -85,7 +85,7 @@
     "tier": "zero_implementation",
     "description": "Restore the Old Pension Scheme for government employees",
     "keyMetric": "Zero implementation",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
   },
   {
     "id": "vidya-bharosa",
@@ -93,6 +93,6 @@
     "tier": "zero_implementation",
     "description": "Education support cards for students",
     "keyMetric": "Zero implementation",
-    "sourceUrl": "https://thesouthfirst.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
   }
 ]

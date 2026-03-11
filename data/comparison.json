@@ -7,7 +7,7 @@
     "congressValue": "9.5%",
     "unit": "annual %",
     "betterIs": "higher",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://statisticstimes.com/economy/india/telangana-economy.php"
   },
   {
     "id": "per-capita-growth",
@@ -18,7 +18,7 @@
     "unit": "compound annual growth",
     "betterIs": "higher",
     "context": "Absolute per capita income always rises with inflation — growth rate is the meaningful comparison",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://www.siasat.com/telanganas-per-capita-income-at-rs-3-79-lakh-far-ahead-of-national-average-3197275/"
   },
   {
     "id": "sotr-growth",
@@ -29,7 +29,7 @@
     "unit": "annual growth %",
     "betterIs": "higher",
     "context": "SOTR reflects the state's independent revenue-generating capacity",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://prsindia.org/budgets/states/telangana-budget-analysis-2024-25"
   },
   {
     "id": "revenue-surplus",
@@ -40,7 +40,7 @@
     "unit": "crores",
     "betterIs": "higher",
     "context": "Revenue surplus = revenue receipts minus revenue expenditure. Higher means fiscal headroom",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://prsindia.org/budgets/states/telangana-budget-analysis-2024-25"
   },
   {
     "id": "annual-borrowing",
@@ -51,7 +51,7 @@
     "unit": "crores/year",
     "betterIs": "lower",
     "context": "Congress is borrowing at 2x the rate of BRS despite inheriting established revenue streams",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://telanganatoday.com/telanganas-debt-crosses-rs-2-lakh-crore-in-just-19-months-of-congress-rule"
   },
   {
     "id": "state-debt",
@@ -61,7 +61,7 @@
     "congressValue": "₹4.2 lakh cr",
     "unit": "lakh crores",
     "betterIs": "lower",
-    "sourceUrl": "https://www.business-standard.com/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-debt-rises-as-borrowings-continue-under-congress-rule/"
   },
   {
     "id": "welfare-spending",
@@ -81,7 +81,7 @@
     "congressValue": "4.1%",
     "unit": "%",
     "betterIs": "lower",
-    "sourceUrl": "https://thesouthfirst.com/telangana/"
+    "sourceUrl": "https://thesouthfirst.com/telangana/telangana-congress-government-a-long-list-of-unkept-promises/"
   },
   {
     "id": "govt-jobs-filled",
@@ -103,7 +103,7 @@
     "unit": "deaths/year",
     "betterIs": "lower",
     "context": "793 farmer suicides recorded in first 2 years of Congress rule vs 178 in BRS's final year",
-    "sourceUrl": "https://telanganatoday.com/"
+    "sourceUrl": "https://telanganatoday.com/telangana-farmer-suicides-surge-again-with-793-cases-since-congress-came-to-power"
   },
   {
     "id": "farmer-loan-waiver",
@@ -114,7 +114,7 @@
     "unit": "crores",
     "betterIs": "higher",
     "context": "Congress target was ₹31,000 cr for 50 lakh farmers — only 25 lakh covered (50%)",
-    "sourceUrl": "https://www.opindia.com/2024/04/congress-telangana-public-6-guarantees-assembly-elections/"
+    "sourceUrl": "https://clw.telangana.gov.in/About.aspx"
   },
   {
     "id": "electricity-free-units",
