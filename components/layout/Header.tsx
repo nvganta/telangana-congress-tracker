@@ -194,11 +194,18 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile nav */}
-      <div className="md:hidden border-t border-border-default overflow-x-auto">
-        <div className="flex px-4 gap-1 py-1 whitespace-nowrap">
+      {/* Mobile nav — primary sections first, then gov sub-items in a separate
+          scroll row. Much easier to parse than one long undifferentiated scroll. */}
+      <div className="md:hidden border-t border-border-default">
+        {/* Primary row — the 4 top-level destinations */}
+        <div className="flex px-4 gap-1 py-1.5 whitespace-nowrap overflow-x-auto">
           <MobileLink href="/" label="DASHBOARD" pathname={pathname} />
-          <MobileDivider />
+          <MobileLink href="/map" label="MAP" pathname={pathname} />
+          <MobileLink href="/districts" label="DISTRICTS" pathname={pathname} />
+          <MobileLink href="/timeline" label="TIMELINE" pathname={pathname} />
+        </div>
+        {/* Secondary row — government track-record pages */}
+        <div className="flex px-4 gap-1 pb-1.5 whitespace-nowrap overflow-x-auto border-t border-border-default/40">
           <MobileSectionLabel label="GOVT" />
           {governmentItems.map((item) => (
             <MobileLink
@@ -208,10 +215,6 @@ export default function Header() {
               pathname={pathname}
             />
           ))}
-          <MobileDivider />
-          <MobileLink href="/map" label="MAP" pathname={pathname} />
-          <MobileLink href="/districts" label="DISTRICTS" pathname={pathname} />
-          <MobileLink href="/timeline" label="TIMELINE" pathname={pathname} />
         </div>
       </div>
     </header>
