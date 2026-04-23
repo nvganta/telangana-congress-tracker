@@ -99,6 +99,17 @@ body::before {
 .glow-yellow { box-shadow: var(--glow-yellow); border-color: var(--accent-yellow); }
 .glow-blue { box-shadow: var(--glow-blue); border-color: var(--accent-blue); }
 
+/* Map district paths — kill the browser focus ring around the SVG path bbox.
+   Replace with a subtle keyboard-only indicator via focus-visible. */
+.district-path {
+  outline: none;
+}
+.district-path:focus { outline: none; }
+.district-path:focus-visible {
+  outline: 2px dashed rgba(0, 153, 255, 0.65);
+  outline-offset: 2px;
+}
+
 /* Pulsing live indicator */
 @keyframes pulse-live {
   0%, 100% { opacity: 1; }
