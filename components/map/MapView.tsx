@@ -336,9 +336,13 @@ export default function MapView({
         </div>
       </div>
 
-      {/* Side panel — desktop: always visible right column.
-          Mobile: hidden when empty, slides up as a bottom sheet when a district is selected. */}
-      <div className="hidden lg:block">
+      {/* Side panel
+          - Desktop (lg+): always visible in the right column; shows the
+            "no district selected" placeholder when nothing is picked.
+          - Mobile: stacks below the map (no overlay, no fixed positioning)
+            and only renders when a district is selected — so the zoomed
+            map at top stays visible and the info flows below it. */}
+      <div className={selectedDistrict ? "" : "hidden lg:block"}>
         <DistrictSidePanel
           district={selectedDistrict}
           news={
@@ -349,35 +353,6 @@ export default function MapView({
           onClose={() => setSelectedGeojsonName(null)}
         />
       </div>
-
-      {/* Mobile bottom sheet — only renders when a district is selected.
-          Slides up from the bottom with backdrop click to dismiss. */}
-      {selectedDistrict && (
-        <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 animate-slide-up">
-          <div
-            className="absolute inset-0 -top-[100vh] bg-black/40 backdrop-blur-sm"
-            onClick={() => setSelectedGeojsonName(null)}
-            aria-hidden="true"
-          />
-          <div className="relative max-h-[75vh] overflow-y-auto rounded-t-xl border border-border-default bg-bg-card shadow-2xl">
-            {/* Drag handle */}
-            <div className="sticky top-0 z-10 flex justify-center pt-2 pb-1 bg-bg-card">
-              <div className="h-1 w-10 rounded-full bg-border-default" />
-            </div>
-            <div className="p-2">
-              <DistrictSidePanel
-                district={selectedDistrict}
-                news={
-                  selectedDistrict?.slug
-                    ? newsByDistrictSlug[selectedDistrict.slug] ?? []
-                    : []
-                }
-                onClose={() => setSelectedGeojsonName(null)}
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
