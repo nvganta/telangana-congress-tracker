@@ -12,6 +12,7 @@ import {
 import { fetchNewsByDistrict } from "@/lib/rss";
 import type { NewsItem } from "@/lib/types";
 import districtsData from "@/data/districts.json";
+import ReportIncorrectData from "@/components/ReportIncorrectData";
 
 const TELANGANA_DISTRICTS = [
   "Adilabad", "Bhadradri Kothagudem", "Hanumakonda", "Hyderabad", "Jagtial",
@@ -103,6 +104,7 @@ export default async function DistrictPage({
         </div>
       </div>
       <SourcesBlock district={district} />
+      <ReportIncorrectData districtName={district.name} />
     </div>
   );
 }
