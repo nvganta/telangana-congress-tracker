@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 type NavLink = { href: string; label: string };
 
@@ -133,10 +134,26 @@ function Dropdown({
 
 export default function Header() {
   const pathname = usePathname();
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const inGovernment = governmentItems.some((i) => pathname === i.href);
   const inDistricts =
     pathname === "/districts" || pathname?.startsWith("/districts/");
+
+  // Close the drawer whenever the route changes (so tapping a link dismisses it)
+  useEffect(() => {
+    setDrawerOpen(false);
+  }, [pathname]);
+
+  // Lock body scroll while drawer is open so the page doesn't scroll underneath
+  useEffect(() => {
+    if (drawerOpen) {
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = "";
+      };
+    }
+  }, [drawerOpen]);
 
   return (
     <header className="border-b border-border-default bg-bg-secondary/80 backdrop-blur-sm sticky top-0 z-50">
@@ -149,12 +166,12 @@ export default function Header() {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-accent-red"></span>
             </span>
             <span className="text-sm font-bold tracking-wider text-text-primary">
-              CONGRESS<span className="text-accent-red">TRACKER</span>
-              <span className="text-text-muted">.TS</span>
+              TELANGANA<span className="text-accent-red">TRACKER</span>
+              <span className="text-text-muted">.IN</span>
             </span>
           </Link>
 
-          {/* Navigation */}
+          {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1">
             <TopLink href="/" label="DASHBOARD" active={pathname === "/"} />
             <Dropdown
@@ -181,8 +198,8 @@ export default function Header() {
             />
           </nav>
 
-          {/* Right side */}
-          <div className="flex items-center gap-4 text-[11px] text-text-muted">
+          {/* Right side — desktop */}
+          <div className="hidden md:flex items-center gap-4 text-[11px] text-text-muted">
             <span className="hidden sm:inline">TELANGANA, INDIA</span>
             <Link
               href="/sources"
@@ -191,37 +208,157 @@ export default function Header() {
               [SOURCES]
             </Link>
           </div>
+
+          {/* Mobile hamburger — opens the drawer */}
+          <button
+            type="button"
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Open navigation"
+            aria-expanded={drawerOpen}
+            className="md:hidden p-2 -mr-2 text-text-primary hover:bg-bg-card rounded transition-colors"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="4" y1="7" x2="20" y2="7" />
+              <line x1="4" y1="12" x2="20" y2="12" />
+              <line x1="4" y1="17" x2="20" y2="17" />
+            </svg>
+          </button>
         </div>
       </div>
 
-      {/* Mobile nav — primary sections first, then gov sub-items in a separate
-          scroll row. Much easier to parse than one long undifferentiated scroll. */}
-      <div className="md:hidden border-t border-border-default">
-        {/* Primary row — the 4 top-level destinations */}
-        <div className="flex px-4 gap-1 py-1.5 whitespace-nowrap overflow-x-auto">
-          <MobileLink href="/" label="DASHBOARD" pathname={pathname} />
-          <MobileLink href="/map" label="MAP" pathname={pathname} />
-          <MobileLink href="/districts" label="DISTRICTS" pathname={pathname} />
-          <MobileLink href="/timeline" label="TIMELINE" pathname={pathname} />
-        </div>
-        {/* Secondary row — government track-record pages */}
-        <div className="flex px-4 gap-1 pb-1.5 whitespace-nowrap overflow-x-auto border-t border-border-default/40">
-          <MobileSectionLabel label="GOVT" />
-          {governmentItems.map((item) => (
-            <MobileLink
-              key={item.href}
-              href={item.href}
-              label={item.label}
-              pathname={pathname}
-            />
-          ))}
-        </div>
-      </div>
+      {/* Mobile drawer */}
+      <MobileDrawer
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        pathname={pathname}
+        inGovernment={inGovernment}
+        inDistricts={inDistricts}
+      />
     </header>
   );
 }
 
-function MobileLink({
+function MobileDrawer({
+  open,
+  onClose,
+  pathname,
+  inGovernment,
+  inDistricts,
+}: {
+  open: boolean;
+  onClose: () => void;
+  pathname: string | null;
+  inGovernment: boolean;
+  inDistricts: boolean;
+}) {
+  const [govExpanded, setGovExpanded] = useState(inGovernment);
+  const [distExpanded, setDistExpanded] = useState(inDistricts);
+
+  if (!open) return null;
+
+  return (
+    <div className="md:hidden fixed inset-0 z-[60]">
+      {/* Backdrop */}
+      <button
+        type="button"
+        aria-label="Close navigation"
+        onClick={onClose}
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm animate-fade-in"
+      />
+
+      {/* Drawer panel — slides in from the right */}
+      <div className="absolute right-0 top-0 bottom-0 w-[80%] max-w-[340px] bg-bg-secondary border-l border-border-default overflow-y-auto animate-slide-in-right flex flex-col">
+        <div className="flex items-center justify-between h-14 px-4 border-b border-border-default sticky top-0 bg-bg-secondary z-10">
+          <span className="text-[10px] tracking-[0.3em] text-text-muted">
+            NAVIGATION
+          </span>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close"
+            className="p-2 -mr-2 text-text-primary hover:bg-bg-card rounded transition-colors"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <line x1="6" y1="6" x2="18" y2="18" />
+              <line x1="6" y1="18" x2="18" y2="6" />
+            </svg>
+          </button>
+        </div>
+
+        <nav className="py-2 flex-1">
+          <DrawerLink href="/" label="DASHBOARD" pathname={pathname} />
+
+          <DrawerSection
+            label="GOVERNMENT"
+            expanded={govExpanded}
+            setExpanded={setGovExpanded}
+            active={inGovernment}
+          >
+            {governmentItems.map((item) => (
+              <DrawerSubLink
+                key={item.href}
+                href={item.href}
+                label={item.label}
+                pathname={pathname}
+              />
+            ))}
+          </DrawerSection>
+
+          <DrawerLink href="/map" label="MAP" pathname={pathname} />
+
+          <DrawerSection
+            label="DISTRICTS"
+            expanded={distExpanded}
+            setExpanded={setDistExpanded}
+            active={inDistricts}
+          >
+            <DrawerSubLink
+              href="/districts"
+              label="ALL DISTRICTS"
+              pathname={pathname}
+            />
+            {districtItems.map((item) => (
+              <DrawerSubLink
+                key={item.href}
+                href={item.href}
+                label={item.label}
+                pathname={pathname}
+              />
+            ))}
+          </DrawerSection>
+
+          <DrawerLink href="/timeline" label="TIMELINE" pathname={pathname} />
+          <DrawerLink href="/sources" label="SOURCES" pathname={pathname} />
+        </nav>
+
+        <div className="border-t border-border-default px-4 py-3 text-[9px] tracking-[0.25em] text-text-muted/70">
+          TELANGANA, INDIA
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DrawerLink({
   href,
   label,
   pathname,
@@ -230,13 +367,14 @@ function MobileLink({
   label: string;
   pathname: string | null;
 }) {
+  const active = pathname === href;
   return (
     <Link
       href={href}
-      className={`px-3 py-1.5 text-[10px] tracking-widest whitespace-nowrap transition-colors rounded ${
-        pathname === href
+      className={`block px-4 py-3 text-[12px] tracking-widest border-b border-border-default/30 ${
+        active
           ? "text-accent-blue bg-accent-blue/10"
-          : "text-text-secondary"
+          : "text-text-primary hover:bg-bg-card"
       }`}
     >
       {label}
@@ -244,14 +382,62 @@ function MobileLink({
   );
 }
 
-function MobileDivider() {
-  return <span className="text-text-muted/40 text-[10px] self-center">·</span>;
-}
-
-function MobileSectionLabel({ label }: { label: string }) {
+function DrawerSection({
+  label,
+  expanded,
+  setExpanded,
+  active,
+  children,
+}: {
+  label: string;
+  expanded: boolean;
+  setExpanded: (v: boolean) => void;
+  active: boolean;
+  children: React.ReactNode;
+}) {
   return (
-    <span className="px-2 py-1.5 text-[9px] tracking-widest text-text-muted/60 self-center">
-      {label}
-    </span>
+    <div className="border-b border-border-default/30">
+      <button
+        type="button"
+        onClick={() => setExpanded(!expanded)}
+        className={`w-full flex items-center justify-between px-4 py-3 text-[12px] tracking-widest ${
+          active ? "text-accent-blue" : "text-text-primary"
+        }`}
+        aria-expanded={expanded}
+      >
+        <span>{label}</span>
+        <span className="text-text-muted text-[10px]">
+          {expanded ? "▾" : "▸"}
+        </span>
+      </button>
+      {expanded && (
+        <div className="bg-bg-primary/40 pb-1">{children}</div>
+      )}
+    </div>
   );
 }
+
+function DrawerSubLink({
+  href,
+  label,
+  pathname,
+}: {
+  href: string;
+  label: string;
+  pathname: string | null;
+}) {
+  const active = pathname === href;
+  return (
+    <Link
+      href={href}
+      className={`block px-6 py-2 text-[11px] tracking-wider ${
+        active
+          ? "text-accent-blue bg-accent-blue/10"
+          : "text-text-secondary hover:text-text-primary hover:bg-bg-card"
+      }`}
+    >
+      {label}
+    </Link>
+  );
+}
+
