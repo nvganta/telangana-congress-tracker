@@ -133,7 +133,7 @@ export default function MapView({
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-4">
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-4 relative">
       {/* Map */}
       <div className="glow-card p-2 relative overflow-hidden">
         <svg
@@ -292,8 +292,10 @@ export default function MapView({
         </svg>
 
         {/* Hover tooltip (bottom-left) — only when not zoomed */}
+        {/* Hover tooltip — hidden on touch devices since hover is unreliable there
+            (mouseLeave doesn't fire consistently after tap). */}
         {hoveredDistrict && !selectedDistrict && (
-          <div className="absolute bottom-3 left-3 bg-bg-secondary/95 border border-border-default rounded px-3 py-2 backdrop-blur-sm pointer-events-none">
+          <div className="absolute bottom-3 left-3 bg-bg-secondary/95 border border-border-default rounded px-3 py-2 backdrop-blur-sm pointer-events-none no-touch-show">
             <div className="text-[10px] tracking-widest text-text-muted">
               DISTRICT
             </div>
@@ -320,22 +322,62 @@ export default function MapView({
 
         {/* Helper text (top-right) */}
         <div className="absolute top-3 right-3 text-[9px] tracking-widest text-text-muted/70 pointer-events-none">
-          {isZoomed
-            ? "ESC · BACK BUTTON · OR CLICK OUTSIDE"
-            : "HOVER · CLICK A DISTRICT"}
+          {isZoomed ? (
+            <>
+              <span className="no-touch-show">ESC · BACK · OR CLICK OUTSIDE</span>
+              <span className="touch-only-show hidden">TAP BACK OR OUTSIDE</span>
+            </>
+          ) : (
+            <>
+              <span className="no-touch-show">HOVER · CLICK A DISTRICT</span>
+              <span className="touch-only-show hidden">TAP A DISTRICT</span>
+            </>
+          )}
         </div>
       </div>
 
-      {/* Side panel */}
-      <DistrictSidePanel
-        district={selectedDistrict}
-        news={
-          selectedDistrict?.slug
-            ? newsByDistrictSlug[selectedDistrict.slug] ?? []
-            : []
-        }
-        onClose={() => setSelectedGeojsonName(null)}
-      />
+      {/* Side panel — desktop: always visible right column.
+          Mobile: hidden when empty, slides up as a bottom sheet when a district is selected. */}
+      <div className="hidden lg:block">
+        <DistrictSidePanel
+          district={selectedDistrict}
+          news={
+            selectedDistrict?.slug
+              ? newsByDistrictSlug[selectedDistrict.slug] ?? []
+              : []
+          }
+          onClose={() => setSelectedGeojsonName(null)}
+        />
+      </div>
+
+      {/* Mobile bottom sheet — only renders when a district is selected.
+          Slides up from the bottom with backdrop click to dismiss. */}
+      {selectedDistrict && (
+        <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 animate-slide-up">
+          <div
+            className="absolute inset-0 -top-[100vh] bg-black/40 backdrop-blur-sm"
+            onClick={() => setSelectedGeojsonName(null)}
+            aria-hidden="true"
+          />
+          <div className="relative max-h-[75vh] overflow-y-auto rounded-t-xl border border-border-default bg-bg-card shadow-2xl">
+            {/* Drag handle */}
+            <div className="sticky top-0 z-10 flex justify-center pt-2 pb-1 bg-bg-card">
+              <div className="h-1 w-10 rounded-full bg-border-default" />
+            </div>
+            <div className="p-2">
+              <DistrictSidePanel
+                district={selectedDistrict}
+                news={
+                  selectedDistrict?.slug
+                    ? newsByDistrictSlug[selectedDistrict.slug] ?? []
+                    : []
+                }
+                onClose={() => setSelectedGeojsonName(null)}
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

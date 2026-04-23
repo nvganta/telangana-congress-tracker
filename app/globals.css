@@ -110,6 +110,37 @@ body::before {
   outline-offset: 2px;
 }
 
+/* Mobile bottom-sheet slide-up for map side panel */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animate-slide-up {
+  animation: slide-up 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* On touch devices, disable hover effects on map paths — they stick after tap
+   or never trigger, both of which are misleading. Rely on tap-to-select. */
+@media (hover: none) {
+  .district-path {
+    transition: fill 0.15s ease-out, stroke 0.15s ease-out;
+  }
+  /* Hide hover-only tooltips — tap-to-select is the primary gesture */
+  .no-touch-show {
+    display: none !important;
+  }
+  /* Reveal touch-specific hint text */
+  .touch-only-show {
+    display: inline !important;
+  }
+}
+
 /* Pulsing live indicator */
 @keyframes pulse-live {
   0%, 100% { opacity: 1; }
