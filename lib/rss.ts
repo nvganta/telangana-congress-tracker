@@ -1,5 +1,6 @@
 import { NewsItem } from "./types";
 import { RSS_FEEDS } from "./constants";
+import { tagDistricts } from "./district-keywords";
 
 interface RSSItem {
   title?: string;
@@ -8,6 +9,7 @@ interface RSSItem {
   creator?: string;
   contentSnippet?: string;
   isoDate?: string;
+  imageUrl?: string;
 }
 
 interface RSSFeed {
@@ -31,7 +33,18 @@ async function parseFeed(url: string): Promise<RSSFeed> {
       const title = itemXml.match(/<title[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/i)?.[1]?.trim();
       const link = itemXml.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1]?.trim();
       const pubDate = itemXml.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1]?.trim();
-      items.push({ title, link, pubDate });
+
+      // Extract image: try media:content, media:thumbnail, enclosure, then img in description
+      const mediaContent = itemXml.match(/<media:content[^>]+url=["']([^"']+)["'][^/]*/i)?.[1]
+        || itemXml.match(/<media:content\s+url=["']([^"']+)["']/i)?.[1];
+      const mediaThumbnail = itemXml.match(/<media:thumbnail[^>]+url=["']([^"']+)["']/i)?.[1];
+      const enclosure = itemXml.match(/<enclosure[^>]+url=["']([^"']+)["'][^>]*type=["']image[^"']*["']/i)?.[1]
+        || itemXml.match(/<enclosure[^>]+type=["']image[^"']*["'][^>]+url=["']([^"']+)["']/i)?.[1];
+      const descRaw = itemXml.match(/<description[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/i)?.[1] || "";
+      const imgInDesc = descRaw.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1];
+      const imageUrl = mediaContent || mediaThumbnail || enclosure || imgInDesc || undefined;
+
+      items.push({ title, link, pubDate, imageUrl });
     }
 
     return { items };
@@ -128,6 +141,27 @@ function categorizeNews(title: string): NewsItem["category"] {
   return "general";
 }
 
+async function fetchOgImage(url: string): Promise<string | undefined> {
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "TelanganaTracker/1.0" },
+      signal: AbortSignal.timeout(3000),
+      next: { revalidate: 1800 },
+    });
+    if (!res.ok) return undefined;
+    const html = await res.text();
+    return (
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1] ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)?.[1] ||
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i)?.[1] ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i)?.[1] ||
+      undefined
+    );
+  } catch {
+    return undefined;
+  }
+}
+
 export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
   const allItems: NewsItem[] = [];
 
@@ -135,14 +169,24 @@ export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
     const parsed = await parseFeed(feed.url);
     return parsed.items
       .filter((item) => item.title && item.link)
-      .map((item, i) => ({
-        id: `${feed.name}-${i}-${item.pubDate || Date.now()}`,
-        title: item.title!.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/&quot;/g, '"'),
-        source: feed.name,
-        url: item.link!,
-        publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
-        category: categorizeNews(item.title!),
-      }));
+      .map((item, i) => {
+        const cleanTitle = item
+          .title!.replace(/<[^>]*>/g, "")
+          .replace(/&amp;/g, "&")
+          .replace(/&quot;/g, '"');
+        return {
+          id: `${feed.name}-${i}-${item.pubDate || Date.now()}`,
+          title: cleanTitle,
+          source: feed.name,
+          url: item.link!,
+          publishedAt: item.pubDate
+            ? new Date(item.pubDate).toISOString()
+            : new Date().toISOString(),
+          category: categorizeNews(cleanTitle),
+          districts: tagDistricts(cleanTitle),
+          imageUrl: item.imageUrl,
+        };
+      });
   });
 
   const results = await Promise.allSettled(feedPromises);
@@ -171,5 +215,40 @@ export async function fetchAllNews(limit: number = 30): Promise<NewsItem[]> {
     return true;
   });
 
-  return deduped.slice(0, limit);
+  const sliced = deduped.slice(0, limit);
+
+  // Fetch og:image for items missing images — all in parallel, 3s timeout each
+  const withImages = await Promise.all(
+    sliced.map(async (item) => {
+      if (item.imageUrl) return item;
+      const imageUrl = await fetchOgImage(item.url);
+      return imageUrl ? { ...item, imageUrl } : item;
+    })
+  );
+
+  return withImages;
+}
+
+/**
+ * Build a map from district slug → latest tagged news items, sorted newest first.
+ *
+ * We pull a larger pool than the default 30 so every district has some chance
+ * of coverage — the governance filter is tight enough that 100 items is still a
+ * small set. Each district gets the top N most recent items tagged to it.
+ */
+export async function fetchNewsByDistrict(
+  poolSize: number = 100,
+  perDistrict: number = 3
+): Promise<Record<string, NewsItem[]>> {
+  const pool = await fetchAllNews(poolSize);
+  const bySlug: Record<string, NewsItem[]> = {};
+  for (const item of pool) {
+    for (const slug of item.districts) {
+      if (!bySlug[slug]) bySlug[slug] = [];
+      if (bySlug[slug].length < perDistrict) {
+        bySlug[slug].push(item);
+      }
+    }
+  }
+  return bySlug;
 }

@@ -56,6 +56,8 @@ export interface NewsItem {
   publishedAt: string;
   category: "policy" | "budget" | "controversy" | "development" | "promise" | "general";
   imageUrl?: string;
+  /** Slugs of Telangana districts mentioned in the title. Empty array = state-level or untagged. */
+  districts: string[];
 }
 
 export interface ComparisonMetric {
