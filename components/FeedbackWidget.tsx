@@ -1,8 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type FeedbackType = "feedback" | "feature" | "bug";
+
+/**
+ * Any component can open the feedback widget pre-filled by dispatching:
+ *   window.dispatchEvent(new CustomEvent("openFeedback", {
+ *     detail: { type: "bug", message: "..." }
+ *   }))
+ * Used by district pages for "Report incorrect data" flows.
+ */
+interface OpenFeedbackDetail {
+  type?: FeedbackType;
+  message?: string;
+}
 
 const TYPE_CONFIG: Record<FeedbackType, { label: string; color: string }> = {
   feedback: { label: "FEEDBACK", color: "#00d4ff" },
@@ -17,6 +29,19 @@ export default function FeedbackWidget() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  // Listen for programmatic opens from other components (e.g. "Report incorrect
+  // data" buttons on district pages).
+  useEffect(() => {
+    const onOpen = (e: Event) => {
+      const detail = (e as CustomEvent<OpenFeedbackDetail>).detail ?? {};
+      if (detail.type) setType(detail.type);
+      if (detail.message) setMessage(detail.message);
+      setOpen(true);
+    };
+    window.addEventListener("openFeedback", onOpen);
+    return () => window.removeEventListener("openFeedback", onOpen);
+  }, []);
 
   const handleSubmit = async () => {
     if (!name.trim() || !message.trim()) return;
