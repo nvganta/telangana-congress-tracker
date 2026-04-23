@@ -155,6 +155,16 @@ export default function Header() {
     }
   }, [drawerOpen]);
 
+  // ESC key closes the drawer — standard keyboard affordance for modals
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setDrawerOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [drawerOpen]);
+
   return (
     <header className="border-b border-border-default bg-bg-secondary/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-[1400px] mx-auto px-4">
