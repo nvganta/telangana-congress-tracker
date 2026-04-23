@@ -15,12 +15,20 @@
     "literacyRate": 61.01,
     "sexRatio": 1009,
     "tribalPopulation": 28.07,
-    "coordinates": [19.6667, 78.5333],
+    "coordinates": [
+      19.6667,
+      78.5333
+    ],
     "assembly": {
       "count": 2,
-      "constituencies": ["Adilabad", "Boath"]
+      "constituencies": [
+        "Adilabad",
+        "Boath"
+      ]
     },
-    "lokSabha": ["Adilabad"],
+    "lokSabha": [
+      "Adilabad"
+    ],
     "mlas": [
       {
         "constituency": "Adilabad",
@@ -43,9 +51,20 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Adilabad", "Bellampalli", "Kagaznagar"],
-    "neighboringDistricts": ["kumuram-bheem-asifabad", "nirmal"],
-    "tags": ["tribal-majority", "agricultural", "border-district"],
+    "majorTowns": [
+      "Adilabad",
+      "Bellampalli",
+      "Kagaznagar"
+    ],
+    "neighboringDistricts": [
+      "kumuram-bheem-asifabad",
+      "nirmal"
+    ],
+    "tags": [
+      "tribal-majority",
+      "agricultural",
+      "border-district"
+    ],
     "sources": [
       {
         "url": "https://adilabad.telangana.gov.in/",
@@ -72,7 +91,10 @@
     "area": 217,
     "literacyRate": 80.96,
     "sexRatio": 943,
-    "coordinates": [17.385, 78.4867],
+    "coordinates": [
+      17.385,
+      78.4867
+    ],
     "assembly": {
       "count": 15,
       "constituencies": [
@@ -93,23 +115,101 @@
         "Yakutpura"
       ]
     },
-    "lokSabha": ["Hyderabad", "Secunderabad"],
+    "lokSabha": [
+      "Hyderabad",
+      "Secunderabad"
+    ],
     "mlas": [
-      { "constituency": "Amberpet", "name": "Kaleru Venkatesh", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Bahadurpura", "name": "Mohammed Mubeen", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Chandrayangutta", "name": "Akbaruddin Owaisi", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Charminar", "name": "Mir Zulfeqar Ali", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Goshamahal", "name": "T. Raja Singh", "party": "BJP", "since": "2023-12-07" },
-      { "constituency": "Jubilee Hills", "name": "Maganti Gopinath", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Karwan", "name": "Kausar Mohiuddin", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Khairatabad", "name": "Danam Nagender", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Malakpet", "name": "Ahmed Bin Abdullah Balala", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Musheerabad", "name": "Muta Gopal", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Nampally", "name": "Mohammed Majid Hussain", "party": "AIMIM", "since": "2023-12-07" },
-      { "constituency": "Sanathnagar", "name": "Talasani Srinivas Yadav", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Secunderabad", "name": "T. Padma Rao", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Secunderabad Cantonment", "name": "Sriganesh", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Yakutpura", "name": "Jaffar Hussain", "party": "AIMIM", "since": "2023-12-07" }
+      {
+        "constituency": "Amberpet",
+        "name": "Kaleru Venkatesh",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Bahadurpura",
+        "name": "Mohammed Mubeen",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Chandrayangutta",
+        "name": "Akbaruddin Owaisi",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Charminar",
+        "name": "Mir Zulfeqar Ali",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Goshamahal",
+        "name": "T. Raja Singh",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Jubilee Hills",
+        "name": "Maganti Gopinath",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Karwan",
+        "name": "Kausar Mohiuddin",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Khairatabad",
+        "name": "Danam Nagender",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Malakpet",
+        "name": "Ahmed Bin Abdullah Balala",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Musheerabad",
+        "name": "Muta Gopal",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nampally",
+        "name": "Mohammed Majid Hussain",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Sanathnagar",
+        "name": "Talasani Srinivas Yadav",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Secunderabad",
+        "name": "T. Padma Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Secunderabad Cantonment",
+        "name": "Sriganesh",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Yakutpura",
+        "name": "Jaffar Hussain",
+        "party": "AIMIM",
+        "since": "2023-12-07"
+      }
     ],
     "mps": [
       {
@@ -125,8 +225,14 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Hyderabad", "Secunderabad"],
-    "neighboringDistricts": ["rangareddy", "medchal-malkajgiri"],
+    "majorTowns": [
+      "Hyderabad",
+      "Secunderabad"
+    ],
+    "neighboringDistricts": [
+      "rangareddy",
+      "medchal-malkajgiri"
+    ],
     "tags": [
       "state-capital",
       "urban-metro",
@@ -197,16 +303,40 @@
     "area": 2419,
     "literacyRate": 60.26,
     "sexRatio": 1036,
-    "coordinates": [18.7994, 78.9124],
+    "coordinates": [
+      18.7994,
+      78.9124
+    ],
     "assembly": {
       "count": 3,
-      "constituencies": ["Jagtial", "Korutla", "Dharmapuri"]
+      "constituencies": [
+        "Jagtial",
+        "Korutla",
+        "Dharmapuri"
+      ]
     },
-    "lokSabha": ["Nizamabad"],
+    "lokSabha": [
+      "Nizamabad"
+    ],
     "mlas": [
-      { "constituency": "Jagtial", "name": "Dr. Sanjay", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Korutla", "name": "Kalvakuntla Sanjay", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Dharmapuri", "name": "Adluri Laxman Kumar", "party": "INC", "since": "2023-12-07" }
+      {
+        "constituency": "Jagtial",
+        "name": "Dr. Sanjay",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Korutla",
+        "name": "Kalvakuntla Sanjay",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Dharmapuri",
+        "name": "Adluri Laxman Kumar",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
     ],
     "mps": [
       {
@@ -216,19 +346,45 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Jagtial", "Korutla", "Dharmapuri"],
-    "neighboringDistricts": ["nirmal", "mancherial", "karimnagar", "peddapalli", "nizamabad", "rajanna-sircilla"],
-    "tags": ["northern-tg", "agricultural"],
+    "majorTowns": [
+      "Jagtial",
+      "Korutla",
+      "Dharmapuri"
+    ],
+    "neighboringDistricts": [
+      "nirmal",
+      "mancherial",
+      "karimnagar",
+      "peddapalli",
+      "nizamabad",
+      "rajanna-sircilla"
+    ],
+    "tags": [
+      "northern-tg",
+      "agricultural"
+    ],
     "collector": {
       "name": "B. Satya Prasad",
       "title": "IAS",
       "verifiedOn": "2026-04-18"
     },
     "sources": [
-      { "url": "https://jagtial.telangana.gov.in/", "description": "Jagtial District official portal" },
-      { "url": "https://en.wikipedia.org/wiki/Jagtial_district", "description": "Wikipedia — Jagtial district" },
-      { "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default", "description": "MyNeta — 2023 Assembly winners" },
-      { "url": "https://jagtial.telangana.gov.in/whoswho/sri-b-satya-prasad-ias/", "description": "Jagtial — Collector profile" }
+      {
+        "url": "https://jagtial.telangana.gov.in/",
+        "description": "Jagtial District official portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jagtial_district",
+        "description": "Wikipedia — Jagtial district"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default",
+        "description": "MyNeta — 2023 Assembly winners"
+      },
+      {
+        "url": "https://jagtial.telangana.gov.in/whoswho/sri-b-satya-prasad-ias/",
+        "description": "Jagtial — Collector profile"
+      }
     ],
     "lastUpdated": "2026-04-18"
   },
@@ -245,18 +401,54 @@
     "populationYear": 2011,
     "area": 4361,
     "tribalPopulation": 14.22,
-    "coordinates": [17.2473, 80.1514],
+    "coordinates": [
+      17.2473,
+      80.1514
+    ],
     "assembly": {
       "count": 5,
-      "constituencies": ["Khammam", "Palair", "Madhira", "Wyra", "Sathupalli"]
+      "constituencies": [
+        "Khammam",
+        "Palair",
+        "Madhira",
+        "Wyra",
+        "Sathupalli"
+      ]
     },
-    "lokSabha": ["Khammam"],
+    "lokSabha": [
+      "Khammam"
+    ],
     "mlas": [
-      { "constituency": "Khammam", "name": "Tummala Nageswara Rao", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Palair", "name": "Ponguleti Srinivasa Reddy", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Madhira", "name": "Bhatti Vikramarka Mallu", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Wyra", "name": "Ramdas Maloth", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Sathupalli", "name": "Matta Ragamayee", "party": "INC", "since": "2023-12-07" }
+      {
+        "constituency": "Khammam",
+        "name": "Tummala Nageswara Rao",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Palair",
+        "name": "Ponguleti Srinivasa Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Madhira",
+        "name": "Bhatti Vikramarka Mallu",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Wyra",
+        "name": "Ramdas Maloth",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Sathupalli",
+        "name": "Matta Ragamayee",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
     ],
     "mps": [
       {
@@ -266,9 +458,21 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Khammam", "Madhira", "Sathupalli"],
-    "neighboringDistricts": ["suryapet", "mahabubabad", "bhadradri-kothagudem"],
-    "tags": ["eastern-tg", "congress-sweep-2023", "has-deputy-cm"],
+    "majorTowns": [
+      "Khammam",
+      "Madhira",
+      "Sathupalli"
+    ],
+    "neighboringDistricts": [
+      "suryapet",
+      "mahabubabad",
+      "bhadradri-kothagudem"
+    ],
+    "tags": [
+      "eastern-tg",
+      "congress-sweep-2023",
+      "has-deputy-cm"
+    ],
     "collector": {
       "name": "Anudeep Durishetty",
       "title": "IAS",
@@ -285,10 +489,22 @@
       "type": "Municipal Corporation"
     },
     "sources": [
-      { "url": "https://khammam.telangana.gov.in/", "description": "Khammam District official portal" },
-      { "url": "https://en.wikipedia.org/wiki/Khammam_district", "description": "Wikipedia — Khammam district" },
-      { "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default", "description": "MyNeta — 2023 Assembly winners" },
-      { "url": "https://www.thequint.com/news/khammam-election-result-2024-live-updates-counting-of-votes-telangana-lok-sabha-seat-latest-news", "description": "2024 Khammam LS result" }
+      {
+        "url": "https://khammam.telangana.gov.in/",
+        "description": "Khammam District official portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Khammam_district",
+        "description": "Wikipedia — Khammam district"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default",
+        "description": "MyNeta — 2023 Assembly winners"
+      },
+      {
+        "url": "https://www.thequint.com/news/khammam-election-result-2024-live-updates-counting-of-votes-telangana-lok-sabha-seat-latest-news",
+        "description": "2024 Khammam LS result"
+      }
     ],
     "lastUpdated": "2026-04-18"
   },
@@ -306,17 +522,47 @@
     "area": 2095,
     "literacyRate": 61.26,
     "sexRatio": 994,
-    "coordinates": [17.9784, 79.5941],
+    "coordinates": [
+      17.9784,
+      79.5941
+    ],
     "assembly": {
       "count": 4,
-      "constituencies": ["Wardhannapet", "Parkal", "Narsampet", "Palakurthi"]
+      "constituencies": [
+        "Wardhannapet",
+        "Parkal",
+        "Narsampet",
+        "Palakurthi"
+      ]
     },
-    "lokSabha": ["Warangal"],
+    "lokSabha": [
+      "Warangal"
+    ],
     "mlas": [
-      { "constituency": "Wardhannapet", "name": "K.R. Nagaraju", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Parkal", "name": "Revuri Prakash Reddy", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Narsampet", "name": "Donthi Madhava Reddy", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Palakurthi", "name": "Yashaswini Reddy Mamidala", "party": "INC", "since": "2023-12-07" }
+      {
+        "constituency": "Wardhannapet",
+        "name": "K.R. Nagaraju",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Parkal",
+        "name": "Revuri Prakash Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Narsampet",
+        "name": "Donthi Madhava Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Palakurthi",
+        "name": "Yashaswini Reddy Mamidala",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
     ],
     "mps": [
       {
@@ -326,14 +572,40 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Narsampet", "Parkal"],
-    "neighboringDistricts": ["hanumakonda", "mahabubabad", "jangaon", "mulugu", "jayashankar-bhupalapally"],
-    "tags": ["eastern-tg", "congress-sweep-2023", "post-2021-split", "agricultural"],
+    "majorTowns": [
+      "Narsampet",
+      "Parkal"
+    ],
+    "neighboringDistricts": [
+      "hanumakonda",
+      "mahabubabad",
+      "jangaon",
+      "mulugu",
+      "jayashankar-bhupalapally"
+    ],
+    "tags": [
+      "eastern-tg",
+      "congress-sweep-2023",
+      "post-2021-split",
+      "agricultural"
+    ],
     "sources": [
-      { "url": "https://warangal.telangana.gov.in/", "description": "Warangal District official portal" },
-      { "url": "https://en.wikipedia.org/wiki/Warangal_district", "description": "Wikipedia — Warangal district (post-2021)" },
-      { "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default", "description": "MyNeta — 2023 Assembly winners" },
-      { "url": "https://telanganatoday.com/pravinya-takes-charge-as-warangal-collector", "description": "Telangana Today — Warangal Collector appointment" }
+      {
+        "url": "https://warangal.telangana.gov.in/",
+        "description": "Warangal District official portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Warangal_district",
+        "description": "Wikipedia — Warangal district (post-2021)"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default",
+        "description": "MyNeta — 2023 Assembly winners"
+      },
+      {
+        "url": "https://telanganatoday.com/pravinya-takes-charge-as-warangal-collector",
+        "description": "Telangana Today — Warangal Collector appointment"
+      }
     ],
     "lastUpdated": "2026-04-18"
   },
@@ -351,7 +623,10 @@
     "area": 5031,
     "literacyRate": 71.95,
     "sexRatio": 950,
-    "coordinates": [17.2439, 78.5089],
+    "coordinates": [
+      17.2439,
+      78.5089
+    ],
     "assembly": {
       "count": 8,
       "constituencies": [
@@ -365,16 +640,59 @@
         "Maheshwaram"
       ]
     },
-    "lokSabha": ["Chevella", "Malkajgiri"],
+    "lokSabha": [
+      "Chevella",
+      "Malkajgiri"
+    ],
     "mlas": [
-      { "constituency": "Chevella", "name": "Kale Yadaiah", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Rajendranagar", "name": "T. Prakash Goud", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "LB Nagar", "name": "Devireddy Sudhir Reddy", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Shadnagar", "name": "K. Shankaraiah", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Kalwakurthy", "name": "Narayan Reddy Kasireddy", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Serilingampally", "name": "Arekapudi Gandhi", "party": "BRS", "since": "2023-12-07" },
-      { "constituency": "Ibrahimpatnam", "name": "Malreddy Ranga Reddy", "party": "INC", "since": "2023-12-07" },
-      { "constituency": "Maheshwaram", "name": "Patlolla Sabitha Indra Reddy", "party": "BRS", "since": "2023-12-07" }
+      {
+        "constituency": "Chevella",
+        "name": "Kale Yadaiah",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Rajendranagar",
+        "name": "T. Prakash Goud",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "LB Nagar",
+        "name": "Devireddy Sudhir Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Shadnagar",
+        "name": "K. Shankaraiah",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Kalwakurthy",
+        "name": "Narayan Reddy Kasireddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Serilingampally",
+        "name": "Arekapudi Gandhi",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Ibrahimpatnam",
+        "name": "Malreddy Ranga Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Maheshwaram",
+        "name": "Patlolla Sabitha Indra Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
     ],
     "mps": [
       {
@@ -390,7 +708,11 @@
         "since": "2024-06-04"
       }
     ],
-    "majorTowns": ["Shamshabad", "Chevella", "Tandur"],
+    "majorTowns": [
+      "Shamshabad",
+      "Chevella",
+      "Tandur"
+    ],
     "neighboringDistricts": [
       "hyderabad",
       "medchal-malkajgiri",
@@ -401,18 +723,3086 @@
       "nalgonda",
       "yadadri-bhuvanagiri"
     ],
-    "tags": ["hyderabad-metro", "suburban", "high-income", "it-corridor"],
+    "tags": [
+      "hyderabad-metro",
+      "suburban",
+      "high-income",
+      "it-corridor"
+    ],
     "collector": {
       "name": "Amoy Kumar",
       "title": "IAS",
       "verifiedOn": "2026-04-18"
     },
     "sources": [
-      { "url": "https://rangareddy.telangana.gov.in/", "description": "Rangareddy District official portal" },
-      { "url": "https://en.wikipedia.org/wiki/Rangareddy_district", "description": "Wikipedia — Rangareddy district" },
-      { "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default", "description": "MyNeta — 2023 Assembly winners" },
-      { "url": "https://results.eci.gov.in/", "description": "Election Commission of India — results" }
+      {
+        "url": "https://rangareddy.telangana.gov.in/",
+        "description": "Rangareddy District official portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rangareddy_district",
+        "description": "Wikipedia — Rangareddy district"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners&sort=default",
+        "description": "MyNeta — 2023 Assembly winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "Election Commission of India — results"
+      }
     ],
     "lastUpdated": "2026-04-18"
+  },
+  "bhadradri-kothagudem": {
+    "slug": "bhadradri-kothagudem",
+    "name": "Bhadradri Kothagudem",
+    "nameTelugu": "భద్రాద్రి కొత్తగూడెం జిల్లా",
+    "geojsonName": "Bhadradri Kothagudem",
+    "dtCode": 753,
+    "hq": "Kothagudem",
+    "formed": "2016-10-11",
+    "region": "eastern-telangana",
+    "population": 1069261,
+    "populationYear": 2011,
+    "area": 7483,
+    "literacyRate": 66.4,
+    "sexRatio": 1008,
+    "tribalPopulation": 36.7,
+    "coordinates": [
+      17.5497,
+      80.62
+    ],
+    "assembly": {
+      "count": 5,
+      "constituencies": [
+        "Kothagudem",
+        "Aswaraopeta (ST)",
+        "Bhadrachalam (ST)",
+        "Pinapaka (ST)",
+        "Yellandu (ST)"
+      ]
+    },
+    "lokSabha": [
+      "Khammam",
+      "Mahabubabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Kothagudem",
+        "name": "Kunamneni Sambasiva Rao",
+        "party": "CPI",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Aswaraopeta (ST)",
+        "name": "Jare Adinarayana",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Bhadrachalam (ST)",
+        "name": "Tellam Venkata Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Pinapaka (ST)",
+        "name": "Payam Venkateswarlu",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Yellandu (ST)",
+        "name": "Koram Kanakaiah",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Khammam",
+        "name": "Ramasahayam Raghuram Reddy",
+        "party": "INC",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Mahabubabad (ST)",
+        "name": "Balram Naik Porika",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Kothagudem",
+      "Bhadrachalam",
+      "Palvancha"
+    ],
+    "neighboringDistricts": [
+      "khammam",
+      "mahabubabad",
+      "mulugu"
+    ],
+    "tags": [
+      "tribal-heavy",
+      "coal-mining",
+      "forest",
+      "godavari-basin",
+      "singareni"
+    ],
+    "collector": {
+      "name": "Ankit",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Kothagudem Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://kothagudem.telangana.gov.in/",
+        "description": "district portal, Who's Who"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem_district",
+        "description": "area, demographics, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/index.php?action=show_winners",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://www.indianbureaucracy.com/ankit-ias-transferred-as-collector-dm-bhadradri-kothagudem-telangana/",
+        "description": "Collector posting"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "hanumakonda": {
+    "slug": "hanumakonda",
+    "name": "Hanumakonda",
+    "nameTelugu": "హనుమకొండ జిల్లా",
+    "geojsonName": "Warangal Urban",
+    "dtCode": 540,
+    "hq": "Hanumakonda",
+    "formed": "2021-08-12",
+    "region": "eastern-telangana",
+    "population": 1080858,
+    "populationYear": 2011,
+    "area": 1309,
+    "literacyRate": 76.2,
+    "sexRatio": 997,
+    "coordinates": [
+      17.9784,
+      79.6
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Warangal West",
+        "Warangal East",
+        "Wardhannapet (SC)"
+      ]
+    },
+    "lokSabha": [
+      "Warangal (SC)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Warangal West",
+        "name": "Naini Rajender Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Warangal East",
+        "name": "Konda Surekha",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Wardhannapet (SC)",
+        "name": "K. R. Nagaraju",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Warangal (SC)",
+        "name": "Kadiyam Kavya",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Hanumakonda",
+      "Kazipet",
+      "Parkal"
+    ],
+    "neighboringDistricts": [
+      "jangaon",
+      "karimnagar",
+      "warangal",
+      "jayashankar-bhupalapally",
+      "siddipet"
+    ],
+    "tags": [
+      "urban",
+      "kakatiya-heritage",
+      "education-hub"
+    ],
+    "collector": {
+      "name": "Sneha Shabarish",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Sunpreet Singh",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Greater Warangal Municipal Corporation (GWMC)",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://hanumakonda.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hanamkonda_district",
+        "description": "area, census, formation"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Warangal_Police_Commissionerate",
+        "description": "police jurisdiction"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "jangaon": {
+    "slug": "jangaon",
+    "name": "Jangaon",
+    "nameTelugu": "జనగామ జిల్లా",
+    "geojsonName": "Jangoan",
+    "dtCode": 752,
+    "hq": "Jangaon",
+    "formed": "2016-10-11",
+    "region": "eastern-telangana",
+    "population": 566376,
+    "populationYear": 2011,
+    "area": 2188,
+    "literacyRate": 61.6,
+    "sexRatio": 997,
+    "coordinates": [
+      17.7167,
+      79.1667
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Jangaon",
+        "Ghanpur (Station) (SC)",
+        "Palakurthi"
+      ]
+    },
+    "lokSabha": [
+      "Bhongir",
+      "Warangal (SC)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Jangaon",
+        "name": "Palla Rajeshwar Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Ghanpur (Station) (SC)",
+        "name": "Kadiyam Srihari",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Palakurthi",
+        "name": "Mamidala Yashaswini Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Bhongir",
+        "name": "Chamala Kiran Kumar Reddy",
+        "party": "INC",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Warangal (SC)",
+        "name": "Kadiyam Kavya",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Jangaon",
+      "Ghanpur (Station)",
+      "Palakurthi"
+    ],
+    "neighboringDistricts": [
+      "suryapet",
+      "yadadri-bhuvanagiri",
+      "warangal",
+      "hanumakonda",
+      "siddipet",
+      "mahabubabad"
+    ],
+    "tags": [
+      "agrarian",
+      "central-telangana"
+    ],
+    "collector": {
+      "name": "Rizwanbasha Shaik",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Sunpreet Singh",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Jangaon Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://jangaon.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jangaon_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Warangal_Police_Commissionerate",
+        "description": "police jurisdiction"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "jayashankar-bhupalapally": {
+    "slug": "jayashankar-bhupalapally",
+    "name": "Jayashankar Bhupalapally",
+    "nameTelugu": "జయశంకర్ భూపాలపల్లి జిల్లా",
+    "geojsonName": "Jayashankar",
+    "dtCode": 750,
+    "hq": "Bhupalpally",
+    "formed": "2016-10-11",
+    "region": "eastern-telangana",
+    "population": 711434,
+    "populationYear": 2011,
+    "area": 2293,
+    "literacyRate": 59.0,
+    "sexRatio": 1009,
+    "coordinates": [
+      18.4333,
+      79.8833
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Bhupalpalle",
+        "Manthani"
+      ]
+    },
+    "lokSabha": [
+      "Warangal (SC)",
+      "Peddapalle"
+    ],
+    "mlas": [
+      {
+        "constituency": "Bhupalpalle",
+        "name": "Gandra Satyanarayana Rao",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Manthani",
+        "name": "Duddilla Sridhar Babu",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Warangal (SC)",
+        "name": "Kadiyam Kavya",
+        "party": "INC",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Peddapalle (SC)",
+        "name": "Gaddam Vamsi Krishna",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Bhupalpally",
+      "Kataram",
+      "Mahadevpur"
+    ],
+    "neighboringDistricts": [
+      "mancherial",
+      "peddapalli",
+      "karimnagar",
+      "hanumakonda",
+      "mulugu"
+    ],
+    "tags": [
+      "kaleshwaram",
+      "godavari",
+      "singareni",
+      "forested"
+    ],
+    "collector": {
+      "name": "Rahul Sharma",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Sirisetti Sankeerth",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Bhupalpally Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://bhoopalapally.telangana.gov.in/",
+        "description": "district portal (post-Mulugu area 2293)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jayashankar_Bhupalpally_district",
+        "description": "constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://munsifdaily.com/major-shake-up-in-telangana-police/",
+        "description": "SP posting"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "jogulamba-gadwal": {
+    "slug": "jogulamba-gadwal",
+    "name": "Jogulamba Gadwal",
+    "nameTelugu": "జోగులాంబ గద్వాల జిల్లా",
+    "geojsonName": "Jogulamba Gadwal",
+    "dtCode": 744,
+    "hq": "Gadwal",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 609990,
+    "populationYear": 2011,
+    "area": 2928,
+    "literacyRate": 49.9,
+    "sexRatio": 972,
+    "coordinates": [
+      16.23,
+      77.8
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Gadwal",
+        "Alampur"
+      ]
+    },
+    "lokSabha": [
+      "Nagarkurnool (SC)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Gadwal",
+        "name": "Bandla Krishna Mohan Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Alampur",
+        "name": "V.M. Abraham",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nagarkurnool (SC)",
+        "name": "Mallu Ravi",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Gadwal",
+      "Alampur",
+      "Ieeja"
+    ],
+    "neighboringDistricts": [
+      "narayanpet",
+      "wanaparthy"
+    ],
+    "tags": [
+      "jogulamba-temple",
+      "handloom",
+      "border-district"
+    ],
+    "collector": {
+      "name": "B.M. Santosh",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "T. Srinivasa Rao",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Gadwal Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://gadwal.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jogulamba_Gadwal_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://www.jogulambagadwalpolice.telangana.gov.in/",
+        "description": "SP office"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "kamareddy": {
+    "slug": "kamareddy",
+    "name": "Kamareddy",
+    "nameTelugu": "కామారెడ్డి జిల్లా",
+    "geojsonName": "Kamareddy",
+    "dtCode": 736,
+    "hq": "Kamareddy",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 972625,
+    "populationYear": 2011,
+    "area": 3652,
+    "literacyRate": 56.5,
+    "sexRatio": 1033,
+    "coordinates": [
+      18.3167,
+      78.35
+    ],
+    "assembly": {
+      "count": 4,
+      "constituencies": [
+        "Kamareddy",
+        "Yellareddy",
+        "Banswada",
+        "Jukkal (SC)"
+      ]
+    },
+    "lokSabha": [
+      "Zahirabad",
+      "Nizamabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Kamareddy",
+        "name": "Katipally Venkata Ramana Reddy",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Yellareddy",
+        "name": "Madan Mohan Rao K",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Banswada",
+        "name": "Pocharam Srinivas Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Jukkal (SC)",
+        "name": "Laxmi Kantha Rao Thota",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Zahirabad",
+        "name": "Suresh Kumar Shetkar",
+        "party": "INC",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Nizamabad",
+        "name": "Arvind Dharmapuri",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Kamareddy",
+      "Banswada",
+      "Yellareddy"
+    ],
+    "neighboringDistricts": [
+      "nizamabad",
+      "rajanna-sircilla",
+      "siddipet",
+      "medak",
+      "sangareddy"
+    ],
+    "tags": [
+      "agricultural",
+      "rice-bowl",
+      "border-district",
+      "poultry"
+    ],
+    "collector": {
+      "name": "Ashish Sangwan",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "M. Rajesh Chandra",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Kamareddy Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://kamareddy.telangana.gov.in/",
+        "description": "district portal, Who's Who"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kamareddy_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://newsmeter.in/top-stories/telangana-ips-transfers-gaush-alam-is-the-new-karimnagar-police-commissioner-744865",
+        "description": "SP transfer"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "karimnagar": {
+    "slug": "karimnagar",
+    "name": "Karimnagar",
+    "nameTelugu": "కరీంనగర్ జిల్లా",
+    "geojsonName": "Karimnagar",
+    "dtCode": 534,
+    "hq": "Karimnagar",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 1005711,
+    "populationYear": 2011,
+    "area": 2128,
+    "literacyRate": 69.2,
+    "sexRatio": 993,
+    "coordinates": [
+      18.4369,
+      79.1242
+    ],
+    "assembly": {
+      "count": 4,
+      "constituencies": [
+        "Karimnagar",
+        "Choppadandi (SC)",
+        "Manakondur (SC)",
+        "Huzurabad"
+      ]
+    },
+    "lokSabha": [
+      "Karimnagar"
+    ],
+    "mlas": [
+      {
+        "constituency": "Karimnagar",
+        "name": "Gangula Kamalakar",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Choppadandi (SC)",
+        "name": "Medipally Sathyam",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Manakondur (SC)",
+        "name": "Kavvampally Satyanarayana",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Huzurabad",
+        "name": "Padi Kaushik Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Karimnagar",
+        "name": "Bandi Sanjay Kumar",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Karimnagar",
+      "Huzurabad",
+      "Jammikunta"
+    ],
+    "neighboringDistricts": [
+      "jagtial",
+      "peddapalli",
+      "hanumakonda",
+      "siddipet",
+      "rajanna-sircilla",
+      "jayashankar-bhupalapally"
+    ],
+    "tags": [
+      "granite",
+      "city-of-granites",
+      "manair-river",
+      "urban"
+    ],
+    "collector": {
+      "name": "Chitra Mishra",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Gaush Alam",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Karimnagar Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://karimnagar.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Karimnagar_district",
+        "description": "demographics, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://newsmeter.in/top-stories/telangana-ips-transfers-gaush-alam-is-the-new-karimnagar-police-commissioner-744865",
+        "description": "CP posting"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "kumuram-bheem-asifabad": {
+    "slug": "kumuram-bheem-asifabad",
+    "name": "Kumuram Bheem Asifabad",
+    "nameTelugu": "కుమురం భీమ్ ఆసిఫాబాద్ జిల్లా",
+    "geojsonName": "Kumuram Bheem Asifabad",
+    "dtCode": 733,
+    "hq": "Asifabad",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 515812,
+    "populationYear": 2011,
+    "area": 4878,
+    "literacyRate": 56.7,
+    "sexRatio": 998,
+    "tribalPopulation": 36.9,
+    "coordinates": [
+      19.365,
+      79.274
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Sirpur",
+        "Asifabad (ST)"
+      ]
+    },
+    "lokSabha": [
+      "Adilabad",
+      "Peddapalle"
+    ],
+    "mlas": [
+      {
+        "constituency": "Sirpur",
+        "name": "Palvai Harish Babu",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Asifabad (ST)",
+        "name": "Kova Laxmi",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Adilabad",
+        "name": "Godam Nagesh",
+        "party": "BJP",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Peddapalle (SC)",
+        "name": "Gaddam Vamsi Krishna",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Kagaznagar",
+      "Asifabad",
+      "Bellampalli"
+    ],
+    "neighboringDistricts": [
+      "adilabad",
+      "mancherial",
+      "nirmal"
+    ],
+    "tags": [
+      "tribal-majority",
+      "border-district",
+      "aspirational-district",
+      "forested"
+    ],
+    "collector": {
+      "name": "K. Haritha",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "D. V. Srinivasa Rao",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Kagaznagar Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://asifabad.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Komaram_Bheem_Asifabad_district",
+        "description": "census, demographics"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://apacnewsnetwork.com/2026/01/telangana-govt-reshuffles-four-ias-officers-ias-k-haritha-appointed-collector-kumuram-bheem-asifabad-district/",
+        "description": "Collector"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "mahabubabad": {
+    "slug": "mahabubabad",
+    "name": "Mahabubabad",
+    "nameTelugu": "మహబూబాబాద్ జిల్లా",
+    "geojsonName": "Mahabubabad",
+    "dtCode": 751,
+    "hq": "Mahabubabad",
+    "formed": "2016-10-11",
+    "region": "eastern-telangana",
+    "population": 774549,
+    "populationYear": 2011,
+    "area": 2877,
+    "literacyRate": 57.1,
+    "sexRatio": 996,
+    "tribalPopulation": 37.8,
+    "coordinates": [
+      17.6,
+      80.0
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Dornakal (ST)",
+        "Mahabubabad (ST)"
+      ]
+    },
+    "lokSabha": [
+      "Mahabubabad (ST)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Dornakal (ST)",
+        "name": "Jatoth Ramchander Naik",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Mahabubabad (ST)",
+        "name": "Bhukya Murali Naik",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Mahabubabad (ST)",
+        "name": "Balram Naik Porika",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Mahabubabad",
+      "Dornakal",
+      "Thorrur"
+    ],
+    "neighboringDistricts": [
+      "warangal",
+      "jangaon",
+      "khammam",
+      "bhadradri-kothagudem",
+      "mulugu",
+      "jayashankar-bhupalapally"
+    ],
+    "tags": [
+      "tribal-heavy",
+      "agrarian",
+      "forest"
+    ],
+    "collector": {
+      "name": "Shashanka",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Mahabubabad Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://mahabubabad.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahabubabad_district",
+        "description": "census, ST share"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahabubabad_Lok_Sabha_constituency",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "mahabubnagar": {
+    "slug": "mahabubnagar",
+    "name": "Mahabubnagar",
+    "nameTelugu": "మహబూబ్ నగర్ జిల్లా",
+    "geojsonName": "Mahabubnagar",
+    "dtCode": 538,
+    "hq": "Mahabubnagar",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 919903,
+    "populationYear": 2011,
+    "area": 2738,
+    "literacyRate": 61.0,
+    "sexRatio": 995,
+    "tribalPopulation": 11.5,
+    "coordinates": [
+      16.7393,
+      77.9974
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Mahbubnagar",
+        "Jadcherla",
+        "Devarkadra"
+      ]
+    },
+    "lokSabha": [
+      "Mahabubnagar"
+    ],
+    "mlas": [
+      {
+        "constituency": "Mahbubnagar",
+        "name": "Yennam Srinivas Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Jadcherla",
+        "name": "J. Anirudh Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Devarkadra",
+        "name": "Gavinolla Madhusudhan Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Mahabubnagar",
+        "name": "D.K. Aruna",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Mahabubnagar",
+      "Jadcherla",
+      "Bhoothpur"
+    ],
+    "neighboringDistricts": [
+      "narayanpet",
+      "vikarabad",
+      "rangareddy",
+      "nagarkurnool",
+      "wanaparthy",
+      "jogulamba-gadwal"
+    ],
+    "tags": [
+      "palamoor",
+      "congress-sweep-2023",
+      "agrarian"
+    ],
+    "collector": {
+      "name": "Viziendira Boyi",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Dharavath Janaki",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Mahabubnagar Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://mahabubnagar.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahabubnagar_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahabubnagar_Lok_Sabha_constituency",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "mancherial": {
+    "slug": "mancherial",
+    "name": "Mancherial",
+    "nameTelugu": "మంచిర్యాల జిల్లా",
+    "geojsonName": "Mancherial",
+    "dtCode": 735,
+    "hq": "Mancherial",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 807037,
+    "populationYear": 2011,
+    "area": 4016,
+    "literacyRate": 64.4,
+    "sexRatio": 977,
+    "tribalPopulation": 7.1,
+    "coordinates": [
+      18.872,
+      79.447
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Mancherial",
+        "Bellampalli (SC)",
+        "Chennur (SC)"
+      ]
+    },
+    "lokSabha": [
+      "Peddapalle"
+    ],
+    "mlas": [
+      {
+        "constituency": "Mancherial",
+        "name": "Kokkirala Premsagar Rao",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Bellampalli (SC)",
+        "name": "Gaddam Vinod",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Chennur (SC)",
+        "name": "Gaddam Vivekanand",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Peddapalle (SC)",
+        "name": "Gaddam Vamsi Krishna",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Mancherial",
+      "Bellampalle",
+      "Mandamarri"
+    ],
+    "neighboringDistricts": [
+      "kumuram-bheem-asifabad",
+      "nirmal",
+      "jagtial",
+      "peddapalli",
+      "jayashankar-bhupalapally"
+    ],
+    "tags": [
+      "coal-belt",
+      "industrial",
+      "singareni",
+      "congress-sweep-2023"
+    ],
+    "collector": {
+      "name": "Kumar Deepak",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "M. Srinivasulu",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Mancherial Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://mancherial.telangana.gov.in/",
+        "description": "district portal, Collector"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mancherial_district",
+        "description": "census, ST share"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ramagundam_Police_Commissionerate",
+        "description": "police jurisdiction"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "medak": {
+    "slug": "medak",
+    "name": "Medak",
+    "nameTelugu": "మెదక్ జిల్లా",
+    "geojsonName": "Medak",
+    "dtCode": 535,
+    "hq": "Medak",
+    "formed": "2016-10-11",
+    "region": "western-telangana",
+    "population": 767428,
+    "populationYear": 2011,
+    "area": 2786,
+    "literacyRate": 56.1,
+    "sexRatio": 1027,
+    "tribalPopulation": 9.5,
+    "coordinates": [
+      18.05,
+      78.2667
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Medak",
+        "Narsapur"
+      ]
+    },
+    "lokSabha": [
+      "Medak"
+    ],
+    "mlas": [
+      {
+        "constituency": "Medak",
+        "name": "Mynampally Rohith",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Narsapur",
+        "name": "Vakiti Sunitha Laxma Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Medak",
+        "name": "Madhavaneni Raghunandan Rao",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Medak",
+      "Narsapur",
+      "Ramayampet"
+    ],
+    "neighboringDistricts": [
+      "sangareddy",
+      "kamareddy",
+      "siddipet",
+      "medchal-malkajgiri"
+    ],
+    "tags": [
+      "agrarian"
+    ],
+    "collector": {
+      "name": "Rahul Raj",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "D. V. Srinivasa Rao",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Medak Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://medak.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Medak_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "2024 LS winners"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "medchal-malkajgiri": {
+    "slug": "medchal-malkajgiri",
+    "name": "Medchal-Malkajgiri",
+    "nameTelugu": "మేడ్చల్-మల్కాజ్‌గిరి జిల్లా",
+    "geojsonName": "Medchal Malkajgiri",
+    "dtCode": 742,
+    "hq": "Shamirpet",
+    "formed": "2016-10-11",
+    "region": "hyderabad-metro",
+    "population": 2440073,
+    "populationYear": 2011,
+    "area": 1084,
+    "literacyRate": 82.5,
+    "sexRatio": 957,
+    "coordinates": [
+      17.5917,
+      78.5822
+    ],
+    "assembly": {
+      "count": 5,
+      "constituencies": [
+        "Medchal",
+        "Malkajgiri",
+        "Quthbullapur",
+        "Kukatpally",
+        "Uppal"
+      ]
+    },
+    "lokSabha": [
+      "Malkajgiri",
+      "Secunderabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Medchal",
+        "name": "Chamakura Malla Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Malkajgiri",
+        "name": "Marri Rajasekhar Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Quthbullapur",
+        "name": "K. P. Vivekanand",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Kukatpally",
+        "name": "Madhavaram Krishna Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Uppal",
+        "name": "Bandari Lakshma Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Malkajgiri",
+        "name": "Eatala Rajender",
+        "party": "BJP",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Secunderabad",
+        "name": "G. Kishan Reddy",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Malkajgiri",
+      "Kukatpally",
+      "Medchal"
+    ],
+    "neighboringDistricts": [
+      "medak",
+      "sangareddy",
+      "siddipet",
+      "yadadri-bhuvanagiri",
+      "hyderabad",
+      "rangareddy"
+    ],
+    "tags": [
+      "urban",
+      "metro",
+      "it-hub",
+      "suburban"
+    ],
+    "collector": {
+      "name": "Mikkilineni Manu Choudary",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Avinash Mohanty",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Greater Hyderabad Municipal Corporation (GHMC)",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://medchal-malkajgiri.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Medchal-Malkajgiri_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://malkajgiripolice.telangana.gov.in/",
+        "description": "commissionerate"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "mulugu": {
+    "slug": "mulugu",
+    "name": "Mulugu",
+    "nameTelugu": "ములుగు జిల్లా",
+    "geojsonName": "Mulugu",
+    "dtCode": 780,
+    "hq": "Mulugu",
+    "formed": "2019-02-17",
+    "region": "eastern-telangana",
+    "population": 257744,
+    "populationYear": 2011,
+    "area": 3881,
+    "literacyRate": 62.3,
+    "sexRatio": 968,
+    "tribalPopulation": 50.0,
+    "coordinates": [
+      18.1833,
+      80.0
+    ],
+    "assembly": {
+      "count": 1,
+      "constituencies": [
+        "Mulug (ST)"
+      ]
+    },
+    "lokSabha": [
+      "Mahabubabad (ST)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Mulug (ST)",
+        "name": "Danasari Anasuya (Seethakka)",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Mahabubabad (ST)",
+        "name": "Balram Naik Porika",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Mulugu",
+      "Eturnagaram",
+      "Tadvai"
+    ],
+    "neighboringDistricts": [
+      "jayashankar-bhupalapally",
+      "bhadradri-kothagudem",
+      "mahabubabad",
+      "warangal"
+    ],
+    "tags": [
+      "tribal-majority",
+      "forested",
+      "medaram-jatara",
+      "ramappa-temple"
+    ],
+    "collector": {
+      "name": "Divakara T. S.",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Kekan Sudhir Ramnath",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Mulugu Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://mulugu.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mulugu_district",
+        "description": "formation, census"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA (Seethakka)"
+      },
+      {
+        "url": "https://munsifdaily.com/major-shake-up-in-telangana-police/",
+        "description": "SP posting"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "nagarkurnool": {
+    "slug": "nagarkurnool",
+    "name": "Nagarkurnool",
+    "nameTelugu": "నాగర్‌కర్నూల్ జిల్లా",
+    "geojsonName": "Nagarkurnool",
+    "dtCode": 746,
+    "hq": "Nagarkurnool",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 893308,
+    "populationYear": 2011,
+    "area": 6545,
+    "literacyRate": 54.4,
+    "sexRatio": 968,
+    "tribalPopulation": 9.9,
+    "coordinates": [
+      16.4833,
+      78.3167
+    ],
+    "assembly": {
+      "count": 4,
+      "constituencies": [
+        "Nagarkurnool",
+        "Achampet (SC)",
+        "Kalwakurthy",
+        "Kollapur"
+      ]
+    },
+    "lokSabha": [
+      "Nagarkurnool (SC)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Nagarkurnool",
+        "name": "Kuchukulla Rajesh Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Achampet (SC)",
+        "name": "Chikkudu Vamshi Krishna",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Kalwakurthy",
+        "name": "Kasireddy Narayan Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Kollapur",
+        "name": "Jupally Krishna Rao",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nagarkurnool (SC)",
+        "name": "Mallu Ravi",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Nagarkurnool",
+      "Kalwakurthy",
+      "Achampet"
+    ],
+    "neighboringDistricts": [
+      "mahabubnagar",
+      "wanaparthy",
+      "nalgonda",
+      "rangareddy"
+    ],
+    "tags": [
+      "chenchu-tribal",
+      "amrabad-tiger-reserve",
+      "nallamala",
+      "forest"
+    ],
+    "collector": {
+      "name": "Badavath Santhosh",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Patil Sangramsingh Ganapatrao",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Nagarkurnool Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://nagarkurnool.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nagarkurnool_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nagarkurnool_Lok_Sabha_constituency",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "nalgonda": {
+    "slug": "nalgonda",
+    "name": "Nalgonda",
+    "nameTelugu": "నల్గొండ జిల్లా",
+    "geojsonName": "Nalgonda",
+    "dtCode": 539,
+    "hq": "Nalgonda",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 1618416,
+    "populationYear": 2011,
+    "area": 7122,
+    "literacyRate": 63.8,
+    "sexRatio": 978,
+    "coordinates": [
+      17.054,
+      79.267
+    ],
+    "assembly": {
+      "count": 6,
+      "constituencies": [
+        "Devarakonda (ST)",
+        "Nagarjuna Sagar",
+        "Miryalaguda",
+        "Nalgonda",
+        "Munugode",
+        "Nakrekal (SC)"
+      ]
+    },
+    "lokSabha": [
+      "Nalgonda",
+      "Bhongir"
+    ],
+    "mlas": [
+      {
+        "constituency": "Devarakonda (ST)",
+        "name": "Balu Naik Nenavath",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nagarjuna Sagar",
+        "name": "Kunduru Jayaveer Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Miryalaguda",
+        "name": "Bathula Laxma Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nalgonda",
+        "name": "Komatireddy Venkat Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Munugode",
+        "name": "Komatireddy Raj Gopal Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nakrekal (SC)",
+        "name": "Vemula Veeresham",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nalgonda",
+        "name": "Kunduru Raghuveer",
+        "party": "INC",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Bhongir",
+        "name": "Chamala Kiran Kumar Reddy",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Nalgonda",
+      "Miryalaguda",
+      "Devarakonda"
+    ],
+    "neighboringDistricts": [
+      "suryapet",
+      "yadadri-bhuvanagiri",
+      "rangareddy",
+      "nagarkurnool",
+      "mahabubnagar",
+      "khammam"
+    ],
+    "tags": [
+      "agricultural",
+      "rural",
+      "congress-sweep-2023"
+    ],
+    "collector": {
+      "name": "Badugu Chandrasekhar",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Nalgonda Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://nalgonda.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nalgonda_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/southern-states/telangana/badugu-chandrasekhar-is-new-nalgonda-collector-1927498",
+        "description": "Collector"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "narayanpet": {
+    "slug": "narayanpet",
+    "name": "Narayanpet",
+    "nameTelugu": "నారాయణపేట జిల్లా",
+    "geojsonName": "Narayanpet",
+    "dtCode": 781,
+    "hq": "Narayanpet",
+    "formed": "2019-02-17",
+    "region": "southern-telangana",
+    "population": 566874,
+    "populationYear": 2011,
+    "area": 2336,
+    "literacyRate": 49.9,
+    "sexRatio": 1009,
+    "tribalPopulation": 5.1,
+    "coordinates": [
+      16.7449,
+      77.4955
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Narayanpet",
+        "Makthal"
+      ]
+    },
+    "lokSabha": [
+      "Mahabubnagar"
+    ],
+    "mlas": [
+      {
+        "constituency": "Narayanpet",
+        "name": "Chittem Parnika Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Makthal",
+        "name": "Vakiti Srihari",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Mahabubnagar",
+        "name": "D.K. Aruna",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Narayanpet",
+      "Makthal",
+      "Kosgi"
+    ],
+    "neighboringDistricts": [
+      "mahabubnagar",
+      "vikarabad",
+      "wanaparthy",
+      "jogulamba-gadwal"
+    ],
+    "tags": [
+      "handloom",
+      "sarees",
+      "border-district"
+    ],
+    "collector": {
+      "name": "Sikta Patnaik",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "N. Venkateshwarlu",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Narayanpet Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://narayanpet.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Narayanpet_district",
+        "description": "formation, census"
+      },
+      {
+        "url": "https://narayanpetmunicipality.telangana.gov.in/",
+        "description": "municipality"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "nirmal": {
+    "slug": "nirmal",
+    "name": "Nirmal",
+    "nameTelugu": "నిర్మల్ జిల్లా",
+    "geojsonName": "Nirmal",
+    "dtCode": 734,
+    "hq": "Nirmal",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 709418,
+    "populationYear": 2011,
+    "area": 3845,
+    "literacyRate": 57.8,
+    "sexRatio": 1046,
+    "tribalPopulation": 11.4,
+    "coordinates": [
+      19.1,
+      78.35
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Nirmal",
+        "Mudhole",
+        "Khanapur (ST)"
+      ]
+    },
+    "lokSabha": [
+      "Adilabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Nirmal",
+        "name": "Alleti Maheshwar Reddy",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Mudhole",
+        "name": "Ram Rao Pawar",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Khanapur (ST)",
+        "name": "Vedma Bhojju",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Adilabad",
+        "name": "Godam Nagesh",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Nirmal",
+      "Bhainsa",
+      "Khanapur"
+    ],
+    "neighboringDistricts": [
+      "adilabad",
+      "kumuram-bheem-asifabad",
+      "mancherial",
+      "jagtial",
+      "nizamabad"
+    ],
+    "tags": [
+      "agricultural",
+      "border-district",
+      "handicrafts",
+      "tribal-significant"
+    ],
+    "collector": {
+      "name": "Abhilasha Abhinav",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "G. Janaki Sharmila",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Nirmal Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://nirmal.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nirmal_district",
+        "description": "census, ST share"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "nizamabad": {
+    "slug": "nizamabad",
+    "name": "Nizamabad",
+    "nameTelugu": "నిజామాబాదు జిల్లా",
+    "geojsonName": "Nizamabad",
+    "dtCode": 533,
+    "hq": "Nizamabad",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 1571022,
+    "populationYear": 2011,
+    "area": 4288,
+    "literacyRate": 64.3,
+    "sexRatio": 1044,
+    "tribalPopulation": 6.8,
+    "coordinates": [
+      18.6725,
+      78.0941
+    ],
+    "assembly": {
+      "count": 5,
+      "constituencies": [
+        "Armur",
+        "Bodhan",
+        "Nizamabad (Urban)",
+        "Nizamabad (Rural)",
+        "Balkonda"
+      ]
+    },
+    "lokSabha": [
+      "Nizamabad",
+      "Zahirabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Armur",
+        "name": "Paidi Rakesh Reddy",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Bodhan",
+        "name": "P. Sudarshan Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nizamabad (Urban)",
+        "name": "Dhanpal Suryanarayana",
+        "party": "BJP",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Nizamabad (Rural)",
+        "name": "Bhoopathi Reddy Rekulapally",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Balkonda",
+        "name": "Prashanth Reddy Vemula",
+        "party": "BRS",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nizamabad",
+        "name": "Arvind Dharmapuri",
+        "party": "BJP",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Zahirabad",
+        "name": "Suresh Kumar Shetkar",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Nizamabad",
+      "Bodhan",
+      "Armoor"
+    ],
+    "neighboringDistricts": [
+      "nirmal",
+      "jagtial",
+      "rajanna-sircilla",
+      "kamareddy"
+    ],
+    "tags": [
+      "agricultural",
+      "turmeric-belt",
+      "sugarcane",
+      "urban-centre"
+    ],
+    "collector": {
+      "name": "Ila Tripathi",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "P. Sai Chaitanya",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Nizamabad Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://nizamabad.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nizamabad_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "peddapalli": {
+    "slug": "peddapalli",
+    "name": "Peddapalli",
+    "nameTelugu": "పెద్దపల్లి జిల్లా",
+    "geojsonName": "Peddapalli",
+    "dtCode": 738,
+    "hq": "Peddapalli",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 795332,
+    "populationYear": 2011,
+    "area": 2236,
+    "literacyRate": 65.5,
+    "sexRatio": 992,
+    "coordinates": [
+      18.6167,
+      79.3833
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Peddapalle",
+        "Manthani",
+        "Ramagundam"
+      ]
+    },
+    "lokSabha": [
+      "Peddapalle"
+    ],
+    "mlas": [
+      {
+        "constituency": "Peddapalle",
+        "name": "Chinthakunta Vijaya Ramana Rao",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Manthani",
+        "name": "Duddilla Sridhar Babu",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Ramagundam",
+        "name": "Makkan Singh Raj Thakur",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Peddapalle (SC)",
+        "name": "Gaddam Vamsi Krishna",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Peddapalli",
+      "Ramagundam",
+      "Godavarikhani"
+    ],
+    "neighboringDistricts": [
+      "mancherial",
+      "karimnagar",
+      "jagtial",
+      "jayashankar-bhupalapally"
+    ],
+    "tags": [
+      "coal",
+      "thermal-power",
+      "singareni",
+      "ntpc",
+      "congress-sweep-2023"
+    ],
+    "collector": {
+      "name": "Koya Sree Harsha",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Ambar Kishore Jha",
+      "rank": "Commissioner",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Ramagundam Municipal Corporation",
+      "type": "Municipal Corporation"
+    },
+    "sources": [
+      {
+        "url": "https://peddapalli.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Peddapalli_district",
+        "description": "demographics"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://telanganatoday.com/telangana-ambar-kishore-jha-takes-charge-as-ramagundam-cp",
+        "description": "Police Commissioner"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "rajanna-sircilla": {
+    "slug": "rajanna-sircilla",
+    "name": "Rajanna Sircilla",
+    "nameTelugu": "రాజన్న సిరిసిల్ల జిల్లా",
+    "geojsonName": "Rajanna Sircilla",
+    "dtCode": 739,
+    "hq": "Sircilla",
+    "formed": "2016-10-11",
+    "region": "northern-telangana",
+    "population": 552037,
+    "populationYear": 2011,
+    "area": 2019,
+    "literacyRate": 62.7,
+    "sexRatio": 1014,
+    "coordinates": [
+      18.3833,
+      78.83
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Sircilla",
+        "Vemulawada"
+      ]
+    },
+    "lokSabha": [
+      "Karimnagar"
+    ],
+    "mlas": [
+      {
+        "constituency": "Sircilla",
+        "name": "Kalvakuntla Taraka Rama Rao (KTR)",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Vemulawada",
+        "name": "Aadi Srinivas",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Karimnagar",
+        "name": "Bandi Sanjay Kumar",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Sircilla",
+      "Vemulawada"
+    ],
+    "neighboringDistricts": [
+      "jagtial",
+      "karimnagar",
+      "siddipet",
+      "kamareddy",
+      "nizamabad"
+    ],
+    "tags": [
+      "textile-town",
+      "powerlooms",
+      "vemulawada-temple"
+    ],
+    "collector": {
+      "name": "M. Haritha",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Sircilla Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://rajannasircilla.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rajanna_Sircilla_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://hindudayashankar.com/education/m-haritha-assumes-charge-as-new-collector-of-rajanna-sircilla-district/",
+        "description": "Collector"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "sangareddy": {
+    "slug": "sangareddy",
+    "name": "Sangareddy",
+    "nameTelugu": "సంగారెడ్డి జిల్లా",
+    "geojsonName": "Sangareddy",
+    "dtCode": 740,
+    "hq": "Sangareddy",
+    "formed": "2016-10-11",
+    "region": "western-telangana",
+    "population": 1527628,
+    "populationYear": 2011,
+    "area": 4403,
+    "literacyRate": 64.1,
+    "sexRatio": 965,
+    "tribalPopulation": 5.7,
+    "coordinates": [
+      17.625,
+      78.0833
+    ],
+    "assembly": {
+      "count": 5,
+      "constituencies": [
+        "Sangareddy",
+        "Patancheru",
+        "Zahirabad",
+        "Andole",
+        "Narayankhed"
+      ]
+    },
+    "lokSabha": [
+      "Medak",
+      "Zahirabad"
+    ],
+    "mlas": [
+      {
+        "constituency": "Sangareddy",
+        "name": "Chinta Prabhakar",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Patancheru",
+        "name": "Gudem Mahipal Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Zahirabad",
+        "name": "Koninty Manik Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Andole",
+        "name": "C. Damodar Rajanarsimha",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Narayankhed",
+        "name": "Patlolla Sanjeeva Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Medak",
+        "name": "Madhavaneni Raghunandan Rao",
+        "party": "BJP",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Zahirabad",
+        "name": "Suresh Kumar Shetkar",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Sangareddy",
+      "Zahirabad",
+      "Sadasivpet"
+    ],
+    "neighboringDistricts": [
+      "medak",
+      "kamareddy",
+      "vikarabad",
+      "medchal-malkajgiri",
+      "rangareddy"
+    ],
+    "tags": [
+      "industrial",
+      "patancheru-corridor"
+    ],
+    "collector": {
+      "name": "P. Pravinya",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Paritosh Pankaj",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Sangareddy Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://sangareddy.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sangareddy_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "siddipet": {
+    "slug": "siddipet",
+    "name": "Siddipet",
+    "nameTelugu": "సిద్దిపేట జిల్లా",
+    "geojsonName": "Siddipet",
+    "dtCode": 741,
+    "hq": "Siddipet",
+    "formed": "2016-10-11",
+    "region": "western-telangana",
+    "population": 1012065,
+    "populationYear": 2011,
+    "area": 3632,
+    "literacyRate": 61.6,
+    "sexRatio": 1008,
+    "coordinates": [
+      18.1018,
+      78.8486
+    ],
+    "assembly": {
+      "count": 4,
+      "constituencies": [
+        "Siddipet",
+        "Gajwel",
+        "Dubbak",
+        "Husnabad"
+      ]
+    },
+    "lokSabha": [
+      "Medak",
+      "Karimnagar"
+    ],
+    "mlas": [
+      {
+        "constituency": "Siddipet",
+        "name": "T. Harish Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Gajwel",
+        "name": "K. Chandrashekar Rao",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Dubbak",
+        "name": "Kotha Prabhakar Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Husnabad",
+        "name": "Ponnam Prabhakar",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Medak",
+        "name": "Madhavaneni Raghunandan Rao",
+        "party": "BJP",
+        "since": "2024-06-04"
+      },
+      {
+        "constituency": "Karimnagar",
+        "name": "Bandi Sanjay Kumar",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Siddipet",
+      "Gajwel",
+      "Husnabad"
+    ],
+    "neighboringDistricts": [
+      "medak",
+      "kamareddy",
+      "rajanna-sircilla",
+      "karimnagar",
+      "hanumakonda",
+      "jangaon",
+      "yadadri-bhuvanagiri",
+      "medchal-malkajgiri"
+    ],
+    "tags": [
+      "brs-stronghold",
+      "agrarian",
+      "kaleshwaram"
+    ],
+    "collector": {
+      "name": "K. Hymavathi",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "Sadhana Rashmi Perumal",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Siddipet Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://siddipet.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Siddipet_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://siddipetpolice.telangana.gov.in/",
+        "description": "SP office"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "suryapet": {
+    "slug": "suryapet",
+    "name": "Suryapet",
+    "nameTelugu": "సూర్యాపేట జిల్లా",
+    "geojsonName": "Suryapet",
+    "dtCode": 748,
+    "hq": "Suryapet",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 1099560,
+    "populationYear": 2011,
+    "area": 3607,
+    "literacyRate": 64.1,
+    "sexRatio": 996,
+    "coordinates": [
+      17.14,
+      79.622
+    ],
+    "assembly": {
+      "count": 4,
+      "constituencies": [
+        "Suryapet",
+        "Kodad",
+        "Huzurnagar",
+        "Thungathurthi (SC)"
+      ]
+    },
+    "lokSabha": [
+      "Nalgonda"
+    ],
+    "mlas": [
+      {
+        "constituency": "Suryapet",
+        "name": "Guntakandla Jagadish Reddy",
+        "party": "BRS",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Kodad",
+        "name": "Nalamada Padmavathi Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Huzurnagar",
+        "name": "Uttam Kumar Reddy Nalamada",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Thungathurthi (SC)",
+        "name": "Mandula Samel",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nalgonda",
+        "name": "Kunduru Raghuveer",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Suryapet",
+      "Kodad",
+      "Huzurnagar"
+    ],
+    "neighboringDistricts": [
+      "nalgonda",
+      "khammam",
+      "yadadri-bhuvanagiri",
+      "jangaon",
+      "mahabubabad"
+    ],
+    "tags": [
+      "agricultural",
+      "highway-town"
+    ],
+    "collector": {
+      "name": "Tejas Nandlal Pawar",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Suryapet Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://suryapet.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Suryapet_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Suryapet_Assembly_constituency",
+        "description": "AC details"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "vikarabad": {
+    "slug": "vikarabad",
+    "name": "Vikarabad",
+    "nameTelugu": "వికారాబాద్ జిల్లా",
+    "geojsonName": "Vikarabad",
+    "dtCode": 743,
+    "hq": "Vikarabad",
+    "formed": "2016-10-11",
+    "region": "western-telangana",
+    "population": 927140,
+    "populationYear": 2011,
+    "area": 3386,
+    "literacyRate": 57.9,
+    "sexRatio": 1001,
+    "coordinates": [
+      17.3375,
+      77.9042
+    ],
+    "assembly": {
+      "count": 3,
+      "constituencies": [
+        "Vikarabad (SC)",
+        "Tandur",
+        "Pargi"
+      ]
+    },
+    "lokSabha": [
+      "Chevella"
+    ],
+    "mlas": [
+      {
+        "constituency": "Vikarabad (SC)",
+        "name": "Gaddam Prasad Kumar",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Tandur",
+        "name": "B. Manohar Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Pargi",
+        "name": "Tammannagari Ram Mohan Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Chevella",
+        "name": "Konda Vishweshwar Reddy",
+        "party": "BJP",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Vikarabad",
+      "Tandur",
+      "Pargi"
+    ],
+    "neighboringDistricts": [
+      "sangareddy",
+      "rangareddy",
+      "mahabubnagar",
+      "narayanpet"
+    ],
+    "tags": [
+      "agrarian",
+      "congress-sweep-2023",
+      "ananthagiri-hills"
+    ],
+    "collector": {
+      "name": "Prateek Jain",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "K. Narayana Reddy",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Vikarabad Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://vikarabad.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vikarabad_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://results.eci.gov.in/",
+        "description": "2024 LS"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "wanaparthy": {
+    "slug": "wanaparthy",
+    "name": "Wanaparthy",
+    "nameTelugu": "వనపర్తి జిల్లా",
+    "geojsonName": "Wanaparthy",
+    "dtCode": 745,
+    "hq": "Wanaparthy",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 577758,
+    "populationYear": 2011,
+    "area": 2152,
+    "literacyRate": 55.7,
+    "sexRatio": 960,
+    "tribalPopulation": 8.0,
+    "coordinates": [
+      16.364,
+      78.0616
+    ],
+    "assembly": {
+      "count": 1,
+      "constituencies": [
+        "Wanaparthy"
+      ]
+    },
+    "lokSabha": [
+      "Nagarkurnool (SC)"
+    ],
+    "mlas": [
+      {
+        "constituency": "Wanaparthy",
+        "name": "Tudi Megha Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Nagarkurnool (SC)",
+        "name": "Mallu Ravi",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Wanaparthy",
+      "Kothakota",
+      "Pebbair"
+    ],
+    "neighboringDistricts": [
+      "mahabubnagar",
+      "narayanpet",
+      "jogulamba-gadwal",
+      "nagarkurnool"
+    ],
+    "tags": [
+      "samsthanam-heritage",
+      "agrarian"
+    ],
+    "collector": {
+      "name": "Adarsh Surabhi",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "name": "D. Sunitha",
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Wanaparthy Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://wanaparthy.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wanaparthy_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://wanaparthymunicipality.telangana.gov.in/",
+        "description": "municipality"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winner"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
+  },
+  "yadadri-bhuvanagiri": {
+    "slug": "yadadri-bhuvanagiri",
+    "name": "Yadadri Bhuvanagiri",
+    "nameTelugu": "యాదాద్రి భువనగిరి జిల్లా",
+    "geojsonName": "Yadadri Bhuvanagiri",
+    "dtCode": 747,
+    "hq": "Bhongir",
+    "formed": "2016-10-11",
+    "region": "southern-telangana",
+    "population": 739448,
+    "populationYear": 2011,
+    "area": 3092,
+    "literacyRate": 65.2,
+    "sexRatio": 973,
+    "tribalPopulation": 5.7,
+    "coordinates": [
+      17.511,
+      78.884
+    ],
+    "assembly": {
+      "count": 2,
+      "constituencies": [
+        "Bhongir",
+        "Alair"
+      ]
+    },
+    "lokSabha": [
+      "Bhongir"
+    ],
+    "mlas": [
+      {
+        "constituency": "Bhongir",
+        "name": "Kumbam Anil Kumar Reddy",
+        "party": "INC",
+        "since": "2023-12-07"
+      },
+      {
+        "constituency": "Alair",
+        "name": "Beerla Ilaiah",
+        "party": "INC",
+        "since": "2023-12-07"
+      }
+    ],
+    "mps": [
+      {
+        "constituency": "Bhongir",
+        "name": "Chamala Kiran Kumar Reddy",
+        "party": "INC",
+        "since": "2024-06-04"
+      }
+    ],
+    "majorTowns": [
+      "Bhongir",
+      "Yadagirigutta",
+      "Choutuppal"
+    ],
+    "neighboringDistricts": [
+      "nalgonda",
+      "suryapet",
+      "jangaon",
+      "siddipet",
+      "medchal-malkajgiri",
+      "rangareddy"
+    ],
+    "tags": [
+      "pilgrimage",
+      "yadagirigutta-temple",
+      "rural"
+    ],
+    "collector": {
+      "name": "M. Hanumantha Rao",
+      "title": "IAS",
+      "verifiedOn": "2026-04-22"
+    },
+    "policeChief": {
+      "rank": "Superintendent",
+      "title": "IPS",
+      "verifiedOn": "2026-04-22"
+    },
+    "municipalBody": {
+      "name": "Bhongir Municipality",
+      "type": "Municipality"
+    },
+    "sources": [
+      {
+        "url": "https://yadadri.telangana.gov.in/",
+        "description": "district portal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yadadri_Bhuvanagiri_district",
+        "description": "census, constituencies"
+      },
+      {
+        "url": "https://www.myneta.info/Telangana2023/",
+        "description": "2023 MLA winners"
+      },
+      {
+        "url": "https://www.thenewsminute.com/telangana/telangana-rejigs-hyderabad-police-creates-future-city-commissionerate",
+        "description": "police reorg"
+      }
+    ],
+    "lastUpdated": "2026-04-22"
   }
 }
