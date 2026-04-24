@@ -228,32 +228,46 @@ export default function MapView({
                   }
                 )}
 
-                {/* Mandal label — show only the hovered one, at its centroid */}
-                {(projection.mandalsBySlug[selectedDistrict.slug] ?? [])
-                  .filter((m) => m.mandalCode === hoveredMandal)
-                  .map((mandal) => (
-                    <g
-                      key={`mandal-label-${mandal.mandalCode}`}
-                      transform={`translate(${mandal.centroid[0]}, ${mandal.centroid[1]})`}
-                      pointerEvents="none"
-                    >
-                      <text
-                        x={0}
-                        y={0}
-                        textAnchor="middle"
-                        className="fill-text-primary"
-                        style={{
-                          fontSize: "9px",
-                          fontWeight: 600,
-                          letterSpacing: "0.03em",
-                          textShadow:
-                            "0 0 3px rgba(0,0,0,0.95), 0 0 6px rgba(0,0,0,0.85)",
-                        }}
+                {/* Mandal labels — show ALL mandal names by default (subtle),
+                    brighten the hovered one. Without this, zoomed-in users see
+                    shapes but don't know what they're looking at; critical on
+                    mobile where hover-discoverability doesn't exist. */}
+                {(projection.mandalsBySlug[selectedDistrict.slug] ?? []).map(
+                  (mandal) => {
+                    const isMandalHovered = mandal.mandalCode === hoveredMandal;
+                    return (
+                      <g
+                        key={`mandal-label-${mandal.mandalCode}`}
+                        transform={`translate(${mandal.centroid[0]}, ${mandal.centroid[1]})`}
+                        pointerEvents="none"
                       >
-                        {mandal.name}
-                      </text>
-                    </g>
-                  ))}
+                        <text
+                          x={0}
+                          y={0}
+                          textAnchor="middle"
+                          dominantBaseline="middle"
+                          className={
+                            isMandalHovered
+                              ? "fill-text-primary"
+                              : "fill-text-secondary"
+                          }
+                          style={{
+                            fontSize: isMandalHovered ? "7px" : "5.5px",
+                            fontWeight: isMandalHovered ? 700 : 500,
+                            letterSpacing: "0.02em",
+                            opacity: isMandalHovered ? 1 : 0.85,
+                            textShadow:
+                              "0 0 2px rgba(0,0,0,1), 0 0 4px rgba(0,0,0,0.95), 0 0 6px rgba(0,0,0,0.8)",
+                            transition:
+                              "font-size 0.2s ease-out, opacity 0.2s ease-out",
+                          }}
+                        >
+                          {mandal.name}
+                        </text>
+                      </g>
+                    );
+                  }
+                )}
               </g>
             )}
 
