@@ -13,8 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "What is Congress Doing in Telangana?",
-  description: "An accountability tracker monitoring the Congress government's promises, budget, and performance in Telangana, India. All data sourced from public records.",
+  title: "Telangana Tracker — Telangana's government, tracked in public.",
+  description: "A public accountability tracker for Telangana state — promises, budget, 33 districts, and tagged news. All data from public records, no political affiliation.",
   keywords: ["Telangana", "Congress", "government", "tracker", "promises", "budget", "accountability"],
 };
 
