@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Telangana Tracker — Telangana's government, tracked in public.",
   description: "A public accountability tracker for Telangana state — promises, budget, 33 districts, and tagged news. All data from public records, no political affiliation.",
-  keywords: ["Telangana", "Congress", "government", "tracker", "promises", "budget", "accountability"],
+  keywords: ["Telangana", "government", "tracker", "promises", "budget", "accountability", "elections", "civic"],
 };
 
 export default function RootLayout({
