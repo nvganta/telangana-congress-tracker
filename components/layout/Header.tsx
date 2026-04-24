@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
 type NavLink = { href: string; label: string };
 
@@ -273,10 +274,20 @@ function MobileDrawer({
 }) {
   const [govExpanded, setGovExpanded] = useState(inGovernment);
   const [distExpanded, setDistExpanded] = useState(inDistricts);
+  const [mounted, setMounted] = useState(false);
 
-  if (!open) return null;
+  // Guard: only access document after mount (avoids SSR hydration mismatch)
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  return (
+  if (!open || !mounted) return null;
+
+  // Render into document.body via portal. Necessary because <header> has
+  // backdrop-blur-sm which creates a containing block — without the portal,
+  // the drawer's `fixed inset-0` would be pinned to the header instead of
+  // the viewport, rendering it as a misplaced inline strip.
+  const drawer = (
     <div className="md:hidden fixed inset-0 z-[60]">
       {/* Backdrop */}
       <button
@@ -366,6 +377,8 @@ function MobileDrawer({
       </div>
     </div>
   );
+
+  return createPortal(drawer, document.body);
 }
 
 function DrawerLink({
