@@ -21,8 +21,8 @@ export default function DashboardPage() {
       {/* Page title */}
       <div className="text-center mb-6">
         <h1 className="text-lg md:text-2xl font-bold tracking-[0.15em] text-text-primary">
-          WHAT IS CONGRESS DOING IN{" "}
-          <span className="neon-text-red">TELANGANA</span>?
+          <span className="neon-text-red">TELANGANA&apos;S</span> GOVERNMENT,
+          TRACKED IN PUBLIC.
         </h1>
         <p className="text-[10px] tracking-[0.3em] text-text-muted mt-1">
           ACCOUNTABILITY DASHBOARD — ALL DATA FROM PUBLIC SOURCES
