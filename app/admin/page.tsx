@@ -34,7 +34,7 @@ export default function AdminPage() {
   const loadFeedback = useCallback(async () => {
     try {
       const res = await fetch("/api/feedback", {
-        headers: { "x-admin-password": password },
+        headers: { "x-admin-password": encodeURIComponent(password) },
       });
       if (res.ok) {
         const data = await res.json();

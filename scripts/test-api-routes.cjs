@@ -220,6 +220,24 @@ test("GET /api/feedback is admin-only and never cached", async () => {
   assert.deepEqual(await ok.json(), SAMPLE_FEEDBACK);
 });
 
+test("feedback reads work for passwords a raw header can't carry", async () => {
+  const previous = process.env.ADMIN_PASSWORD;
+  const unusual = "  తెలంగాణ password  ";
+  process.env.ADMIN_PASSWORD = unusual;
+  try {
+    const ok = await feedbackRoute.GET(
+      req("/api/feedback", { headers: { "x-admin-password": encodeURIComponent(unusual) }, ip: freshIp() }),
+    );
+    assert.equal(ok.status, 200);
+    const bad = await feedbackRoute.GET(
+      req("/api/feedback", { headers: { "x-admin-password": "%E0%A4" }, ip: freshIp() }),
+    );
+    assert.equal(bad.status, 401);
+  } finally {
+    process.env.ADMIN_PASSWORD = previous;
+  }
+});
+
 test("POST /api/feedback stays open to the public", async () => {
   const res = await feedbackRoute.POST(
     req("/api/feedback", { method: "POST", body: { name: "A", type: "bug", message: "m" }, ip: freshIp() })
