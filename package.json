@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:api": "node --test scripts/test-api-routes.cjs"
   },
   "dependencies": {
     "@types/d3-geo": "^3.1.0",
