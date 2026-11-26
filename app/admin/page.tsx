@@ -33,7 +33,9 @@ export default function AdminPage() {
 
   const loadFeedback = useCallback(async () => {
     try {
-      const res = await fetch("/api/feedback");
+      const res = await fetch("/api/feedback", {
+        headers: { "x-admin-password": encodeURIComponent(password) },
+      });
       if (res.ok) {
         const data = await res.json();
         setFeedbackItems(data.sort((a: FeedbackEntry, b: FeedbackEntry) =>
@@ -41,7 +43,7 @@ export default function AdminPage() {
         ));
       }
     } catch { /* ignore */ }
-  }, []);
+  }, [password]);
 
   useEffect(() => {
     if (isAuthenticated) loadFeedback();
@@ -57,6 +59,10 @@ export default function AdminPage() {
       if (res.ok) {
         setIsAuthenticated(true);
         setError("");
+      } else if (res.status === 503) {
+        setError("Admin is not configured on this deployment");
+      } else if (res.status === 429) {
+        setError("Too many failed attempts. Try again later.");
       } else {
         setError("Invalid password");
       }

@@ -151,9 +151,9 @@ Here's what each page does:
 
 ## The Admin Panel
 
-The admin panel lives at /admin and is protected by a password. The default password is "telangana2024-2029" but it can be overridden with the ADMIN_PASSWORD environment variable on Vercel.
+The admin panel lives at /admin and is protected by a password, which comes only from the ADMIN_PASSWORD environment variable. There is no default. If ADMIN_PASSWORD is unset or blank, every admin route answers 503 "Admin is not configured", so admin is simply off.
 
-Authentication works through a server-side API. When you enter the password, it sends a POST request to /api/admin/auth which checks it against the stored password and returns success or a 401 error. This is better than the old client-side check because the password never sits in the frontend code.
+Authentication works through a server-side API. When you enter the password, it sends a POST request to /api/admin/auth which checks it against the stored password and returns success or a 401 error. This is better than the old client-side check because the password never sits in the frontend code. The check lives in lib/admin-auth.ts: it compares in constant time (SHA-256 digests through timingSafeEqual) and, after 5 failed attempts from one IP in 15 minutes, answers 429 until the window passes. The IP comes from x-real-ip, then x-vercel-forwarded-for, then the last x-forwarded-for entry. The counts live in memory, so each server instance keeps its own.
 
 Once logged in, you can:
 - View all user feedback submissions (name, type, message, timestamp)
@@ -207,7 +207,7 @@ POST /api/admin/auth checks the admin password. Returns {success: true} or 401.
 
 POST /api/admin/promises saves updated promise data. Requires the password in the request body along with the data array. Writes to data/guarantees.json.
 
-GET /api/feedback returns all feedback entries sorted newest first.
+GET /api/feedback returns all feedback entries. Admin-only, because entries can hold names and emails: send the password in the x-admin-password header. Same 503/401/429 rules as the other admin routes, and the response is never cached.
 
 POST /api/feedback accepts a feedback submission with name, type, and message. Validates input, generates an ID, appends to feedback.json.
 
@@ -263,7 +263,7 @@ Both are configured in Vercel with DNS records pointing from Hostinger (where th
 
 Vercel Analytics is enabled for visitor tracking. The Analytics component is imported in app/layout.tsx.
 
-The ADMIN_PASSWORD environment variable should be set in Vercel's project settings for production. If it's not set, it defaults to "telangana2024-2029".
+Set the ADMIN_PASSWORD environment variable in Vercel's project settings to a long random value. If it's not set, admin is off (503) rather than open.
 
 
 ## Things to Keep in Mind
