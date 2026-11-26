@@ -1,17 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "telangana2024-2029";
+import { verifyAdmin } from "@/lib/admin-auth";
 
 export async function POST(request: NextRequest) {
+  let password: unknown;
   try {
-    const { password } = await request.json();
-
-    if (password !== ADMIN_PASSWORD) {
-      return NextResponse.json({ error: "Invalid password" }, { status: 401 });
-    }
-
-    return NextResponse.json({ success: true });
+    ({ password } = await request.json());
   } catch {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
+
+  const denied = verifyAdmin(request, password);
+  if (denied) return denied;
+
+  return NextResponse.json({ success: true });
 }
