@@ -1,12 +1,12 @@
-# What's Congress Doing in Telangana?
+# Telangana Tracker
 
-## An Accountability Dashboard for the People of Telangana
+## A Public Accountability Dashboard for the People of Telangana
 
 ---
 
 ## What Is This?
 
-This is a public accountability tracker that monitors the Indian National Congress government's performance in the state of Telangana. The Congress party came to power in Telangana on **December 7, 2023**, after winning the state assembly elections with a decisive mandate. Chief Minister **Revanth Reddy** leads the government.
+This is a neutral public accountability tracker that monitors the Telangana state government's performance. The current Indian National Congress government came to power in Telangana on **December 7, 2023**, after winning the state assembly elections with a decisive mandate. Chief Minister **Revanth Reddy** leads the government.
 
 During the campaign, Congress presented a manifesto called **"Abhaya Hastham"** (a hand of assurance) — including 6 flagship guarantees and over 70 specific commitments to the people of Telangana.
 

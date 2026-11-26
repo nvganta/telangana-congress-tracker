@@ -19,9 +19,9 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[11px] text-text-secondary mt-3 leading-relaxed">
-              A public accountability tracker monitoring the Congress
-              government&apos;s promises, budget, and performance in
-              Telangana. All data sourced from public records.
+              A public accountability tracker monitoring the Telangana state
+              government&apos;s promises, budget, and performance. All data
+              sourced from public records.
             </p>
           </div>
 

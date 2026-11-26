@@ -5,12 +5,12 @@ export const GOVERNMENT_FORMATION_DATE = "2023-12-07";
 
 export const RSS_FEEDS = [
   {
-    url: "https://news.google.com/rss/search?q=Telangana+Congress+government&hl=en-IN&gl=IN&ceid=IN:en",
+    url: "https://news.google.com/rss/search?q=Telangana+government&hl=en-IN&gl=IN&ceid=IN:en",
     name: "Google News (English)",
     language: "en",
   },
   {
-    url: "https://news.google.com/rss/search?q=%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3+%E0%B0%95%E0%B0%BE%E0%B0%82%E0%B0%97%E0%B1%8D%E0%B0%B0%E0%B1%86%E0%B0%B8%E0%B1%8D&hl=te&gl=IN&ceid=IN:te",
+    url: "https://news.google.com/rss/search?q=%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3+%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%AD%E0%B1%81%E0%B0%A4%E0%B1%8D%E0%B0%B5%E0%B0%82&hl=te&gl=IN&ceid=IN:te",
     name: "Google News (Telugu)",
     language: "te",
   },
