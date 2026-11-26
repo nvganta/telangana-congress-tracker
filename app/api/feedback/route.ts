@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
+import { verifyAdmin } from "@/lib/admin-auth";
 
 const DATA_PATH = join(process.cwd(), "data", "feedback.json");
 
@@ -22,9 +23,16 @@ function readFeedback(): FeedbackEntry[] {
   }
 }
 
-export async function GET() {
+// Entries can hold names and emails, so reading them is admin-only.
+// The admin panel sends the password in the x-admin-password header.
+export async function GET(request: NextRequest) {
+  const denied = verifyAdmin(request, request.headers.get("x-admin-password"));
+  if (denied) return denied;
+
   const feedback = readFeedback();
-  return NextResponse.json(feedback);
+  return NextResponse.json(feedback, {
+    headers: { "Cache-Control": "no-store" },
+  });
 }
 
 export async function POST(request: NextRequest) {
