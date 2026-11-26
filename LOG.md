@@ -18,6 +18,8 @@ any working session. Newest entries at the top.
 
 ## Session notes
 
+- 2026-11-26: Security fix on branch fix/admin-and-feedback. Removed the committed default admin password (admin is now off with a 503 unless ADMIN_PASSWORD is set), added a constant-time compare and a per-IP limit of 5 failed attempts per 15 minutes, and made GET /api/feedback admin-only since entries can hold emails. Added `npm run test:api` (11 route-handler tests, all passing). tsc and build pass; lint shows only the 3 pre-existing errors in Header.tsx and MapView.tsx. Remaining: set ADMIN_PASSWORD in Vercel before this deploys.
+
 - 2026-09-10: Prepared a draft PR from an isolated working tree. Repository handoff and staged-diff checks pass in the isolated PR tree. This documentation PR does not claim a new application runtime acceptance test.
 
 
